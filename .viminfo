@@ -1,0 +1,389 @@
+# Ten plik viminfo został wygenerowany przez Vima 8.1.
+# Możesz go ostrożnie edytować!
+
+# Viminfo version
+|1,4
+
+# Wartość 'encoding' w czasie zapisu tego pliku
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Wiersz poleceń Historia (od najnowszych po najstarsze):
+:wq
+|2,0,1554551319,,"wq"
+:q!
+|2,0,1553936777,,"q!"
+:wq!
+|2,0,1553936754,,"wq!"
+
+# Szukany ciąg Historia (od najnowszych po najstarsze):
+
+# Wyrażenie Historia (od najnowszych po najstarsze):
+
+# Wiersz wprowadzeń Historia (od najnowszych po najstarsze):
+
+# Debug Line Historia (od najnowszych po najstarsze):
+
+# Rejestry:
+"0	CHAR	0
+	{
+		init	    = false,
+	        exclusive   = true,
+	        icon        = "/home/bart/.config/awesome/icons/pdf.png",
+		screen      = screen.count()>1 and 2 or 1,
+	        layout      = awful.layout.suit.max,
+	        class       = {"qpdfview"}
+	    } ,
+	
+|3,0,0,0,9,0,1554551150,"{","	init	    = false,","        exclusive   = true,","        icon        = \"/home/bart/.config/awesome/icons/pdf.png\",","	screen      = screen.count()>1 and 2 or 1,","        layout      = awful.layout.suit.max,","        class       = {\"qpdfview\"}","    } ,",""
+"1	LINE	0
+	---> a) Na górze róże,
+|3,0,1,1,1,0,1553927731,"---> a) Na górze róże,"
+"2	LINE	0
+	---> a) Na górze róże,
+|3,0,2,1,1,0,1553927730,"---> a) Na górze róże,"
+"3	LINE	0
+	---> a) Na górze róże,
+|3,0,3,1,1,0,1553927724,"---> a) Na górze róże,"
+"4	LINE	0
+	---> b) Na dole fiołki,
+|3,0,4,1,1,0,1553927719,"---> b) Na dole fiołki,"
+"5	LINE	0
+	---> b) Na dole fiołki,
+|3,0,5,1,1,0,1553927717,"---> b) Na dole fiołki,"
+"6	LINE	0
+	---> c) A my się kochamy,
+|3,0,6,1,1,0,1553927712,"---> c) A my się kochamy,"
+"7	LINE	0
+	---> d) Jak dwa aniołki.
+|3,0,7,1,1,0,1553927685,"---> d) Jak dwa aniołki."
+"8	LINE	0
+	--->  4)  Mam samochód,
+	--->  5)  Zegar podaje czas,
+|3,0,8,1,2,0,1553927558,"--->  4)  Mam samochód,","--->  5)  Zegar podaje czas,"
+"9	LINE	0
+	--->  3)  Fiołki są niebieskie,
+|3,0,9,1,1,0,1553927554,"--->  3)  Fiołki są niebieskie,"
+""-	CHAR	0
+	qpdfview
+|3,1,36,0,1,0,1554551288,"qpdfview"
+
+# Zakładki w plikach:
+'0  221  4  ~/.config/awesome/rc.lua
+|4,48,221,4,1554551319,"~/.config/awesome/rc.lua"
+'1  780  0  /tmp/tutorGTNGlR
+|4,49,780,0,1554551186,"/tmp/tutorGTNGlR"
+'2  440  0  /tmp/tutorB7e50h
+|4,50,440,0,1554304138,"/tmp/tutorB7e50h"
+'3  216  32  ~/.config/awesome/rc.lua
+|4,51,216,32,1554130449,"~/.config/awesome/rc.lua"
+'4  208  32  ~/.config/awesome/rc.lua
+|4,52,208,32,1554130449,"~/.config/awesome/rc.lua"
+'5  1  0  ~/.config/awesome/rc.lua
+|4,53,1,0,1554061694,"~/.config/awesome/rc.lua"
+'6  1  0  ~/.config/awesome/rc.lua
+|4,54,1,0,1554061694,"~/.config/awesome/rc.lua"
+'7  1  0  ~/.config/awesome/rc.lua
+|4,55,1,0,1554061694,"~/.config/awesome/rc.lua"
+'8  1  0  ~/.config/awesome/rc.lua
+|4,56,1,0,1554061694,"~/.config/awesome/rc.lua"
+'9  447  0  /tmp/tutor7kDW2W
+|4,57,447,0,1553936830,"/tmp/tutor7kDW2W"
+
+# Lista odniesień (począwszy od najnowszych):
+-'  221  4  ~/.config/awesome/rc.lua
+|4,39,221,4,1554551319,"~/.config/awesome/rc.lua"
+-'  780  0  /tmp/tutorGTNGlR
+|4,39,780,0,1554551186,"/tmp/tutorGTNGlR"
+-'  1  0  /tmp/tutorGTNGlR
+|4,39,1,0,1554551165,"/tmp/tutorGTNGlR"
+-'  216  32  ~/.config/awesome/rc.lua
+|4,39,216,32,1554551126,"~/.config/awesome/rc.lua"
+-'  440  0  /tmp/tutorB7e50h
+|4,39,440,0,1554304138,"/tmp/tutorB7e50h"
+-'  440  0  /tmp/tutorB7e50h
+|4,39,440,0,1554304138,"/tmp/tutorB7e50h"
+-'  208  32  ~/.config/awesome/rc.lua
+|4,39,208,32,1554130449,"~/.config/awesome/rc.lua"
+-'  1  0  ~/.config/awesome/rc.lua
+|4,39,1,0,1554130067,"~/.config/awesome/rc.lua"
+-'  1  0  ~/.config/awesome/rc.lua
+|4,39,1,0,1554130067,"~/.config/awesome/rc.lua"
+-'  1  0  ~/.config/awesome/rc.lua
+|4,39,1,0,1554061694,"~/.config/awesome/rc.lua"
+-'  1  0  /tmp/tutorB7e50h
+|4,39,1,0,1553936839,"/tmp/tutorB7e50h"
+-'  1  0  /tmp/tutorB7e50h
+|4,39,1,0,1553936839,"/tmp/tutorB7e50h"
+-'  447  0  /tmp/tutor7kDW2W
+|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
+-'  447  0  /tmp/tutor7kDW2W
+|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
+-'  447  0  /tmp/tutor7kDW2W
+|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
+-'  447  0  /tmp/tutor7kDW2W
+|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
+-'  447  0  /tmp/tutor7kDW2W
+|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
+-'  447  0  /tmp/tutor7kDW2W
+|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
+-'  447  0  /tmp/tutor7kDW2W
+|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
+-'  447  0  /tmp/tutor7kDW2W
+|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936818,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936818,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936818,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936818,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936818,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936818,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936818,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936818,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936777,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936777,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936777,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936777,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936777,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936777,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936777,"/etc/environment"
+-'  7  9  /etc/environment
+|4,39,7,9,1553936777,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  1  0  /etc/environment
+|4,39,1,0,1553936669,"/etc/environment"
+-'  432  8  /tmp/tutor7kDW2W
+|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
+-'  432  8  /tmp/tutor7kDW2W
+|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
+-'  432  8  /tmp/tutor7kDW2W
+|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
+-'  432  8  /tmp/tutor7kDW2W
+|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
+-'  432  8  /tmp/tutor7kDW2W
+|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
+-'  432  8  /tmp/tutor7kDW2W
+|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
+-'  432  8  /tmp/tutor7kDW2W
+|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
+-'  432  8  /tmp/tutor7kDW2W
+|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
+-'  316  0  /tmp/tutor7kDW2W
+|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
+-'  316  0  /tmp/tutor7kDW2W
+|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
+-'  316  0  /tmp/tutor7kDW2W
+|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
+-'  316  0  /tmp/tutor7kDW2W
+|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
+-'  316  0  /tmp/tutor7kDW2W
+|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
+-'  316  0  /tmp/tutor7kDW2W
+|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
+-'  316  0  /tmp/tutor7kDW2W
+|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
+-'  316  0  /tmp/tutor7kDW2W
+|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
+-'  317  0  /tmp/tutor7kDW2W
+|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
+-'  318  0  /tmp/tutor7kDW2W
+|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
+-'  317  0  /tmp/tutor7kDW2W
+|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
+-'  318  0  /tmp/tutor7kDW2W
+|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
+-'  317  0  /tmp/tutor7kDW2W
+|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
+-'  318  0  /tmp/tutor7kDW2W
+|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
+-'  317  0  /tmp/tutor7kDW2W
+|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
+-'  318  0  /tmp/tutor7kDW2W
+|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
+-'  317  0  /tmp/tutor7kDW2W
+|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
+-'  318  0  /tmp/tutor7kDW2W
+|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
+-'  317  0  /tmp/tutor7kDW2W
+|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
+-'  318  0  /tmp/tutor7kDW2W
+|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
+-'  317  0  /tmp/tutor7kDW2W
+|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
+-'  318  0  /tmp/tutor7kDW2W
+|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
+-'  317  0  /tmp/tutor7kDW2W
+|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
+-'  318  0  /tmp/tutor7kDW2W
+|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
+-'  350  0  /tmp/tutor7kDW2W
+|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
+-'  350  0  /tmp/tutor7kDW2W
+|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
+-'  350  0  /tmp/tutor7kDW2W
+|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
+-'  350  0  /tmp/tutor7kDW2W
+|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
+-'  350  0  /tmp/tutor7kDW2W
+|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
+-'  350  0  /tmp/tutor7kDW2W
+|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
+-'  350  0  /tmp/tutor7kDW2W
+|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
+-'  350  0  /tmp/tutor7kDW2W
+|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
+-'  1  0  /tmp/tutor7kDW2W
+|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
+-'  1  0  /tmp/tutor7kDW2W
+|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
+-'  1  0  /tmp/tutor7kDW2W
+|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
+-'  1  0  /tmp/tutor7kDW2W
+|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
+-'  1  0  /tmp/tutor7kDW2W
+|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
+-'  1  0  /tmp/tutor7kDW2W
+|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
+-'  1  0  /tmp/tutor7kDW2W
+|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
+-'  1  0  /tmp/tutor7kDW2W
+|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
+
+# Historia zakładek w plikach (od najnowszych po najstarsze):
+
+> ~/.config/awesome/rc.lua
+	*	1554551313	0
+	"	221	4
+	^	208	35
+	.	208	34
+	+	202	1
+	+	217	8
+	+	213	64
+	+	214	15
+	+	216	32
+	+	202	4
+	+	205	66
+	+	206	15
+	+	208	34
+
+> /tmp/tutorGTNGlR
+	*	1554551177	0
+	"	780	0
+
+> /tmp/tutorB7e50h
+	*	1554130276	0
+	"	440	0
+	^	806	26
+	.	806	25
+	+	806	25
+
+> /etc/environment
+	*	1553936812	0
+	"	7	9
+	^	7	10
+	.	7	9
+	+	7	9
+
+> /tmp/tutor7kDW2W
+	*	1553928123	0
+	"	447	0
+	^	432	13
+	.	447	0
+	+	216	0
+	+	217	0
+	+	223	0
+	+	219	0
+	+	220	0
+	+	219	0
+	+	295	28
+	+	320	0
+	+	316	0
+	+	295	0
+	+	387	0
+	+	388	0
+	+	387	0
+	+	388	0
+	+	389	0
+	+	391	0
+	+	388	0
+	+	389	0
+	+	390	0
+	+	407	49
+	+	403	49
+	+	403	0
+	+	432	12
+	+	447	0
+
+> /tmp/tutori2mrBS
+	*	1553915461	0
+	"	243	0
+
+> /tmp/tutorcLNuMP
+	*	1553914633	0
+	"	262	0
+	^	262	0
+	.	262	0
+	+	82	0
+	+	76	0
+	+	88	0
+	+	112	16
+	+	135	30
+	+	137	28
+	+	206	52
+	+	225	67
+	+	226	0
+	+	225	0
+	+	239	18
+	+	240	0
+	+	241	4
+	+	262	0
+	a	262	0
+
+> ~/.xinitrc
+	*	1549897516	0
+	"	1	0

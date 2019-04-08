@@ -1,0 +1,16 @@
+#ignore everything except for
+*
+!.gitconfig
+!.gitignore
+!.viminfo
+!.Xauthority
+!.xinitrc
+!.Xresources
+!.zcompdump
+!.zprofile
+!.zshrc
+
+#ignore 
+#.config/code/
+#.config/awesome/
+#.cache/
