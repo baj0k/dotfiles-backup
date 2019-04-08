@@ -9,8 +9,4 @@
 !.zcompdump
 !.zprofile
 !.zshrc
-
-#ignore 
-#.config/code/
-#.config/awesome/
-#.cache/
+!.README.md
