@@ -12,9 +12,9 @@
 ~h
 # Wiersz poleceń Historia (od najnowszych po najstarsze):
 :wq
-|2,0,1554551319,,"wq"
+|2,0,1555345312,,"wq"
 :q!
-|2,0,1553936777,,"q!"
+|2,0,1554891309,,"q!"
 :wq!
 |2,0,1553936754,,"wq!"
 
@@ -38,267 +38,271 @@
 	    } ,
 	
 |3,0,0,0,9,0,1554551150,"{","	init	    = false,","        exclusive   = true,","        icon        = \"/home/bart/.config/awesome/icons/pdf.png\",","	screen      = screen.count()>1 and 2 or 1,","        layout      = awful.layout.suit.max,","        class       = {\"qpdfview\"}","    } ,",""
-"1	LINE	0
-	---> a) Na górze róże,
-|3,0,1,1,1,0,1553927731,"---> a) Na górze róże,"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1555067669,""
 "2	LINE	0
 	---> a) Na górze róże,
-|3,0,2,1,1,0,1553927730,"---> a) Na górze róże,"
+|3,0,2,1,1,0,1553927731,"---> a) Na górze róże,"
 "3	LINE	0
 	---> a) Na górze róże,
-|3,0,3,1,1,0,1553927724,"---> a) Na górze róże,"
+|3,0,3,1,1,0,1553927730,"---> a) Na górze róże,"
 "4	LINE	0
-	---> b) Na dole fiołki,
-|3,0,4,1,1,0,1553927719,"---> b) Na dole fiołki,"
+	---> a) Na górze róże,
+|3,0,4,1,1,0,1553927724,"---> a) Na górze róże,"
 "5	LINE	0
 	---> b) Na dole fiołki,
-|3,0,5,1,1,0,1553927717,"---> b) Na dole fiołki,"
+|3,0,5,1,1,0,1553927719,"---> b) Na dole fiołki,"
 "6	LINE	0
-	---> c) A my się kochamy,
-|3,0,6,1,1,0,1553927712,"---> c) A my się kochamy,"
+	---> b) Na dole fiołki,
+|3,0,6,1,1,0,1553927717,"---> b) Na dole fiołki,"
 "7	LINE	0
-	---> d) Jak dwa aniołki.
-|3,0,7,1,1,0,1553927685,"---> d) Jak dwa aniołki."
+	---> c) A my się kochamy,
+|3,0,7,1,1,0,1553927712,"---> c) A my się kochamy,"
 "8	LINE	0
+	---> d) Jak dwa aniołki.
+|3,0,8,1,1,0,1553927685,"---> d) Jak dwa aniołki."
+"9	LINE	0
 	--->  4)  Mam samochód,
 	--->  5)  Zegar podaje czas,
-|3,0,8,1,2,0,1553927558,"--->  4)  Mam samochód,","--->  5)  Zegar podaje czas,"
-"9	LINE	0
-	--->  3)  Fiołki są niebieskie,
-|3,0,9,1,1,0,1553927554,"--->  3)  Fiołki są niebieskie,"
-""-	CHAR	0
-	qpdfview
-|3,1,36,0,1,0,1554551288,"qpdfview"
+|3,0,9,1,2,0,1553927558,"--->  4)  Mam samochód,","--->  5)  Zegar podaje czas,"
+"-	CHAR	0
+	a
+|3,0,36,0,1,0,1555067668,"a"
 
 # Zakładki w plikach:
-'0  221  4  ~/.config/awesome/rc.lua
-|4,48,221,4,1554551319,"~/.config/awesome/rc.lua"
-'1  780  0  /tmp/tutorGTNGlR
-|4,49,780,0,1554551186,"/tmp/tutorGTNGlR"
-'2  440  0  /tmp/tutorB7e50h
-|4,50,440,0,1554304138,"/tmp/tutorB7e50h"
-'3  216  32  ~/.config/awesome/rc.lua
-|4,51,216,32,1554130449,"~/.config/awesome/rc.lua"
-'4  208  32  ~/.config/awesome/rc.lua
-|4,52,208,32,1554130449,"~/.config/awesome/rc.lua"
-'5  1  0  ~/.config/awesome/rc.lua
-|4,53,1,0,1554061694,"~/.config/awesome/rc.lua"
-'6  1  0  ~/.config/awesome/rc.lua
-|4,54,1,0,1554061694,"~/.config/awesome/rc.lua"
-'7  1  0  ~/.config/awesome/rc.lua
-|4,55,1,0,1554061694,"~/.config/awesome/rc.lua"
-'8  1  0  ~/.config/awesome/rc.lua
-|4,56,1,0,1554061694,"~/.config/awesome/rc.lua"
-'9  447  0  /tmp/tutor7kDW2W
-|4,57,447,0,1553936830,"/tmp/tutor7kDW2W"
+'0  1  10  ~/.bash_history
+|4,48,1,10,1555345313,"~/.bash_history"
+'1  175  4  ~/.config/awesome/rc.lua
+|4,49,175,4,1555157390,"~/.config/awesome/rc.lua"
+'2  175  4  ~/.config/awesome/rc.lua
+|4,50,175,4,1555157312,"~/.config/awesome/rc.lua"
+'3  27  0  ~/.zshrc
+|4,51,27,0,1555067672,"~/.zshrc"
+'4  27  13  ~/.zshrc
+|4,52,27,13,1555067640,"~/.zshrc"
+'5  24  9  ~/.zshrc
+|4,53,24,9,1554891848,"~/.zshrc"
+'6  24  9  ~/.zshrc
+|4,54,24,9,1554891848,"~/.zshrc"
+'7  24  9  ~/.zshrc
+|4,55,24,9,1554891848,"~/.zshrc"
+'8  24  9  ~/.zshrc
+|4,56,24,9,1554891848,"~/.zshrc"
+'9  24  20  ~/.zshrc
+|4,57,24,20,1554891752,"~/.zshrc"
 
 # Lista odniesień (począwszy od najnowszych):
+-'  1  10  ~/.bash_history
+|4,39,1,10,1555345313,"~/.bash_history"
+-'  175  4  ~/.config/awesome/rc.lua
+|4,39,175,4,1555157390,"~/.config/awesome/rc.lua"
+-'  175  4  ~/.config/awesome/rc.lua
+|4,39,175,4,1555157390,"~/.config/awesome/rc.lua"
+-'  175  4  ~/.config/awesome/rc.lua
+|4,39,175,4,1555157312,"~/.config/awesome/rc.lua"
+-'  175  4  ~/.config/awesome/rc.lua
+|4,39,175,4,1555157312,"~/.config/awesome/rc.lua"
 -'  221  4  ~/.config/awesome/rc.lua
-|4,39,221,4,1554551319,"~/.config/awesome/rc.lua"
--'  780  0  /tmp/tutorGTNGlR
-|4,39,780,0,1554551186,"/tmp/tutorGTNGlR"
--'  1  0  /tmp/tutorGTNGlR
-|4,39,1,0,1554551165,"/tmp/tutorGTNGlR"
--'  216  32  ~/.config/awesome/rc.lua
-|4,39,216,32,1554551126,"~/.config/awesome/rc.lua"
--'  440  0  /tmp/tutorB7e50h
-|4,39,440,0,1554304138,"/tmp/tutorB7e50h"
--'  440  0  /tmp/tutorB7e50h
-|4,39,440,0,1554304138,"/tmp/tutorB7e50h"
--'  208  32  ~/.config/awesome/rc.lua
-|4,39,208,32,1554130449,"~/.config/awesome/rc.lua"
--'  1  0  ~/.config/awesome/rc.lua
-|4,39,1,0,1554130067,"~/.config/awesome/rc.lua"
--'  1  0  ~/.config/awesome/rc.lua
-|4,39,1,0,1554130067,"~/.config/awesome/rc.lua"
--'  1  0  ~/.config/awesome/rc.lua
-|4,39,1,0,1554061694,"~/.config/awesome/rc.lua"
--'  1  0  /tmp/tutorB7e50h
-|4,39,1,0,1553936839,"/tmp/tutorB7e50h"
--'  1  0  /tmp/tutorB7e50h
-|4,39,1,0,1553936839,"/tmp/tutorB7e50h"
--'  447  0  /tmp/tutor7kDW2W
-|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
--'  447  0  /tmp/tutor7kDW2W
-|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
--'  447  0  /tmp/tutor7kDW2W
-|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
--'  447  0  /tmp/tutor7kDW2W
-|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
--'  447  0  /tmp/tutor7kDW2W
-|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
--'  447  0  /tmp/tutor7kDW2W
-|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
--'  447  0  /tmp/tutor7kDW2W
-|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
--'  447  0  /tmp/tutor7kDW2W
-|4,39,447,0,1553936830,"/tmp/tutor7kDW2W"
--'  7  9  /etc/environment
-|4,39,7,9,1553936818,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936818,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936818,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936818,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936818,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936818,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936818,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936818,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936777,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936777,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936777,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936777,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936777,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936777,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936777,"/etc/environment"
--'  7  9  /etc/environment
-|4,39,7,9,1553936777,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  1  0  /etc/environment
-|4,39,1,0,1553936669,"/etc/environment"
--'  432  8  /tmp/tutor7kDW2W
-|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
--'  432  8  /tmp/tutor7kDW2W
-|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
--'  432  8  /tmp/tutor7kDW2W
-|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
--'  432  8  /tmp/tutor7kDW2W
-|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
--'  432  8  /tmp/tutor7kDW2W
-|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
--'  432  8  /tmp/tutor7kDW2W
-|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
--'  432  8  /tmp/tutor7kDW2W
-|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
--'  432  8  /tmp/tutor7kDW2W
-|4,39,432,8,1553927902,"/tmp/tutor7kDW2W"
--'  316  0  /tmp/tutor7kDW2W
-|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
--'  316  0  /tmp/tutor7kDW2W
-|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
--'  316  0  /tmp/tutor7kDW2W
-|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
--'  316  0  /tmp/tutor7kDW2W
-|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
--'  316  0  /tmp/tutor7kDW2W
-|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
--'  316  0  /tmp/tutor7kDW2W
-|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
--'  316  0  /tmp/tutor7kDW2W
-|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
--'  316  0  /tmp/tutor7kDW2W
-|4,39,316,0,1553927589,"/tmp/tutor7kDW2W"
--'  317  0  /tmp/tutor7kDW2W
-|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
--'  318  0  /tmp/tutor7kDW2W
-|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
--'  317  0  /tmp/tutor7kDW2W
-|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
--'  318  0  /tmp/tutor7kDW2W
-|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
--'  317  0  /tmp/tutor7kDW2W
-|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
--'  318  0  /tmp/tutor7kDW2W
-|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
--'  317  0  /tmp/tutor7kDW2W
-|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
--'  318  0  /tmp/tutor7kDW2W
-|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
--'  317  0  /tmp/tutor7kDW2W
-|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
--'  318  0  /tmp/tutor7kDW2W
-|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
--'  317  0  /tmp/tutor7kDW2W
-|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
--'  318  0  /tmp/tutor7kDW2W
-|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
--'  317  0  /tmp/tutor7kDW2W
-|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
--'  318  0  /tmp/tutor7kDW2W
-|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
--'  317  0  /tmp/tutor7kDW2W
-|4,39,317,0,1553927574,"/tmp/tutor7kDW2W"
--'  318  0  /tmp/tutor7kDW2W
-|4,39,318,0,1553927574,"/tmp/tutor7kDW2W"
--'  350  0  /tmp/tutor7kDW2W
-|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
--'  350  0  /tmp/tutor7kDW2W
-|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
--'  350  0  /tmp/tutor7kDW2W
-|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
--'  350  0  /tmp/tutor7kDW2W
-|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
--'  350  0  /tmp/tutor7kDW2W
-|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
--'  350  0  /tmp/tutor7kDW2W
-|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
--'  350  0  /tmp/tutor7kDW2W
-|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
--'  350  0  /tmp/tutor7kDW2W
-|4,39,350,0,1553927569,"/tmp/tutor7kDW2W"
--'  1  0  /tmp/tutor7kDW2W
-|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
--'  1  0  /tmp/tutor7kDW2W
-|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
--'  1  0  /tmp/tutor7kDW2W
-|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
--'  1  0  /tmp/tutor7kDW2W
-|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
--'  1  0  /tmp/tutor7kDW2W
-|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
--'  1  0  /tmp/tutor7kDW2W
-|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
--'  1  0  /tmp/tutor7kDW2W
-|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
--'  1  0  /tmp/tutor7kDW2W
-|4,39,1,0,1553915537,"/tmp/tutor7kDW2W"
+|4,39,221,4,1555157304,"~/.config/awesome/rc.lua"
+-'  221  4  ~/.config/awesome/rc.lua
+|4,39,221,4,1555157304,"~/.config/awesome/rc.lua"
+-'  221  4  ~/.config/awesome/rc.lua
+|4,39,221,4,1555157304,"~/.config/awesome/rc.lua"
+-'  221  4  ~/.config/awesome/rc.lua
+|4,39,221,4,1555157304,"~/.config/awesome/rc.lua"
+-'  27  0  ~/.zshrc
+|4,39,27,0,1555067672,"~/.zshrc"
+-'  27  0  ~/.zshrc
+|4,39,27,0,1555067672,"~/.zshrc"
+-'  27  0  ~/.zshrc
+|4,39,27,0,1555067672,"~/.zshrc"
+-'  27  0  ~/.zshrc
+|4,39,27,0,1555067672,"~/.zshrc"
+-'  27  0  ~/.zshrc
+|4,39,27,0,1555067672,"~/.zshrc"
+-'  27  0  ~/.zshrc
+|4,39,27,0,1555067672,"~/.zshrc"
+-'  27  0  ~/.zshrc
+|4,39,27,0,1555067672,"~/.zshrc"
+-'  27  0  ~/.zshrc
+|4,39,27,0,1555067672,"~/.zshrc"
+-'  27  13  ~/.zshrc
+|4,39,27,13,1555067640,"~/.zshrc"
+-'  27  13  ~/.zshrc
+|4,39,27,13,1555067640,"~/.zshrc"
+-'  27  13  ~/.zshrc
+|4,39,27,13,1555067640,"~/.zshrc"
+-'  27  13  ~/.zshrc
+|4,39,27,13,1555067640,"~/.zshrc"
+-'  27  13  ~/.zshrc
+|4,39,27,13,1555067640,"~/.zshrc"
+-'  27  13  ~/.zshrc
+|4,39,27,13,1555067640,"~/.zshrc"
+-'  27  13  ~/.zshrc
+|4,39,27,13,1555067640,"~/.zshrc"
+-'  27  13  ~/.zshrc
+|4,39,27,13,1555067640,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1555067607,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1554891848,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1554891848,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1554891848,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1554891848,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1554891848,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1554891848,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1554891848,"~/.zshrc"
+-'  24  9  ~/.zshrc
+|4,39,24,9,1554891848,"~/.zshrc"
+-'  24  20  ~/.zshrc
+|4,39,24,20,1554891752,"~/.zshrc"
+-'  24  20  ~/.zshrc
+|4,39,24,20,1554891752,"~/.zshrc"
+-'  24  20  ~/.zshrc
+|4,39,24,20,1554891752,"~/.zshrc"
+-'  24  20  ~/.zshrc
+|4,39,24,20,1554891752,"~/.zshrc"
+-'  24  20  ~/.zshrc
+|4,39,24,20,1554891752,"~/.zshrc"
+-'  24  20  ~/.zshrc
+|4,39,24,20,1554891752,"~/.zshrc"
+-'  24  20  ~/.zshrc
+|4,39,24,20,1554891752,"~/.zshrc"
+-'  24  20  ~/.zshrc
+|4,39,24,20,1554891752,"~/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  1  0  ~/Projects/.zshrc
+|4,39,1,0,1554891309,"~/Projects/.zshrc"
 
 # Historia zakładek w plikach (od najnowszych po najstarsze):
 
+> ~/.bash_history
+	*	1555345310	0
+	"	1	10
+
 > ~/.config/awesome/rc.lua
-	*	1554551313	0
-	"	221	4
+	*	1555157388	0
+	"	175	4
 	^	208	35
 	.	208	34
 	+	202	1
@@ -310,6 +314,18 @@
 	+	205	66
 	+	206	15
 	+	208	34
+
+> ~/.zshrc
+	*	1555067669	0
+	"	27	0
+	.	27	0
+	+	18	26
+	+	24	9
+	+	27	0
+
+> ~/Projects/.zshrc
+	*	1554891305	0
+	"	1	0
 
 > /tmp/tutorGTNGlR
 	*	1554551177	0

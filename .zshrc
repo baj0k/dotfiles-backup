@@ -15,6 +15,7 @@ bindkey -e
 
 alias mydotfiles="/usr/bin/git --git-dir=$HOME/.my_dotfiles/ --work-tree=$HOME"
 
+alias ip link='ip -c link'
 alias kop='sudo $(fc -ln -1)'
 alias ..='cd ..'
 alias swland='sudo ip link set wlan0 down'
@@ -23,5 +24,4 @@ alias pingu='ping 8.8.8.8'
 alias cs=function cs () {
     cd "$@" && ls
     }
-
 PS1='--%d-💪😤->'
