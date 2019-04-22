@@ -6,7 +6,10 @@
 !.config/neofetch/
 !.config/qpdfview/
 !.config/ranger/
+!.config/i3/
 
+!.bash_profile
+!.bashrc
 !.gitconfig
 !.gitignore
 !.irssi/
@@ -15,5 +18,3 @@
 !.xinitrc
 !.Xresources
 !.zcompdump
-!.zprofile
-!.zshrc

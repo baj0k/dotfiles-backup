@@ -10,15 +10,68 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Ostatni Wyszukiwany wzorzec:
+~Msle0~/\<if\>
+
 # Wiersz poleceń Historia (od najnowszych po najstarsze):
 :wq
-|2,0,1555345312,,"wq"
+|2,0,1555953014,,"wq"
+:w
+|2,0,1555951997,,"w"
+:q
+|2,0,1555951680,,"q"
 :q!
-|2,0,1554891309,,"q!"
+|2,0,1555930803,,"q!"
+:Q
+|2,0,1555867193,,"Q"
+:help
+|2,0,1555857696,,"help"
+:set hls is
+|2,0,1555857667,,"set hls is"
+:set is
+|2,0,1555857655,,"set is"
+:set nohls
+|2,0,1555857636,,"set nohls"
+:set nois
+|2,0,1555857586,,"set nois"
+:set hls
+|2,0,1555857537,,"set hls"
+:set ic
+|2,0,1555857515,,"set ic"
+:r !ls
+|2,0,1555856808,,"r !ls"
+:!ls
+|2,0,1555851801,,"!ls"
 :wq!
 |2,0,1553936754,,"wq!"
 
 # Szukany ciąg Historia (od najnowszych po najstarsze):
+? \<if\>
+|2,1,1555951693,,"\\<if\\>"
+? \<PS1\>
+|2,1,1555932114,,"\\<PS1\\>"
+?/12
+|2,1,1555878704,47,"12"
+?/rxv
+|2,1,1555877544,47,"rxv"
+?/URx
+|2,1,1555877537,47,"URx"
+?/konsole
+|2,1,1555877503,47,"konsole"
+?/Xft
+|2,1,1555876800,47,"Xft"
+?/image
+|2,1,1555866915,47,"image"
+?/ignore
+|2,1,1555857648,47,"ignore"
+??błąd
+|2,1,1555789501,63,"błąd"
+?/błąd
+|2,1,1555789488,47,"błąd"
+?/błond
+|2,1,1555789447,47,"błond"
+? \<CTRL\>
+|2,1,1555681632,,"\\<CTRL\\>"
 
 # Wyrażenie Historia (od najnowszych po najstarsze):
 
@@ -28,283 +81,384 @@
 
 # Rejestry:
 "0	CHAR	0
-	{
-		init	    = false,
-	        exclusive   = true,
-	        icon        = "/home/bart/.config/awesome/icons/pdf.png",
-		screen      = screen.count()>1 and 2 or 1,
-	        layout      = awful.layout.suit.max,
-	        class       = {"qpdfview"}
-	    } ,
+	URxvit*iso14755: false
 	
-|3,0,0,0,9,0,1554551150,"{","	init	    = false,","        exclusive   = true,","        icon        = \"/home/bart/.config/awesome/icons/pdf.png\",","	screen      = screen.count()>1 and 2 or 1,","        layout      = awful.layout.suit.max,","        class       = {\"qpdfview\"}","    } ,",""
+	
+|3,0,0,0,3,0,1555879144,"URxvit*iso14755: false","",""
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1555067669,""
+	!.zprofile
+|3,1,1,1,1,0,1555952987,"!.zprofile"
 "2	LINE	0
-	---> a) Na górze róże,
-|3,0,2,1,1,0,1553927731,"---> a) Na górze róże,"
+	!.zshrc
+|3,0,2,1,1,0,1555952985,"!.zshrc"
 "3	LINE	0
-	---> a) Na górze róże,
-|3,0,3,1,1,0,1553927730,"---> a) Na górze róże,"
+	
+|3,0,3,1,1,0,1555952886,""
 "4	LINE	0
-	---> a) Na górze róże,
-|3,0,4,1,1,0,1553927724,"---> a) Na górze róże,"
+	
+|3,0,4,1,1,0,1555952877,""
 "5	LINE	0
-	---> b) Na dole fiołki,
-|3,0,5,1,1,0,1553927719,"---> b) Na dole fiołki,"
+	
+|3,0,5,1,1,0,1555952875,""
 "6	LINE	0
-	---> b) Na dole fiołki,
-|3,0,6,1,1,0,1553927717,"---> b) Na dole fiołki,"
+	
+|3,0,6,1,1,0,1555952875,""
 "7	LINE	0
-	---> c) A my się kochamy,
-|3,0,7,1,1,0,1553927712,"---> c) A my się kochamy,"
+	
+|3,0,7,1,1,0,1555952874,""
 "8	LINE	0
-	---> d) Jak dwa aniołki.
-|3,0,8,1,1,0,1553927685,"---> d) Jak dwa aniołki."
+	
+|3,0,8,1,1,0,1555952873,""
 "9	LINE	0
-	--->  4)  Mam samochód,
-	--->  5)  Zegar podaje czas,
-|3,0,9,1,2,0,1553927558,"--->  4)  Mam samochód,","--->  5)  Zegar podaje czas,"
+	
+|3,0,9,1,1,0,1555952872,""
 "-	CHAR	0
-	a
-|3,0,36,0,1,0,1555067668,"a"
+	#
+|3,0,36,0,1,0,1555952689,"#"
 
 # Zakładki w plikach:
-'0  1  10  ~/.bash_history
-|4,48,1,10,1555345313,"~/.bash_history"
-'1  175  4  ~/.config/awesome/rc.lua
-|4,49,175,4,1555157390,"~/.config/awesome/rc.lua"
-'2  175  4  ~/.config/awesome/rc.lua
-|4,50,175,4,1555157312,"~/.config/awesome/rc.lua"
-'3  27  0  ~/.zshrc
-|4,51,27,0,1555067672,"~/.zshrc"
-'4  27  13  ~/.zshrc
-|4,52,27,13,1555067640,"~/.zshrc"
-'5  24  9  ~/.zshrc
-|4,53,24,9,1554891848,"~/.zshrc"
-'6  24  9  ~/.zshrc
-|4,54,24,9,1554891848,"~/.zshrc"
-'7  24  9  ~/.zshrc
-|4,55,24,9,1554891848,"~/.zshrc"
-'8  24  9  ~/.zshrc
-|4,56,24,9,1554891848,"~/.zshrc"
-'9  24  20  ~/.zshrc
-|4,57,24,20,1554891752,"~/.zshrc"
+'0  12  7  ~/.gitignore
+|4,48,12,7,1555953014,"~/.gitignore"
+'1  28  0  ~/.xinitrc
+|4,49,28,0,1555952894,"~/.xinitrc"
+'2  9  0  ~/.bash_profile
+|4,50,9,0,1555952691,"~/.bash_profile"
+'3  10  0  ~/.gitignore
+|4,51,10,0,1555952239,"~/.gitignore"
+'4  10  0  ~/.gitignore
+|4,52,10,0,1555952239,"~/.gitignore"
+'5  32  0  ~/.xinitrc
+|4,53,32,0,1555952000,"~/.xinitrc"
+'6  55  0  ~/.xinitrc
+|4,54,55,0,1555952000,"~/.xinitrc"
+'7  32  0  ~/.xinitrc
+|4,55,32,0,1555951979,"~/.xinitrc"
+'8  55  0  ~/.xinitrc
+|4,56,55,0,1555951979,"~/.xinitrc"
+'9  6  0  ~/.bash_profile
+|4,57,6,0,1555951718,"~/.bash_profile"
 
 # Lista odniesień (począwszy od najnowszych):
--'  1  10  ~/.bash_history
-|4,39,1,10,1555345313,"~/.bash_history"
--'  175  4  ~/.config/awesome/rc.lua
-|4,39,175,4,1555157390,"~/.config/awesome/rc.lua"
--'  175  4  ~/.config/awesome/rc.lua
-|4,39,175,4,1555157390,"~/.config/awesome/rc.lua"
--'  175  4  ~/.config/awesome/rc.lua
-|4,39,175,4,1555157312,"~/.config/awesome/rc.lua"
--'  175  4  ~/.config/awesome/rc.lua
-|4,39,175,4,1555157312,"~/.config/awesome/rc.lua"
--'  221  4  ~/.config/awesome/rc.lua
-|4,39,221,4,1555157304,"~/.config/awesome/rc.lua"
--'  221  4  ~/.config/awesome/rc.lua
-|4,39,221,4,1555157304,"~/.config/awesome/rc.lua"
--'  221  4  ~/.config/awesome/rc.lua
-|4,39,221,4,1555157304,"~/.config/awesome/rc.lua"
--'  221  4  ~/.config/awesome/rc.lua
-|4,39,221,4,1555157304,"~/.config/awesome/rc.lua"
--'  27  0  ~/.zshrc
-|4,39,27,0,1555067672,"~/.zshrc"
--'  27  0  ~/.zshrc
-|4,39,27,0,1555067672,"~/.zshrc"
--'  27  0  ~/.zshrc
-|4,39,27,0,1555067672,"~/.zshrc"
--'  27  0  ~/.zshrc
-|4,39,27,0,1555067672,"~/.zshrc"
--'  27  0  ~/.zshrc
-|4,39,27,0,1555067672,"~/.zshrc"
--'  27  0  ~/.zshrc
-|4,39,27,0,1555067672,"~/.zshrc"
--'  27  0  ~/.zshrc
-|4,39,27,0,1555067672,"~/.zshrc"
--'  27  0  ~/.zshrc
-|4,39,27,0,1555067672,"~/.zshrc"
--'  27  13  ~/.zshrc
-|4,39,27,13,1555067640,"~/.zshrc"
--'  27  13  ~/.zshrc
-|4,39,27,13,1555067640,"~/.zshrc"
--'  27  13  ~/.zshrc
-|4,39,27,13,1555067640,"~/.zshrc"
--'  27  13  ~/.zshrc
-|4,39,27,13,1555067640,"~/.zshrc"
--'  27  13  ~/.zshrc
-|4,39,27,13,1555067640,"~/.zshrc"
--'  27  13  ~/.zshrc
-|4,39,27,13,1555067640,"~/.zshrc"
--'  27  13  ~/.zshrc
-|4,39,27,13,1555067640,"~/.zshrc"
--'  27  13  ~/.zshrc
-|4,39,27,13,1555067640,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1555067607,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1554891848,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1554891848,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1554891848,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1554891848,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1554891848,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1554891848,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1554891848,"~/.zshrc"
--'  24  9  ~/.zshrc
-|4,39,24,9,1554891848,"~/.zshrc"
--'  24  20  ~/.zshrc
-|4,39,24,20,1554891752,"~/.zshrc"
--'  24  20  ~/.zshrc
-|4,39,24,20,1554891752,"~/.zshrc"
--'  24  20  ~/.zshrc
-|4,39,24,20,1554891752,"~/.zshrc"
--'  24  20  ~/.zshrc
-|4,39,24,20,1554891752,"~/.zshrc"
--'  24  20  ~/.zshrc
-|4,39,24,20,1554891752,"~/.zshrc"
--'  24  20  ~/.zshrc
-|4,39,24,20,1554891752,"~/.zshrc"
--'  24  20  ~/.zshrc
-|4,39,24,20,1554891752,"~/.zshrc"
--'  24  20  ~/.zshrc
-|4,39,24,20,1554891752,"~/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
--'  1  0  ~/Projects/.zshrc
-|4,39,1,0,1554891309,"~/Projects/.zshrc"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1555953014,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1555952982,"~/.gitignore"
+-'  28  0  ~/.xinitrc
+|4,39,28,0,1555952894,"~/.xinitrc"
+-'  28  0  ~/.xinitrc
+|4,39,28,0,1555952894,"~/.xinitrc"
+-'  15  0  ~/.xinitrc
+|4,39,15,0,1555952802,"~/.xinitrc"
+-'  15  0  ~/.xinitrc
+|4,39,15,0,1555952802,"~/.xinitrc"
+-'  10  0  ~/.xinitrc
+|4,39,10,0,1555952801,"~/.xinitrc"
+-'  10  0  ~/.xinitrc
+|4,39,10,0,1555952801,"~/.xinitrc"
+-'  11  0  ~/.xinitrc
+|4,39,11,0,1555952799,"~/.xinitrc"
+-'  17  0  ~/.xinitrc
+|4,39,17,0,1555952799,"~/.xinitrc"
+-'  11  0  ~/.xinitrc
+|4,39,11,0,1555952799,"~/.xinitrc"
+-'  17  0  ~/.xinitrc
+|4,39,17,0,1555952799,"~/.xinitrc"
+-'  16  0  ~/.xinitrc
+|4,39,16,0,1555952798,"~/.xinitrc"
+-'  16  0  ~/.xinitrc
+|4,39,16,0,1555952798,"~/.xinitrc"
+-'  32  0  ~/.xinitrc
+|4,39,32,0,1555952698,"~/.xinitrc"
+-'  32  0  ~/.xinitrc
+|4,39,32,0,1555952698,"~/.xinitrc"
+-'  9  0  ~/.bash_profile
+|4,39,9,0,1555952691,"~/.bash_profile"
+-'  9  0  ~/.bash_profile
+|4,39,9,0,1555952691,"~/.bash_profile"
+-'  9  0  ~/.bash_profile
+|4,39,9,0,1555952691,"~/.bash_profile"
+-'  9  0  ~/.bash_profile
+|4,39,9,0,1555952691,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555952686,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555952686,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555952686,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555952686,"~/.bash_profile"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1555952239,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1555952239,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1555952239,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1555952239,"~/.gitignore"
+-'  18  0  ~/.gitignore
+|4,39,18,0,1555952193,"~/.gitignore"
+-'  16  0  ~/.gitignore
+|4,39,16,0,1555952193,"~/.gitignore"
+-'  16  0  ~/.gitignore
+|4,39,16,0,1555952193,"~/.gitignore"
+-'  16  0  ~/.gitignore
+|4,39,16,0,1555952193,"~/.gitignore"
+-'  16  0  ~/.gitignore
+|4,39,16,0,1555952193,"~/.gitignore"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555952000,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555952000,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555952000,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555952000,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555952000,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555952000,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555952000,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555952000,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555951979,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555951979,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555951979,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555951979,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555951979,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555951979,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555951979,"~/.xinitrc"
+-'  55  0  ~/.xinitrc
+|4,39,55,0,1555951979,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  54  4  ~/.xinitrc
+|4,39,54,4,1555951970,"~/.xinitrc"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1555951718,"~/.bash_profile"
+-'  7  0  ~/.bash_profile
+|4,39,7,0,1555951693,"~/.bash_profile"
+-'  7  0  ~/.bash_profile
+|4,39,7,0,1555951693,"~/.bash_profile"
+-'  7  0  ~/.bash_profile
+|4,39,7,0,1555951693,"~/.bash_profile"
 
 # Historia zakładek w plikach (od najnowszych po najstarsze):
 
-> ~/.bash_history
-	*	1555345310	0
-	"	1	10
+> ~/.gitignore
+	*	1555953013	0
+	"	12	7
+	^	12	8
+	.	12	8
+	+	9	12
+	+	21	0
+	+	12	8
+
+> ~/.xinitrc
+	*	1555952888	0
+	"	28	0
+	^	22	0
+	.	23	0
+	+	32	5
+	+	32	0
+	+	30	0
+	+	32	0
+	+	17	0
+	+	10	0
+	+	11	0
+	+	17	0
+	+	16	0
+	+	17	0
+	+	16	0
+	+	17	0
+	+	11	0
+	+	10	0
+	+	12	0
+	+	15	0
+	+	18	0
+	+	21	0
+	+	9	0
+	+	12	0
+	+	15	0
+	+	18	0
+	+	21	0
+	+	23	0
+
+> ~/.bash_profile
+	*	1555952689	0
+	"	9	0
+	^	9	1
+	.	9	0
+	+	7	1
+	+	8	0
+	+	9	0
+	+	7	0
+	+	8	0
+	+	9	0
+
+> ~/.bashrc
+	*	1555932293	0
+	"	23	15
+	^	23	16
+	.	23	16
+	+	23	0
+	+	11	54
+	+	18	30
+	+	23	13
+	+	23	0
+	+	23	45
+	+	23	16
+
+> ~/.Xresources
+	*	1555931653	0
+	"	34	0
+	^	34	64
+	.	34	0
+	+	1	0
+	+	3	20
+	+	9	42
+	+	9	0
+	+	10	48
+	+	11	49
+	+	12	54
+	+	16	26
+	+	14	24
+	+	16	26
+	+	17	0
+	+	18	0
+	+	19	0
+	+	26	0
+	+	18	13
+	+	26	0
+	+	9	42
+	+	10	48
+	+	11	49
+	+	12	54
+	+	20	0
+	+	25	0
+	+	21	0
+	+	22	0
+	+	21	17
+	+	23	58
+	+	20	4
+	+	21	0
+	+	23	68
+	+	31	94
+	+	36	0
+	+	31	41
+	+	31	78
+	+	31	0
+	+	36	0
+	+	31	0
+	+	31	21
+	+	33	31
+	+	32	22
+	+	31	0
+	+	36	0
+	+	34	0
 
 > ~/.config/awesome/rc.lua
-	*	1555157388	0
-	"	175	4
-	^	208	35
-	.	208	34
+	*	1555880510	0
+	"	165	23
+	^	58	21
+	.	166	1
 	+	202	1
 	+	217	8
 	+	213	64
@@ -314,6 +468,114 @@
 	+	205	66
 	+	206	15
 	+	208	34
+	+	337	62
+	+	58	21
+	+	166	1
+
+> /etc/fonts/fonts.conf
+	*	1555877044	0
+	"	22	0
+
+> ~/.Xdefaults
+	*	1555875987	0
+	"	100	11
+	^	100	12
+	.	100	11
+	+	100	11
+
+> ~/.config/ranger/rc.conf
+	*	1555870294	0
+	"	72	0
+	.	72	0
+	+	71	22
+	+	72	0
+
+> ~/rc.conf
+	*	1555867193	0
+	"	1	0
+
+> ~/.config/ranger/r
+	*	1555866736	0
+	"	1	0
+
+> /tmp/tutoreF8bRP
+	*	1555857950	0
+	"	995	0
+
+> ~/.viminfo
+	*	1555857851	0
+	"	96	1
+
+> /usr/share/vim/vim81/doc/help.txt
+	*	1555857723	0
+	"	41	0
+
+> /tmp/tutorTEFITl
+	*	1555857675	0
+	"	905	0
+	^	816	12
+	.	816	12
+	+	689	0
+	+	730	0
+	+	742	8
+	+	740	3
+	+	741	0
+	+	771	4
+	+	768	67
+	+	790	31
+	+	816	12
+
+> /tmp/tutorwSJ3NS
+	*	1555789156	0
+	"	497	0
+	^	459	0
+	.	459	0
+	+	403	11
+	+	378	15
+	+	380	15
+	+	423	33
+	+	447	46
+	+	477	0
+	+	476	5
+	+	459	0
+
+> /tmp/tutorZ4cWSQ
+	*	1555751606	0
+	"	504	0
+	^	432	28
+	.	432	27
+	+	124	36
+	+	126	39
+	+	124	22
+	+	198	35
+	+	198	26
+	+	198	25
+	+	199	0
+	+	211	0
+	+	238	5
+	+	239	19
+	+	266	0
+	+	258	0
+	+	259	0
+	+	260	0
+	+	304	0
+	+	302	0
+	+	301	0
+	+	319	21
+	+	319	0
+	+	359	23
+	+	361	0
+	+	366	0
+	+	359	29
+	+	364	31
+	+	382	35
+	+	415	13
+	+	412	16
+	+	432	27
+
+> ~/.bash_history
+	*	1555345310	0
+	"	1	10
 
 > ~/.zshrc
 	*	1555067669	0
@@ -399,7 +661,3 @@
 	+	241	4
 	+	262	0
 	a	262	0
-
-> ~/.xinitrc
-	*	1549897516	0
-	"	1	0
