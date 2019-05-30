@@ -1,20 +1,23 @@
-#ignore everything except for
+#ignore everything
 /*
 
+#except for
 !.config/
 .config/*
+!.config/locale.conf
 !.config/neofetch/
+!.config/python/
 !.config/qpdfview/
 !.config/ranger/
 !.config/i3/
+!.config/mutt/
 
+!.bash_logout
 !.bash_profile
 !.bashrc
 !.gitconfig
 !.gitignore
-!.irssi/
-!.viminfo
+!.vimrc
 !.Xauthority
 !.xinitrc
 !.Xresources
-!.zcompdump

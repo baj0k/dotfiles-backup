@@ -30,3 +30,4 @@ fi
 wal -R
 twm &
 exec i3
+
