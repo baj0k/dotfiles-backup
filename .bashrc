@@ -1,8 +1,7 @@
 #!/usr/bin/bash
 
 # Prompt
-PS1="--$(pwd)-> "
-export PS1
+export PS1='--$PWD->\[$(tput sgr0)\]'
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -12,9 +11,6 @@ alias mydotfiles="/usr/bin/git --git-dir=/home/bart/.my_dotfiles/ --work-tree=/h
 alias kop='sudo $(history -p !!)'
 alias mkd='mkdir -pv'
 alias ll='ls -alhG'
-cs () { cd "$@" && ls; }
-alias cd='cs'
-alias ..='cd ..'
 
 # Program shortcuts
 alias mutt='neomutt -F $HOME/.config/mutt/.muttrc'
@@ -29,9 +25,14 @@ alias ls='ls -hN --color=auto --group-directories-first'
 alias grep='grep --color=auto'
 alias ip='ip -c'
 
+cs () { cd "$@" && ls; }
+alias cd='cs'
+alias ..='cd ..'
+
+
 # Internet
-alias yt='youtube-dl -o "~/Downloads/%(title)s.%(ext)s" -ic'
-alias yta='youtube-dl -o "~/Downloads/%(title)s.%(ext)s" -xic'
+alias yt='youtube-dl -o "~/Downloads/%(title)s.%(ext)s" -ic --hls-prefer-ffmpeg'
+alias yta='youtube-dl -o "~/Downloads/%(title)s.%(ext)s" -xic --hls-prefer-ffmpeg'
 alias p='ping 8.8.8.8'
 
 # Display
