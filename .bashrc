@@ -10,10 +10,11 @@ source /usr/share/doc/pkgfile/command-not-found.bash
 export PS1='--$PWD->\[$(tput sgr0)\]'
 
 # System maintenance
-alias mydotfiles="/usr/bin/git --git-dir=/home/bart/.my_dotfiles/ --work-tree=/home/bart/"
+alias mydotfiles='git --git-dir=$HOME/.my_dotfiles/ --work-tree=$HOME'
 alias kop='sudo $(history -p !!)'
 alias mkd='mkdir -pv'
 alias ll='ls -alhG'
+alias ssys='sudo systemctl'
 
 # Program shortcuts
 alias swifi='sudo wifi-menu'

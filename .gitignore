@@ -9,6 +9,7 @@
 !.config/python/
 !.config/ranger/
 !.config/i3/
+!.config/zathura/
 
 !.bash_logout
 !.bash_profile

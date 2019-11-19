@@ -1,0 +1,11 @@
+# zathura conf file
+
+# Clipboard
+set selection-clipboard clipboard
+
+# Side-by-side
+set first-page-column 1:1
+
+# Filename and path 
+set window-title-basename true
+set statusbar-home-tilde true
