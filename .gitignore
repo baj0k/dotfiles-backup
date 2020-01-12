@@ -4,13 +4,15 @@
 #except for
 !.config/
 .config/*
-!.config/locale.conf
+!.config/autorandr/
+!.config/i3/
 !.config/neofetch/
 !.config/python/
 !.config/ranger/
-!.config/i3/
 !.config/zathura/
+!.config/locale.conf
 
+!.irssi/
 !.bash_logout
 !.bash_profile
 !.bashrc

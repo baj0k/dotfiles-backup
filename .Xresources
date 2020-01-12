@@ -2,7 +2,7 @@
 URxvt*scrollBar: false
 
 ! Font
-URxvt*font: xft:Monospace:pixelsize=14
+URxvt*font: xft:Monospace:pixelsize=11
 URxvt.letterSpace: -1
 
 ! Extensions
@@ -11,6 +11,9 @@ URxvt.perl-ext-common:  clipboard
 URxvt.clipboard.autocopy: true
 URxvt.keysym.Control-c: perl:clipboard:copy
 URxvt.keysym.Control-v: perl:clipboard:paste
+
+! URL Handling
+URxvt*cutchars: `"()'*<>[]{|}
 
 ! Colors
 *.foreground:   #a7a7a7
