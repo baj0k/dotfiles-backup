@@ -7,12 +7,14 @@
 !.config/autorandr/
 !.config/i3/
 !.config/neofetch/
+!.config/picom/
 !.config/python/
 !.config/ranger/
 !.config/zathura/
+
 !.config/locale.conf
 
-!.irssi/
+
 !.bash_logout
 !.bash_profile
 !.bashrc

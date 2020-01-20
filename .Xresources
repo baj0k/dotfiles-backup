@@ -1,53 +1,43 @@
 ! General
-URxvt*scrollBar: false
+URxvt*iso14755:		false
+URxvt*scrollBar:	false
+Xcursor.theme:		Vanilla-DMZ-AA
+
+! Display
+URxvt*depth: 32
+URxvt*background:	rgba:0000/0000/0200/c800
+URxvt*foreground:	#cccccc
+URxvt*cursorBlink:	true
+URxvt*cursorUnderline:	true
 
 ! Font
-URxvt*font: xft:Monospace:pixelsize=11
-URxvt.letterSpace: -1
+URxvt.letterSpace: 	-1
+URxvt*font: 		xft:Monospace:pixelsize=11.5
+Xft*hinting:            full
 
 ! Extensions
-URxvt.perl-ext-common:  clipboard
-
+URxvt.perl-ext-common:	default,matcher,clipboard 
 URxvt.clipboard.autocopy: true
 URxvt.keysym.Control-c: perl:clipboard:copy
 URxvt.keysym.Control-v: perl:clipboard:paste
+URxvt.matcher.button:	1 
+URxvt.urlLauncher:	/us/bin/xdg-open
 
-! URL Handling
-URxvt*cutchars: `"()'*<>[]{|}
-
-! Colors
-*.foreground:   #a7a7a7
-*.background:   #000000
-*.cursorColor:  #a7a7a7
-
-! black
-*.color0:       #1e1e1e
-*.color8:       #5f5a60
-
-! purple
-*.color1:       #b065ff
-*.color9:       #b065ff
-
-! green
-*.color2:       #8f9d6a
-*.color10:      #8f9d6a
-
-! yellow
-*.color3:       #f9ee98
-*.color11:      #f9ee98
-
-! blue
-*.color4:       #7587a6
-*.color12:      #7587a6
-
-! magenta
-*.color5:       #9b859d
-*.color13:      #9b859d
-
-! cyan
-*.color6:       #afc4db
-*.color14:      #afc4db
-
-! white
-*.color7:       #a7a7a7
-*.color15:      #ffffff
+!Colors
+URxvt*color0:	#2E3436
+URxvt*color1:	#CC0000
+URxvt*color2:	#4E9A06
+URxvt*color3:	#C4A000
+URxvt*color4:	#3465A4
+URxvt*color5:	#75507B
+URxvt*color6:	#06989A
+URxvt*color7:	#D3D7CF
+URxvt*color8:	#555753
+URxvt*color9:	#EF2929
+URxvt*color10:	#8AE234
+URxvt*color11:	#FCE94F
+URxvt*color12:	#729FCF
+URxvt*color13:	#AD7FA8
+URxvt*color14:	#34E2E2
+URxvt*color15:	#EEEEEC
+URxvt*colorUL:	#86a2b0

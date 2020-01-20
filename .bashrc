@@ -10,27 +10,38 @@ source /usr/share/doc/pkgfile/command-not-found.bash
 export PS1='--$PWD->\[$(tput sgr0)\]'
 
 # System maintenance
-alias mydotfiles='git --git-dir=$HOME/.my_dotfiles/ --work-tree=$HOME'
+alias sps='sudo pacman -S'
+alias spr='sudo pacman -Rns'
+alias mdot='git --git-dir=$HOME/.my_dotfiles/ --work-tree=$HOME'
 alias kop='sudo $(history -p !!)'
 alias mkd='mkdir -pv'
-alias ll='ls -alhG'
+alias l='ls'
+alias la='ls -A'
+alias ll='ls -alF'
 alias ssys='sudo systemctl'
+alias cs='clear'
+alias cd..='cd ..'
 
 # Program shortcuts
-alias swifi='sudo wifi-menu'
-alias pac='pacman'
-alias spac='sudo pacman'
+alias o='xdg-open $@ > /dev/null 2> /dev/null'
+alias wifi='sudo wifi-menu'
 alias v='vim'
 alias sv='sudo vim'
+alias z='zathura'
+alias m='mplayer'
+alias dwojka="mplayer -cache 256 http://stream.polskieradio.pl/program2"
 
-# Colored output
+# Colors 
 alias ls='ls -hN --color=auto --group-directories-first'
+alias dir='dir --color=auto'
 alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
 alias ip='ip -c'
 alias diff='diff --color'
 
-cs () { cd "$@" && ls; }
-alias cd='cs'
+cdls () { cd "$@" && ls; }
+alias cd='cdls'
 alias ..='cd ..'
 
 man() {
