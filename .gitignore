@@ -1,14 +1,18 @@
 #ignore everything
 /*
-
 #except for
+
 !.config/
 .config/*
 !.config/autorandr/
 !.config/i3/
+
+!.config/mpd/
+.config/mpd/*
+!.config/mpd/mpd.conf
+!.config/ncmpcpp/
 !.config/neofetch/
 !.config/picom/
-!.config/python/
 !.config/ranger/
 !.config/zathura/
 

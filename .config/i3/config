@@ -6,6 +6,7 @@ exec --no-startup-id i3-msg 'workspace 2; exec firefox; workspace 1'
 exec --no-startup-id i3-msg 'exec urxvt'
 exec --no-startup-id i3-msg 'exec urxvt -e ranger'
 exec --no-startup-id i3-msg 'exec picom -b'
+exec --no-startup-id i3-msg 'exec [ ! -s ~/.config/mpd/pid ] && mpd'
 
 # Display
 exec --no-startup-id autorandr --change
@@ -156,6 +157,7 @@ bindsym $mod+r mode "resize"
 
 #Start i3bar to display a workspace bar
 bar {
+    output primary
     tray_output primary
     status_command i3status -c ~/.config/i3/i3status.conf
     mode dock
