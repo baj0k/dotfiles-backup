@@ -12,7 +12,8 @@
 !.config/mpd/mpd.conf
 !.config/ncmpcpp/
 .config/ncmpcpp/*
-.config/ncmpcpp/config
+!.config/ncmpcpp/config
+!.config/ncmpcpp/bindings
 
 !.config/neofetch/
 !.config/picom/
@@ -25,7 +26,6 @@
 !.bash_logout
 !.bash_profile
 !.bashrc
-!.gitconfig
 !.gitignore
 !.vimrc
 !.xinitrc
