@@ -1,7 +1,9 @@
-sw_volume: 96
-audio_device_state:1:mpd alsa
+sw_volume: 98
+audio_device_state:1:mpd_alsa
 audio_device_state:1:toggle_visualizer
-state: stop
+state: pause
+current: 7
+time: 10.962000
 random: 1
 repeat: 0
 single: 0
@@ -10,5 +12,28 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Dethklok_Awaken.opus
+0:Undaground/UNDADASEA - UNDAGROUND - 01 NEOPRENE DREAMS.mp3
+1:Undaground/UNDADASEA - UNDAGROUND - 02 DAH SEA PPL.mp3
+2:Undaground/UNDADASEA - UNDAGROUND - 03 RAP DZI$.mp3
+3:Undaground/UNDADASEA - UNDAGROUND - 04 BIELANY BIELECKA.mp3
+4:Undaground/UNDADASEA - UNDAGROUND - 05 GODZINA U.mp3
+5:Undaground/UNDADASEA - UNDAGROUND - 06 O.I.P. MAFIA.mp3
+6:Undaground/UNDADASEA - UNDAGROUND - 07 TIMEOUT.mp3
+7:Undaground/UNDADASEA - UNDAGROUND - 08 MELEX.mp3
+8:Undaground/UNDADASEA - UNDAGROUND - 09 WIADRA Z BETONU.mp3
+9:Undaground/UNDADASEA - UNDAGROUND - 10 DA SHIZNIT.mp3
+10:Undaground/UNDADASEA - UNDAGROUND - 11 TAIFUN.mp3
+11:Undaground/UNDADASEA - UNDAGROUND - 12 SPADOCHRON.mp3
+12:Undaground/UNDADASEA - UNDAGROUND - 01 NEOPRENE DREAMS.mp3
+13:Undaground/UNDADASEA - UNDAGROUND - 02 DAH SEA PPL.mp3
+14:Undaground/UNDADASEA - UNDAGROUND - 03 RAP DZI$.mp3
+15:Undaground/UNDADASEA - UNDAGROUND - 04 BIELANY BIELECKA.mp3
+16:Undaground/UNDADASEA - UNDAGROUND - 05 GODZINA U.mp3
+17:Undaground/UNDADASEA - UNDAGROUND - 06 O.I.P. MAFIA.mp3
+18:Undaground/UNDADASEA - UNDAGROUND - 07 TIMEOUT.mp3
+19:Undaground/UNDADASEA - UNDAGROUND - 08 MELEX.mp3
+20:Undaground/UNDADASEA - UNDAGROUND - 09 WIADRA Z BETONU.mp3
+21:Undaground/UNDADASEA - UNDAGROUND - 10 DA SHIZNIT.mp3
+22:Undaground/UNDADASEA - UNDAGROUND - 11 TAIFUN.mp3
+23:Undaground/UNDADASEA - UNDAGROUND - 12 SPADOCHRON.mp3
 playlist_end
