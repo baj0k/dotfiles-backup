@@ -1,0 +1,59 @@
+# Alias conf file
+
+# System maintenance
+alias kop='sudo $(history -p !!)'
+alias sp='sudo pacman'
+alias mdot='git --git-dir=$HOME/.my_dotfiles/ --work-tree=$HOME'
+alias off='sudo shutdown -h now'
+alias ssys='sudo systemctl'
+alias p='ping 8.8.8.8'
+
+# Default parameters 
+alias cs='clear'
+alias l='ls -hN' 
+alias la='ls -A'
+alias ll='ls -alF'
+alias cd..='cd ..'
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -v'
+alias mkdir='mkdir -pv'
+
+# Program shortcuts
+alias a='alsamixer'
+alias m='mpv'
+alias n='ncmpcpp'
+alias o='xdg-open $@ > /dev/null 2> /dev/null'
+alias v='sudo $EDITOR'
+alias dwojka="mpv http://stream.polskieradio.pl/program2"
+alias wifi='sudo wifi-menu'
+
+# Colors
+alias ls='ls --color=auto --group-directories-first'
+alias dir='dir --color=auto'
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias ip='ip -c'
+alias diff='diff --color'
+
+cdls () { cd "$@" && ls; }
+alias cd='cdls'
+alias ..='cd ..'
+
+man() {
+    LESS_TERMCAP_md=$'\e[01;31m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_se=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[01;44;33m' \
+    LESS_TERMCAP_ue=$'\e[0m' \
+    LESS_TERMCAP_us=$'\e[01;32m' \
+    command man "$@"
+}
+
+# Internet
+alias yt='youtube-dl -o "~/Video/%(title)s.%(ext)s" --restrict-filenames -ic --hls-prefer-ffmpeg --add-metadata'
+alias yta='youtube-dl -o "~/Music/%(artist)s -%(album)s - %(title)s.%(ext)s" --restrict-filenames -xic --audio-format "mp3" --hls-prefer-ffmpeg --add-metadata'
+
+# Printer
+cupsadm() { /bin/firefox "http://localhost:631"; }

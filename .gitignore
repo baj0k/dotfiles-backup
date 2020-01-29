@@ -4,22 +4,31 @@
 
 !.config/
 .config/*
+
 !.config/autorandr/
+
 !.config/i3/
 
 !.config/mpd/
 .config/mpd/*
 !.config/mpd/mpd.conf
+
+!.config/mpv/
+
 !.config/ncmpcpp/
 .config/ncmpcpp/*
 !.config/ncmpcpp/config
 !.config/ncmpcpp/bindings
 
 !.config/neofetch/
+
 !.config/picom/
+
 !.config/ranger/
+
 !.config/zathura/
 
+!.config/aliasrc
 !.config/locale.conf
 
 
@@ -30,5 +39,3 @@
 !.vimrc
 !.xinitrc
 !.Xresources
-
-!README.md
