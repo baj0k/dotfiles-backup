@@ -7,6 +7,8 @@
 
 !.config/autorandr/
 
+!.config/fontconfig/
+
 !.config/i3/
 
 !.config/mpd/
@@ -36,6 +38,7 @@
 !.bash_profile
 !.bashrc
 !.gitignore
+!.inputrc
 !.vimrc
 !.xinitrc
 !.Xresources

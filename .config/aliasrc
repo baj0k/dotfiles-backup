@@ -3,6 +3,7 @@
 # System maintenance
 alias kop='sudo $(history -p !!)'
 alias sp='sudo pacman'
+alias update='pikaur -Syyuu'
 alias mdot='git --git-dir=$HOME/.my_dotfiles/ --work-tree=$HOME'
 alias off='sudo shutdown -h now'
 alias ssys='sudo systemctl'
@@ -12,7 +13,7 @@ alias p='ping 8.8.8.8'
 alias cs='clear'
 alias l='ls -hN' 
 alias la='ls -A'
-alias ll='ls -alF'
+alias ll='ls -AlF'
 alias cd..='cd ..'
 alias cp='cp -iv'
 alias mv='mv -iv'
@@ -24,9 +25,12 @@ alias a='alsamixer'
 alias m='mpv'
 alias n='ncmpcpp'
 alias o='xdg-open $@ > /dev/null 2> /dev/null'
+alias r='ranger'
 alias v='sudo $EDITOR'
-alias dwojka="mpv http://stream.polskieradio.pl/program2"
+alias dwojka="mpv http://stream.polskieradio.pl/program3"
 alias wifi='sudo wifi-menu'
+alias docked='autorandr docked'
+alias mobile='autorandr mobile'
 
 # Colors
 alias ls='ls --color=auto --group-directories-first'

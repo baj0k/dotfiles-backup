@@ -8,4 +8,4 @@ source ~/.config/aliasrc
 source /usr/share/doc/pkgfile/command-not-found.bash
 
 # Prompt
-export PS1='--$PWD->\[$(tput sgr0)\]'
+export PS1='----------------------------------------------------\n--$PWD->\[$(tput sgr0)\]'
