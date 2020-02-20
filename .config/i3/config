@@ -11,7 +11,7 @@ exec [ ! -s ~/.config/mpd/pid ] && mpd
 
 # Display
 exec --no-startup-id autorandr --change
-font pango:monospace 7 
+font pango:DejaVu Sans Mono 7 
 bindcode 232 exec --no-startup-id xbacklight -5%
 bindcode 233 exec --no-startup-id xbacklight +5%
 
