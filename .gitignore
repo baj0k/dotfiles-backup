@@ -39,6 +39,7 @@
 !.bashrc
 !.gitignore
 !.inputrc
+!user-dirs.dirs
 !.vimrc
 !.xinitrc
 !.Xresources

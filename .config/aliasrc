@@ -23,11 +23,12 @@ alias mkdir='mkdir -pv'
 
 # Program shortcuts
 alias a='alsamixer'
-alias m='mpv'
+alias m='mutt'
 alias n='ncmpcpp'
 alias o='xdg-open $@ > /dev/null 2> /dev/null'
 alias r='ranger'
 alias v='sudo $EDITOR'
+alias z='tabbed -c zathura -e'
 alias wifi='sudo wifi-menu'
 alias dwojka="mpv http://stream.polskieradio.pl/program3"
 alias docked='autorandr docked'

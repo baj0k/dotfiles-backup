@@ -1,5 +1,26 @@
 # zathura conf file
 
+# General
+set font "DejaVu Sans Mono 8"
+set adjust-open "best-fit"
+set recolor true
+
+# Colors
+set default-bg   "#110011"
+set default-fg   "#617287"
+set statusbar-bg "#110011"
+set statusbar-fg "#00FFFF"
+set inputbar-bg "#020202"
+set inputbar-fg "#00FFFF"
+set completion-group-bg "#220022"
+set completion-group-fg "#00FFFF"
+set completion-highlight-bg "#220022"
+set completion-highlight-fg "#00FFFF"
+set completion-bg "#110011"
+set completion-fg "#006666"
+set highlight-color "#110011"
+set highlight-active-color "#00FFFF"
+
 # Clipboard
 set selection-clipboard clipboard
 
