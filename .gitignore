@@ -32,14 +32,13 @@
 
 !.config/aliasrc
 !.config/locale.conf
-
+!.config/user-dirs.dirs
 
 !.bash_logout
 !.bash_profile
 !.bashrc
 !.gitignore
 !.inputrc
-!user-dirs.dirs
 !.vimrc
 !.xinitrc
 !.Xresources
