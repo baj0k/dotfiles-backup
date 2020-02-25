@@ -1,8 +1,23 @@
+# My dotfiles rice, feel free to use them
+
+## Programs supported by this repo
++ bash
++ i3-gaps
++ mpd
++ mpv
++ neomutt
++ neovim
++ ncmpcpp
++ picom
++ ranger
++ tmux
++ zathura
+
 ## Setup
 ```sh
+alias mdot='git --git-dir=$HOME/.my_dotfiles/ --work-tree=$HOME'
 git init --bare $HOME/.my_dotfiles
-mydotfiles remote add origin git@github.com:hybrydyzacja/my_dotfiles.git
-alias mydotfiles='git --git-dir=$HOME/.my_dotfiles/ --work-tree=$HOME'
+mdot remote add origin git@github.com:hybrydyzacja/my_dotfiles.git
 ```
 
 ## Replication
@@ -14,16 +29,8 @@ rm --recursive my_dotfiles-tmp
 
 ## Configuration
 ```sh
-alias mydotfiles='git --git-dir=$HOME/.my_dotfiles/ --work-tree=$HOME'
-mydotfiles config status.showUntrackedFiles no
-mydotfiles remote set-url origin git@github.com:hybrydyzacja/my_dotfiles.git
-mydotfiles update-index --assume-unchanged "README.md"
-```
-
-## Usage
-```sh
-mydotfiles status
-mydotfiles add .gitconfig
-mydotfiles commit -m 'Clean and useful commit message'
-mydotfiles push
+alias mdot='git --git-dir=$HOME/.my_dotfiles/ --work-tree=$HOME'
+mdot config status.showUntrackedFiles no
+mdot remote set-url origin git@github.com:hybrydyzacja/my_dotfiles.git
+mdot update-index --assume-unchanged "README.md"
 ```
