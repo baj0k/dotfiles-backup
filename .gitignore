@@ -39,6 +39,7 @@
 !.bashrc
 !.gitignore
 !.inputrc
+!.tmux.conf
 !.vimrc
 !.xinitrc
 !.Xresources
