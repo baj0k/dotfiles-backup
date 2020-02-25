@@ -1,4 +1,5 @@
-# My dotfiles rice, feel free to use them
+# My dotfiles rice
+Feel free to use them
 
 ## Programs supported by this repo
 + bash
