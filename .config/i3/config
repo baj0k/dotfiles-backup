@@ -100,6 +100,7 @@ bindsym $mod+a focus parent
 # Client assignment
 assign [class="firefox"] 2
 assign [class="code"] 3
+assign [class="mpv"] 9
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.

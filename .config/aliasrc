@@ -10,6 +10,7 @@ alias ssys='sudo systemctl'
 alias p='ping 8.8.8.8'
 alias ...='cd ../..'
 alias ....='cd ../../../'
+
 # Default parameters 
 alias c='clear'
 alias l='ls -hN' 
@@ -30,7 +31,7 @@ alias r='ranger'
 alias v='sudo $EDITOR'
 alias z='tabbed -c zathura -e'
 alias wifi='sudo wifi-menu'
-alias dwojka="mpv http://stream.polskieradio.pl/program3"
+alias lofi='(mpv --player-operation-mode=pseudo-gui https://www.youtube.com/watch?v=5qap5aO4i9A &)'
 alias docked='autorandr docked'
 alias mobile='autorandr mobile'
 
@@ -57,9 +58,13 @@ man() {
     command man "$@"
 }
 
-# Internet
+# Youtube
 alias yt='youtube-dl -o "~/Video/%(title)s.%(ext)s" --restrict-filenames -ic --hls-prefer-ffmpeg --add-metadata'
 alias yta='youtube-dl -o "~/Music/%(artist)s -%(album)s - %(title)s.%(ext)s" --restrict-filenames -xic --audio-format "mp3" --hls-prefer-ffmpeg --add-metadata'
+
+function ytb() {
+    (mpv --ytdl-format="bestvideo[height<=?1080][vcodec!=vp9]+bestaudio/best" ytdl://ytsearch:"$*" < /dev/null &>/dev/null &);
+}
 
 # Printer
 cupsadm() { /bin/firefox "http://localhost:631"; }
