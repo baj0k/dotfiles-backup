@@ -4,7 +4,7 @@
 alias kop='sudo $(history -p !!)'
 alias sp='sudo pacman'
 alias update='pikaur -Syyuu'
-alias mdot='git --git-dir=$HOME/.my_dotfiles/ --work-tree=$HOME'
+alias mdot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias off='sudo shutdown -h now'
 alias ssys='sudo systemctl'
 alias p='ping 8.8.8.8'
