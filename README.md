@@ -16,21 +16,20 @@ Feel free to use them
 
 ## Setup
 ```sh
-alias mdot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-git init --bare $HOME/.dotfiles
-mdot remote add origin git@github.com:hybrydyzacja/dotfiles.git
+alias mdot='git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
+git init --bare $HOME/.local/dotfiles
 ```
 
 ## Replication
 ```sh
-git clone --separate-git-dir=$HOME/.dotfiles https://github.com/hybrydyzacja/dotfiles.git dotfiles-tmp
-rsync --recursive --verbose --exclude '.git' dotfiles-tmp/ $HOME/
-rm --recursive dotfiles-tmp
+git clone --separate-git-dir=$HOME/.local/dotfiles https://github.com/hybrydyzacja/dotfiles.git $HOME/dotfiles
+rsync --recursive --verbose --exclude '.git' $HOME/dotfiles/ $HOME/
+rm --recursive $HOME/dotfiles
 ```
 
 ## Configuration
 ```sh
-alias mdot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias mdot='git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
 mdot config status.showUntrackedFiles no
 mdot remote set-url origin git@github.com:hybrydyzacja/dotfiles.git
 mdot update-index --assume-unchanged "README.md"
