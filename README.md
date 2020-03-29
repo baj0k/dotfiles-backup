@@ -27,7 +27,7 @@ rsync --recursive --verbose --exclude '.git' $HOME/dotfiles/ $HOME/
 rm --recursive $HOME/dotfiles
 ```
 
-## Configuration
+## Post-configuration
 ```sh
 alias mdot='git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
 mdot config status.showUntrackedFiles no
