@@ -1,0 +1,39 @@
+#!/bin/sh
+
+# Add directories to $PATH
+export PATH="${PATH}:/home/bscibura/.gem/ruby/2.7.0/bin"
+
+# Default programs
+export VISUAL="nvim"
+export EDITOR="nvim"
+export PAGER="less"
+export BROWSER="firefox"
+export TERMINAL="st"
+
+# XDG_CONFIG workarounds
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+# Runtime
+export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
+export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
+
+# Config
+export LESSHISTFILE="-"
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
+export WGETRC="$XDG_CONFIG_HOME/wget/wgetrc"
+export INPUTRC="$XDG_CONFIG_HOME/inputrc"
+export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
+export NOTMUCH_CONFIG="$XDG_CONFIG_HOME/notmuch/notmuchrc"
+export WEECHAT_HOME="$XDG_CONFIG_HOME/weechat"
+
+# Data
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+export NMBGIT="$XDG_DATA_HOME/notmuch/nmbug"
+export GEM_HOME="$XDG_DATA_HOME/gem"
+export TERMINFO="$XDG_DATA_HOME/terminfo"
+export TERMINFO_DIRS="$XDG_DATA_HOME/terminfo:/usr/share/terminfo"
+
+# Cache
+export GEM_SPEC_CACHE="$XDG_CACHE_HOME/gem"

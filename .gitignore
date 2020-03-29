@@ -1,45 +1,54 @@
-#ignore everything
+#ignore everything except for:
 /*
-#except for
 
+# $HOME
+!.bash_logout
+!.bash_profile
+!.bashrc
+!.gitignore
+!.xinitrc
+
+# ~/.local/scripts
+!.local/
+.local/*
+!.local/scripts/
+
+# ~/.config
 !.config/
 .config/*
+!.config/aliasrc
+!.config/envrc
+!.config/inputrc
+!.config/locale.conf
+!.config/mimeapps.list
+!.config/pikaur.conf
+!.config/user-dirs.dirs
+!.config/Xresources
 
-!.config/autorandr/
-
-!.config/fontconfig/
-
-!.config/i3/
-
+# mpd
 !.config/mpd/
 .config/mpd/*
 !.config/mpd/mpd.conf
 
-!.config/mpv/
-
+# ncmpcpp
 !.config/ncmpcpp/
 .config/ncmpcpp/*
 !.config/ncmpcpp/config
 !.config/ncmpcpp/bindings
 
+# neovim
+!.config/nvim/
+.config/nvim/*
+!.config/nvim/init.vim
+
+# other
+!.config/autorandr/
+!.config/fontconfig/
+!.config/i3/
+!.config/mpv/
 !.config/neofetch/
-
 !.config/picom/
-
+!.config/python/
 !.config/ranger/
-
+!.config/tmux/
 !.config/zathura/
-
-!.config/aliasrc
-!.config/locale.conf
-!.config/user-dirs.dirs
-
-!.bash_logout
-!.bash_profile
-!.bashrc
-!.gitignore
-!.inputrc
-!.tmux.conf
-!.vimrc
-!.xinitrc
-!.Xresources

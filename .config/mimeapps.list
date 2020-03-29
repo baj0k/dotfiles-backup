@@ -1,0 +1,5 @@
+[Default Applications]
+application/pdf=org.pwmt.zathura.desktop
+
+[Added Associations]
+application/x-php=firefox.desktop;

@@ -12,13 +12,13 @@ output HDMI2
 off
 output VIRTUAL1
 off
-output DP2-3
+output DP2-2
 crtc 2
 mode 1920x1080
 pos 0x0
 rate 60.00
 rotate left
-output DP2-2
+output DP2-3
 crtc 0
 mode 1920x1080
 pos 1080x0
