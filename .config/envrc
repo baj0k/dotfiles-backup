@@ -34,6 +34,7 @@ export NMBGIT="$XDG_DATA_HOME/notmuch/nmbug"
 export GEM_HOME="$XDG_DATA_HOME/gem"
 export TERMINFO="$XDG_DATA_HOME/terminfo"
 export TERMINFO_DIRS="$XDG_DATA_HOME/terminfo:/usr/share/terminfo"
+export PASSWORD_STORE_DIR="$XDG_DATA_HOME/pass/password-store"
 
 # Cache
 export GEM_SPEC_CACHE="$XDG_CACHE_HOME/gem"

@@ -1,5 +1,9 @@
 [Default Applications]
 application/pdf=org.pwmt.zathura.desktop
+image/gif=sxiv.desktop
+image/x-icon=sxiv.desktop
+application/json=nvim.desktop
+image/jpeg=sxiv.desktop
 
 [Added Associations]
 application/x-php=firefox.desktop;

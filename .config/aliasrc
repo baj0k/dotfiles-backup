@@ -27,6 +27,7 @@ alias msfconsole="msfconsole --quiet -x \"db_connect ${USER}@msf\""
 alias wget='sudo wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"'
 alias gpg2='gpg2 --homedir "$XDG_DATA_HOME/gnupg"'
 alias tmux='tmux -f "$XDG_CONFIG_HOME/tmux/tmux.conf"'
+alias mailsync='mbsync -c "$XDG_CONFIG_HOME/isync/mbsyncrc"'
 alias mbsync='mbsync -c "$XDG_CONFIG_HOME/isync/mbsyncrc"'
 alias svn='svn --config-dir "$XDG_CONFIG_HOME/subversion"'
 alias weechat='weechat -d "$XDG_CONFIG_HOME/weechat"'
@@ -52,7 +53,7 @@ alias fgrep='fgrep --color=auto'
 alias ip='ip -c'
 alias diff='diff --color'
 
-cdls () { cd "$@" && ls; }
+cdls () { builtin cd "$@" && ls; }
 alias cd='cdls'
 alias ..='cd ..'
 
