@@ -38,3 +38,6 @@ export PASSWORD_STORE_DIR="$XDG_DATA_HOME/pass/password-store"
 
 # Cache
 export GEM_SPEC_CACHE="$XDG_CACHE_HOME/gem"
+
+# Run mpd via Unix socket
+export MPD_HOST="$XDG_CONFIG_HOME/mpd/socket"

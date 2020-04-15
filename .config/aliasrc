@@ -21,7 +21,6 @@ alias cp='cp -iv'
 alias mv='mv -iv'
 alias rm='rm -v'
 alias mkdir='mkdir -pv'
-alias msfconsole="msfconsole --quiet -x \"db_connect ${USER}@msf\""
 
 # XDG_CONFIG workarounds
 alias wget='sudo wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"'
@@ -29,14 +28,14 @@ alias gpg2='gpg2 --homedir "$XDG_DATA_HOME/gnupg"'
 alias tmux='tmux -f "$XDG_CONFIG_HOME/tmux/tmux.conf"'
 alias mailsync='mbsync -c "$XDG_CONFIG_HOME/isync/mbsyncrc"'
 alias mbsync='mbsync -c "$XDG_CONFIG_HOME/isync/mbsyncrc"'
-alias svn='svn --config-dir "$XDG_CONFIG_HOME/subversion"'
 alias weechat='weechat -d "$XDG_CONFIG_HOME/weechat"'
 
 # Program shortcuts
 alias a='alsamixer'
 alias m='neomutt'
 alias n='ncmpcpp'
-alias o='xdg-open $@ > /dev/null 2> /dev/null'
+alias o='xdg-open $@ 2> /dev/null'
+#function o(){ xdg-open $@ 2> /dev/null & }
 alias r='ranger'
 alias v='sudo $EDITOR'
 alias z='tabbed -c zathura -e'

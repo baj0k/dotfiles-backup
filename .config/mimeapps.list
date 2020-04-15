@@ -4,6 +4,9 @@ image/gif=sxiv.desktop
 image/x-icon=sxiv.desktop
 application/json=nvim.desktop
 image/jpeg=sxiv.desktop
+image/png=sxiv.desktop
+image/jpg=sxiv.desktop
+text/plain=nvim.desktop
 
 [Added Associations]
 application/x-php=firefox.desktop;

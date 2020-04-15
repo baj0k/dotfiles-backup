@@ -47,6 +47,7 @@
 !.config/i3/
 !.config/mpv/
 !.config/neofetch/
+!.config/newsboat/
 !.config/picom/
 !.config/python/
 !.config/ranger/
