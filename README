@@ -1,0 +1,26 @@
+My dotfiles RICE, feel free to grab a piece.
+
+# Programs supported by this repo
+bash
+i3-gaps
+mpd
+mpv
+neomutt
+neovim
+newsboat
+ncmpcpp
+picom
+ranger
+tmux
+zathura
+
+# Replication
+git clone --separate-git-dir=$HOME/.local/dotfiles https://github.com/hybryd0ng/dotfiles.git $HOME/dotfiles
+rsync --recursive --verbose --exclude '.git' $HOME/dotfiles/ $HOME/
+rm --recursive $HOME/dotfiles
+
+# Post-configuration
+alias mdot='git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
+mdot config status.showUntrackedFiles no
+mdot remote set-url origin git@github.com:hybryd0ng/dotfiles.git
+mdot update-index --assume-unchanged "README"
