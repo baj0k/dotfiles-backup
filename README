@@ -1,18 +1,18 @@
 My dotfiles RICE, feel free to grab a piece.
 
 # Programs supported by this repo
-bash
-i3-gaps
-mpd
-mpv
-neomutt
-neovim
-newsboat
-ncmpcpp
-picom
-ranger
-tmux
-zathura
+- bash
+- i3-gaps
+- mpd
+- mpv
+- neomutt
+- neovim
+- newsboat
+- ncmpcpp
+- picom
+- ranger
+- tmux
+- zathura
 
 # Replication
 git clone --separate-git-dir=$HOME/.local/dotfiles https://github.com/hybryd0ng/dotfiles.git $HOME/dotfiles
