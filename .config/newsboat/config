@@ -1,6 +1,4 @@
-goto-next-feed no
-
-
+#goto-next-feed no
 
 external-url-viewer "urlscan -dc -r 'linkhandler {}'"
 
@@ -30,11 +28,11 @@ color listnormal_unread cyan default bold
 color info yellow black bold
 color article cyan default
 
-browser $BROWSER
+browser linkhandler
 macro , open-in-browser
 macro t set browser "tsp youtube-dl --add-metadata -ic"; open-in-browser ; set browser linkhandler
-macro a set browser "tsp youtube-dl --add-metadata -xic -f bestaudio/best"; open-in-browser ; set browser linkhandler
-macro v set browser "setsid nohup mpv"; open-in-browser ; set browser linkhandler
-macro w set browser "w3m"; open-in-browser ; set browser linkhandler
-macro p set browser "dmenuhandler"; open-in-browser ; set browser linkhandler
+macro m set browser "tsp youtube-dl --add-metadata -xic -f bestaudio/best"; open-in-browser ; set browser linkhandler
+macro m set browser "setsid nohup mpv > /tmp/mpvnohup.out 2>&1"; open-in-browser ; set browser linkhandler
+macro w set browser "lynx"; open-in-browser ; set browser linkhandler
+macro d set browser "dmenuhandler"; open-in-browser ; set browser linkhandler
 macro c set browser "xsel -b <<<" ; open-in-browser ; set browser linkhandler

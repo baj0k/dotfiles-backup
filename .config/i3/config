@@ -4,17 +4,15 @@ set $mod Mod4
 # Autostart
 exec --no-startup-id i3-msg 'workspace 2; exec firefox; workspace 1'
 exec --no-startup-id i3-msg 'exec st'
-#exec --no-startup-id i3-msg 'exec st -e ranger'
 exec --no-startup-id picom -b
 exec [ ! -s ~/.config/mpd/pid ] && mpd
-#exec --no-startup-id i3-msg 'exec start-pulseaudio-x11'
 
 # Tray
 exec --no-startup-id i3-msg 'exec blueman-tray'
 
 # Display
 exec --no-startup-id autorandr --change
-font pango:DejaVu Sans Mono 7 
+font pango:DejaVu Sans Mono 11
 bindcode 232 exec --no-startup-id xbacklight -5%
 bindcode 233 exec --no-startup-id xbacklight +5%
 
@@ -22,9 +20,14 @@ bindcode 233 exec --no-startup-id xbacklight +5%
 for_window [class=".*"] border pixel 2
 workspace "1" gaps inner 10
 workspace "1" gaps outer 2
-#smart_gaps on
-#gaps inner 10
-#gaps outer 1
+workspace "3" gaps inner 10
+workspace "3" gaps outer 2
+workspace "4" gaps inner 10
+workspace "4" gaps outer 2
+workspace "5" gaps inner 10
+workspace "5" gaps outer 2
+workspace "6" gaps inner 10
+workspace "6" gaps outer 2
 
 # Workspaces
 workspace "1" output DP2-3
@@ -40,13 +43,13 @@ workspace "9" output DP2-3
 # Floating windows for specific applications
 for_window [class="Blueman-manager"] floating enable
 for_window [class="Pavucontrol"] floating enable
+for_window [class="mpv"] floating enable
 
 # Program launcher
 bindsym $mod+d exec --no-startup-id dmenu_run
 
 # Screen locker
-#exec_always --no-startup-id xautolock -locker '~/.config/i3/locker.sh' -time 3 -corners -0-0 &
-bindsym $mod+Control+l exec --no-startup-id "~/.config/i3/locker.sh"
+bindsym $mod+Control+l exec "slock"
 
 # Screenshot utility
 bindsym Print exec --no-startup-id "scrot /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
@@ -107,7 +110,7 @@ bindsym $mod+a focus parent
 # Client assignment
 assign [class="firefox"] 2
 assign [class="spotify"] 8
-assign [class="mpv"] 8
+#assign [class="mpv"] 8
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.

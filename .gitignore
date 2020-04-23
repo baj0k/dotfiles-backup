@@ -8,10 +8,10 @@
 !.gitignore
 !.xinitrc
 
-# ~/.local/scripts
+# ~/.local/bin
 !.local/
 .local/*
-!.local/scripts/
+!.local/bin/
 
 # ~/.config
 !.config/
