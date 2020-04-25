@@ -31,6 +31,10 @@ alias weechat='weechat -d "$XDG_CONFIG_HOME/weechat"'
 
 # Program shortcuts
 alias a='alsamixer'
+alias gadd='git add .'
+alias gstat='git status'
+alias gcom='git commit -m'
+alias gpush='git push'
 alias m='neomutt'
 alias n='ncmpcpp 2>/dev/null'
 alias nw='newsboat'

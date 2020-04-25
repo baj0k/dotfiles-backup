@@ -3,11 +3,11 @@ st.alpha: 0.8
 
 !! Set a default font and font size as below:
 st.font: DejaVu Sans Mono-10:antialias=true:autohint=true;
-dmenu.font: DejaVu Sans Mono-8:antialias=true:autohint=true;
-dmenu.background: #000000
-dmenu.foreground: #DFDFDF
-dmenu.selbackground: #00FFFF
-dmenu.selforeground: #FF00FF
+dmenu.font: DejaVu Sans Mono-10:antialias=true:autohint=true;
+dmenu.background: #080010
+dmenu.foreground: #00BBBB
+dmenu.selbackground: #3F0937
+dmenu.selforeground: #00FFFF
 
 st.termname: st-256color
 st.borderpx: 0
