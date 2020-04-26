@@ -13,6 +13,11 @@
 .local/*
 !.local/bin/
 
+# ~/.local/share/applications
+!.local/share/
+.local/share/*
+!.local/share/applications/
+
 # ~/.config
 !.config/
 .config/*
