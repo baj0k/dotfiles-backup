@@ -29,4 +29,3 @@ fi
 
 #exec i3 
 exec i3
-exec [ ! -s ~/.config/mpd/pid ] && mpd

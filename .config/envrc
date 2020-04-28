@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Add directories to $PATH
-export PATH="${PATH}:$HOME/.local/bin"
-
 # Default programs
 export VISUAL="nvim"
 export EDITOR="nvim"
@@ -10,10 +7,11 @@ export PAGER="less"
 export BROWSER="firefox"
 export TERMINAL="st"
 
-# XDG_CONFIG workarounds
+# XDG workarounds
+export XDG_BIN_HOME="$HOME/.local/bin"
+export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_CACHE_HOME="$HOME/.cache"
 
 # Runtime
 export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
@@ -41,3 +39,6 @@ export GEM_SPEC_CACHE="$XDG_CACHE_HOME/gem"
 
 # Run mpd via Unix socket
 export MPD_HOST="$XDG_CONFIG_HOME/mpd/socket"
+
+# Add directories to $PATH
+export PATH="${PATH}:$XDG_BIN_HOME"

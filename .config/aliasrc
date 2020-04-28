@@ -2,14 +2,23 @@
 
 # System maintenance
 alias kop='sudo $(history -p !!)'
-alias sp='sudo pacman'
-alias update='pikaur -Syyuu'
 alias mdot='git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
 alias off='sudo shutdown -h now'
+alias reboot='sudo shutdown -r now'
 alias ssys='sudo systemctl'
+alias paux='ps -aux | grep'
 alias p='ping 8.8.8.8'
 alias ...='cd ../..'
 alias ....='cd ../../../'
+
+#Package maintenance
+alias aur='pikaur'
+alias syu='pikaur -Syyuu'
+alias sp='sudo pacman'
+alias S='sudo pacman -S'
+alias Rns='sudo pacman -Rns'
+alias Qs='sudo pacman -Qs'
+alias Ss='sudo pacman -Ss'
 
 # Default parameters 
 alias c='clear'
