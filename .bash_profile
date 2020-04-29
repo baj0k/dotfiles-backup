@@ -1,2 +1,5 @@
+# Source .bashrc
 [ -f "$HOME/.bashrc" ] && . "$HOME/.bashrc"
-[[ ! $DISPLAY && $XDG_VTNR -eq 1 ]] && /usr/bin/startx
+
+# Start X after login
+[ "$(tty)" = "/dev/tty1" ] && ! ps -e | grep -qw Xorg && exec startx
