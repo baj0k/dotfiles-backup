@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Wallpaper link
+wall="$XDG_DATA_HOME/wall"
+
+# If pywal is installed, generate a colorscheme
+wal -s -i "$(readlink -f "$wall")" -o "$XDG_CONFIG_HOME/wal/postrun" >/dev/null 2>&1

@@ -9,8 +9,5 @@ wall="$XDG_DATA_HOME/wall"
 # If directory, choose random file from inside
 [ -d "$1" ] && ln -sf "$(find "$(readlink -f "$1")" -iregex '.*.\(jpg\|jpeg\|png\|gif\)' -type f | shuf -n 1)" "$wall"
 
-# If pywal is installed, generate a colorscheme
-#wal -s -i "$(readlink -f "$wall")" -o "$XDG_CONFIG_HOME/wal/postrun" >/dev/null 2>&1
-
 #pidof dwm >/dev/null && xdotool key super+F12
 xwallpaper --zoom "$wall"

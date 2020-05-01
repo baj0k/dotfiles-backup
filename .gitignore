@@ -46,6 +46,11 @@
 .config/nvim/*
 !.config/nvim/init.vim
 
+# wal
+!.config/wal/
+.config/wal/*
+!.config/wal/postrun
+
 # other
 !.config/autorandr/
 !.config/fontconfig/
@@ -56,5 +61,4 @@
 !.config/python/
 !.config/ranger/
 !.config/tmux/
-!.config/wal/
 !.config/zathura/
