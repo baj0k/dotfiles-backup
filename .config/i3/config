@@ -3,16 +3,13 @@ set $mod Mod4
 
 # Autostart
 exec --no-startup-id i3-msg 'workspace 2; exec firefox; workspace 1'
-exec --no-startup-id i3-msg 'exec st'
-exec --no-startup-id picom -b
-exec [ ! -s ~/.config/mpd/pid ] && mpd
+exec --no-startup-id xcompmgr &
+exec --no-startup-id autorandr --change && displayselect &
 
 # Tray
 exec --no-startup-id i3-msg 'exec blueman-tray'
 
 # Display
-exec --no-startup-id autorandr --change
-font pango:DejaVu Sans Mono 11
 bindcode 232 exec --no-startup-id xbacklight -5%
 bindcode 233 exec --no-startup-id xbacklight +5%
 

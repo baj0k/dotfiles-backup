@@ -6,6 +6,8 @@
 # Include
 [ -f "$HOME/.config/envrc" ] && source "$HOME/.config/envrc"
 [ -f "$XDG_CONFIG_HOME/aliasrc" ] && source "$XDG_CONFIG_HOME/aliasrc"
+
+# Startup
 [ -f "$XDG_CONFIG_HOME/crontab" ] && pgrep -x crond >/dev/null || crond -f "$XDG_CONFIG_HOME/crontab"
 [ ! -s "$XDG_CONFIG_HOME/mpd/pid" ] && mpd
 [ -f "$XDG_BIN_HOME/pkg-not-found" ] && source "$XDG_BIN_HOME/pkg-not-found"
