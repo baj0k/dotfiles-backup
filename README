@@ -1,6 +1,6 @@
 My dotfiles RICE, feel free to grab a piece.
 
-# Programs supported by this repo
+# Software supported by this repo
 - bash
 - i3-gaps
 - mpd
@@ -12,7 +12,11 @@ My dotfiles RICE, feel free to grab a piece.
 - ranger
 - tmux
 - wal
+- X11
 - zathura
+
+Full integration requires building and installing some of the https://suckless.org software such as st, dmenu and slock with additional patches.
+Checkout https://github.com/hybryd0ng/SB for the out-of-the-box solution.
 
 # Replication
 git clone --separate-git-dir=$HOME/.local/dotfiles https://github.com/hybryd0ng/dotfiles.git $HOME/dotfiles
