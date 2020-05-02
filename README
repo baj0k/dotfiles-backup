@@ -15,7 +15,7 @@ My dotfiles RICE, feel free to grab a piece.
 - X11
 - zathura
 
-Full integration requires building and installing some of the https://suckless.org software such as st, dmenu and slock with additional patches.
+Full integration requires patching and building some of the https://suckless.org software such as st, dmenu and slock.
 Checkout https://github.com/hybryd0ng/SB for the out-of-the-box solution.
 
 # Replication
