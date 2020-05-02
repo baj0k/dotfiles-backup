@@ -26,6 +26,7 @@
 !.config/inputrc
 !.config/locale.conf
 !.config/mimeapps.list
+!.config/pavucontrol.ini
 !.config/pikaur.conf
 !.config/user-dirs.dirs
 !.config/Xresources
