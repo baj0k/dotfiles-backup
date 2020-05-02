@@ -1,46 +1,43 @@
-# Websites
-https://www.archlinux.org/feeds/news/
-https://lukesmith.xyz/rss.xml
-https://suckless.org/atom.xml
-https://azureweekly.info/rss.xml
-https://www.lastweekinaws.com/feed/
-https://www.gcpweekly.com/feed/rss
+# Newsfeeds
+https://www.archlinux.org/feeds/news/						"Newsfeed" "~NEWSFEED: Arch Linux updates"
+https://lukesmith.xyz/rss.xml							"Newsfeed" "~NEWSFEED: The Latest from Luke"
+https://suckless.org/atom.xml							"Newsfeed" "~NEWSFEED: Suckless.org news"
+https://azureweekly.info/rss.xml						"Newsfeed" "~NEWSFEED: Azure Weekly"
+https://www.lastweekinaws.com/feed/						"Newsfeed" "~NEWSFEED: Last Week in AWS"
+https://www.gcpweekly.com/feed/rss						"Newsfeed" "~NEWSFEED: Google Cloud Weekly Newsletter"
+# testfeeds                                                                     
+https://www.schneier.com/blog/atom.xml						"Newsfeed" "~NEWSFEED: Schneier on Security"
+https://us3.campaign-archive.com/feed?u=a7aa32478521ca6f11b568195&id=95519f553c	"Newsfeed" "~NEWSFEED: Morning Hacked Archive Feed"
+http://us1.campaign-archive1.com/feed?u=faa8eb4ef3a111cef92c4f3d4&id=e505c88a2e	"Newsfeed" "~NEWSFEED: Hacker Newsletter Archive Feed"
+https://securitynewsletter.co/issues?format=rss					"Newsfeed" "~NEWSFEED: Latest issue - Security Newsletter"
+https://serversforhackers.com/feed						"Newsfeed" "~NEWSFEED: Servers for Hackers"
+http://webopsweekly.com/rss/22ck275b						"Newsfeed" "~NEWSFEED: StatusCode Weekly"
+https://hackaday.com/blog/feed/							"Newsfeed" "~NEWSFEED: Hackaday Blog"
+https://sfconservancy.org/feeds/blog/						"Newsfeed" "~NEWSFEED: Software Fredom Conservancy Blog"
+https://distrowatch.com/news/dw.xml						"Newsfeed" "~NEWSFEED: Distrowatch.com News"
+https://tails.boum.org/news/index.en.rss					"Newsfeed" "~NEWSFEED: Tails News"
+https://itsfoss.com/feed/							"Newsfeed" "~NEWSFEED: It's FOSS"
+https://sfconservancy.org/feeds/news/						"Newsfeed" "~NEWSFEED: Software Freedom Conservancy News"
+https://opensource.org/news.xml							"Newsfeed" "~NEWSFEED: Open Source Initiative News"
+https://static.fsf.org/fsforg/rss/news.xml					"Newsfeed" "~NEWSFEED: Free Software Foundation News"
+https://www.forensicfocus.com/rss/news2.php					"Newsfeed" "~NEWSFEED: Forensic Focus News"
+https://articles.forensicfocus.com/feed/					"Newsfeed" "~NEWSFEED: Forensic Focus Articles"
+https://distrowatch.com/news/dw.xml						"Newsfeed" "~NEWSFEED: DistroWatch"
+http://lxer.com/module/newswire/headlines.rss					"Newsfeed" "~NEWSFEED: LXer"
+https://www.linuxjournal.com/news/feed						"Newsfeed" "~NEWSFEED: Linux Journal"
+https://www.networkworld.com/category/linux/index.rss				"Newsfeed" "~NEWSFEED: Network World (Linux)"
+http://feeds.feedburner.com/d0od						"Newsfeed" "~NEWSFEED: OMG Ubuntu!"
+https://www.phoronix.com/rss.php						"Newsfeed" "~NEWSFEED: Phoronix"
+https://www.zdnet.com/topic/linux/rss.xml					"Newsfeed" "~NEWSFEED: ZDNet (Linux)"
+https://itsfoss.com/feed/							"Newsfeed" "~NEWSFEED: It's Foss"
+https://linux.softpedia.com/backend.xml						"Newsfeed" "~NEWSFEED: Softpedia (Linux)"
+https://opensource.com/feed							"Newsfeed" "~NEWSFEED: Opensource.com"
+https://betanews.com/feed/							"Newsfeed" "~NEWSFEED: Beta News"
+http://feeds.feedburner.com/fossbytes						"Newsfeed" "~NEWSFEED: FossBytes"
+https://www.techrepublic.com/rssfeeds/topic/open-source/			"Newsfeed" "~NEWSFEED: Tech Republic (Open Source)"
+https://www.gamingonlinux.com/article_rss.php					"Newsfeed" "~NEWSFEED: Gaming On Linux"
 
-
-https://www.schneier.com/blog/atom.xml
-https://us3.campaign-archive.com/feed?u=a7aa32478521ca6f11b568195&id=95519f553c
-http://us1.campaign-archive1.com/feed?u=faa8eb4ef3a111cef92c4f3d4&id=e505c88a2e
-https://securitynewsletter.co/issues?format=rss
-https://serversforhackers.com/feed
-http://webopsweekly.com/rss/22ck275b
-
-# testbloogs
-https://hackaday.com/blog/feed/
-https://sfconservancy.org/feeds/blog/						"~NEWSFEED: Software Fredom Conservancy Blog"
-https://distrowatch.com/news/dw.xml						"~NEWSFEED: Distrowatch.com News"
-https://tails.boum.org/news/index.en.rss					"~NEWSFEED: Tails News"
-https://itsfoss.com/feed/							"~NEWSFEED: It's FOSS"
-https://sfconservancy.org/feeds/news/						"~NEWSFEED: Software Freedom Conservancy News"
-https://opensource.org/news.xml							"~NEWSFEED: Open Source Initiative News"
-https://static.fsf.org/fsforg/rss/news.xml					"~NEWSFEED: Free Software Foundation News"
-https://www.forensicfocus.com/rss/news2.php					"~NEWSFEED: Forensic Focus News"
-https://articles.forensicfocus.com/feed/					"~NEWSFEED: Forensic Focus Articles"
-https://distrowatch.com/news/dw.xml						"~NEWSFEED: DistroWatch"
-http://lxer.com/module/newswire/headlines.rss					"~NEWSFEED: LXer"
-https://www.linuxjournal.com/news/feed						"~NEWSFEED: Linux Journal"
-https://www.networkworld.com/category/linux/index.rss				"~NEWSFEED: Network World (Linux)"
-http://feeds.feedburner.com/d0od						"~NEWSFEED: OMG Ubuntu!"
-https://www.phoronix.com/rss.php						"~NEWSFEED: Phoronix"
-https://www.zdnet.com/topic/linux/rss.xml					"~NEWSFEED: ZDNet (Linux)"
-https://itsfoss.com/feed/							"~NEWSFEED: It's Foss"
-https://linux.softpedia.com/backend.xml						"~NEWSFEED: Softpedia (Linux)"
-https://opensource.com/feed							"~NEWSFEED: Opensource.com"
-https://betanews.com/feed/							"~NEWSFEED: Beta News"
-http://feeds.feedburner.com/fossbytes						"~NEWSFEED: FossBytes"
-https://www.techrepublic.com/rssfeeds/topic/open-source/			"~NEWSFEED: Tech Republic (Open Source)"
-https://www.gamingonlinux.com/article_rss.php					"~NEWSFEED: Gaming On Linux"
-
-# Youtube
+# YouTube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCkPjHTuNd_ycm__29dXM3Nw	"YouTube" "~YOUTUBE: GF Darwin"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCsvn_Po0SmunchJYOWpOxMg	"YouTube" "~YOUTUBE: VideoGameDunkey"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCof4jJ9hM9RLsBII8laZI5A	"YouTube" "~YOUTUBE: Dem"
@@ -54,30 +51,24 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCKoeXneqNktkY1ijItuKFBQ	"Yo
 https://www.youtube.com/feeds/videos.xml?channel_id=UClPjdKBTfG8U_dejIchww2w	"YouTube" "~YOUTUBE: UNDARECORDS"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCFFNiMm_oFkvP5L6LENYTcw	"YouTube" "~YOUTUBE: Polityczne LSD"	
 # testyt
-https://www.youtube.com/feeds/videos.xml?channel_id=UCerEIdrEW-IqwvlH8lTQUJQ	"Youtube" "~YOUTUBE: AkBKukU"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg	"Youtube" "~YOUTUBE: DistroTube"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCwY9B5_8QDGP8niZhBtTh8w	"Youtube" "~YOUTUBE: TWiT Netcast"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCHugE6eRhqB9_AZQh4DDbIw	"Youtube" "~YOUTUBE: Jupiter Broadcasting"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA	"Youtube" "~YOUTUBE: Bryan Lunduke"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCbHXJGd7c8Hy4z0-YX1Jf3Q	"Youtube" "~YOUTUBE: Matt Hartley"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCWJUSpXVHTaHErtGWC5qPlQ	"Youtube" "~YOUTUBE: Destination Linux"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC4w1YQAJMWOz4qtxinq55LQ	"Youtube" "~YOUTUBE: Level1Techs"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCOWcZ6Wicl-1N34H0zZe38w	"Youtube" "~YOUTUBE: Level1Linux"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCRBHiacaQb5S70pljtJYB2g	"Youtube" "~YOUTUBE: EposVox"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw	"Youtube" "~YOUTUBE: Linus Tech Tips"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCu6mSoMNzHQiBIOCkHUa2Aw	"Youtube" "~YOUTUBE: Cody'sLab"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA	"Youtube" "~YOUTUBE: Computerphile"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCbiGcwDWZjz05njNPrJU7jA	"Youtube" "~YOUTUBE: ExplainingComputers"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCts-8ZqS339n-9nxy3DN8Cg	"Youtube" "~YOUTUBE: Joe Robinet"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ	"Youtube" "~YOUTUBE: LGR"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCz9uUFDhsPYii-ZihoKsbPg	"Youtube" "~YOUTUBE: LGR Foods"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCl2mFZoRqjw_ELax4Yisf6w	"Youtube" "~YOUTUBE: Louis Rossmann"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCU9SoQxJewrWb_3GxeteQPA	"Youtube" "~YOUTUBE: Mr Carlson's Lab"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCFhXFikryT4aFcLkLw2LBLA	"Youtube" "~YOUTUBE: Nile Red"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCAL3JXZSzSm8AlZyD3nQdBA	"Youtube" "~YOUTUBE: Primitive Technology"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC6107grRI4m0o2-emgoDnAA	"Youtube" "~YOUTUBE: SmarterEveryDay"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCOVxXJSvl3qXFUtf-UZ8qjw	"Youtube" "~YOUTUBE: SorcererDave"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A	"Youtube" "~YOUTUBE: Tom Scott"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCerEIdrEW-IqwvlH8lTQUJQ	"YouTube" "~YOUTUBE: AkBKukU"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg	"YouTube" "~YOUTUBE: DistroTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwY9B5_8QDGP8niZhBtTh8w	"YouTube" "~YOUTUBE: TWiT Netcast"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHugE6eRhqB9_AZQh4DDbIw	"YouTube" "~YOUTUBE: Jupiter Broadcasting"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA	"YouTube" "~YOUTUBE: Bryan Lunduke"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbHXJGd7c8Hy4z0-YX1Jf3Q	"YouTube" "~YOUTUBE: Matt Hartley"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWJUSpXVHTaHErtGWC5qPlQ	"YouTube" "~YOUTUBE: Destination Linux"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4w1YQAJMWOz4qtxinq55LQ	"YouTube" "~YOUTUBE: Level1Techs"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOWcZ6Wicl-1N34H0zZe38w	"YouTube" "~YOUTUBE: Level1Linux"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRBHiacaQb5S70pljtJYB2g	"YouTube" "~YOUTUBE: EposVox"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw	"YouTube" "~YOUTUBE: Linus Tech Tips"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCu6mSoMNzHQiBIOCkHUa2Aw	"YouTube" "~YOUTUBE: Cody'sLab"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA	"YouTube" "~YOUTUBE: Computerphile"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbiGcwDWZjz05njNPrJU7jA	"YouTube" "~YOUTUBE: ExplainingComputers"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCts-8ZqS339n-9nxy3DN8Cg	"YouTube" "~YOUTUBE: Joe Robinet"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ	"YouTube" "~YOUTUBE: LGR"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCl2mFZoRqjw_ELax4Yisf6w	"YouTube" "~YOUTUBE: Louis Rossmann"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A	"YouTube" "~YOUTUBE: Tom Scott"
 
 # Reddit
 https://www.reddit.com/r/AskNetsec.rss						"Reddit" "~r/AskNetsec"

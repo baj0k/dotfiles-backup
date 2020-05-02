@@ -25,6 +25,7 @@ export INPUTRC="$XDG_CONFIG_HOME/inputrc"
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
 export NOTMUCH_CONFIG="$XDG_CONFIG_HOME/notmuch/notmuchrc"
 export WEECHAT_HOME="$XDG_CONFIG_HOME/weechat"
+export XINITRC="$XDG_CONFIG_HOME/X11/xinitrc"
 
 # Data
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"

@@ -61,4 +61,5 @@
 !.config/python/
 !.config/ranger/
 !.config/tmux/
+!.config/X11/
 !.config/zathura/
