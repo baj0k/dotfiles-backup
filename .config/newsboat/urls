@@ -1,127 +1,137 @@
-# Newsfeeds
+# Websites
 https://www.archlinux.org/feeds/news/
 https://lukesmith.xyz/rss.xml
 https://suckless.org/atom.xml
-
-# YouTube
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "YouTube" "~YOUTUBE: Luke Smith"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCkPjHTuNd_ycm__29dXM3Nw "YouTube" "~YOUTUBE: GF Darwin"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsvn_Po0SmunchJYOWpOxMg "YouTube" "~YOUTUBE: VideoGameDunkey"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCof4jJ9hM9RLsBII8laZI5A "YouTube" "~YOUTUBE: Dem"
-https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w "YouTube" "~YOUTUBE: LiveOverflow"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCfxk5idSdKXTEqAOa8YXIgw "YouTube" "~YOUTUBE: SekurakTV"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCSK4CrCZ-nNY1UCCTut9uWw "YouTube" "~YOUTUBE: GargamelVlog"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCjS2aGCvsnhExcWRAI8T4Pw "YouTube" "~YOUTUBE: Gynvael Coldvind"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA "YouTube" "~YOUTUBE: IppSec"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCWA6pfcx4Ok4xsIA7Mkr39w "YouTube" "~YOUTUBE: Adam Doupe"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCKoeXneqNktkY1ijItuKFBQ "YouTube" "~YOUTUBE: Effortless Swimming"
-https://www.youtube.com/feeds/videos.xml?channel_id=UClPjdKBTfG8U_dejIchww2w "YouTube" "~YOUTUBE: UNDARECORDS"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCFFNiMm_oFkvP5L6LENYTcw "YouTube" "~YOUTUBE: Polityczne LSD"
+https://azureweekly.info/rss.xml
+https://www.lastweekinaws.com/feed/
+https://www.gcpweekly.com/feed/rss
 
 
-# testyt
-https://www.youtube.com/feeds/videos.xml?channel_id=UCerEIdrEW-IqwvlH8lTQUJQ "Youtube" "~YOUTUBE: AkBKukU"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "Youtube" "~YOUTUBE: DistroTube"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCwY9B5_8QDGP8niZhBtTh8w "Youtube" "~YOUTUBE: TWiT Netcast"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCHugE6eRhqB9_AZQh4DDbIw "Youtube" "~YOUTUBE: Jupiter Broadcasting"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA "Youtube" "~YOUTUBE: Bryan Lunduke"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCbHXJGd7c8Hy4z0-YX1Jf3Q "Youtube" "~YOUTUBE: Matt Hartley"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCWJUSpXVHTaHErtGWC5qPlQ "Youtube" "~YOUTUBE: Destination Linux"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC4w1YQAJMWOz4qtxinq55LQ "Youtube" "~YOUTUBE: Level1Techs"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCOWcZ6Wicl-1N34H0zZe38w "Youtube" "~YOUTUBE: Level1Linux"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCRBHiacaQb5S70pljtJYB2g "Youtube" "~YOUTUBE: EposVox"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw "Youtube" "~YOUTUBE: Linus Tech Tips"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCu6mSoMNzHQiBIOCkHUa2Aw "Youtube" "~YOUTUBE: Cody'sLab"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "Youtube" "~YOUTUBE: Computerphile"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCbiGcwDWZjz05njNPrJU7jA "Youtube" "~YOUTUBE: ExplainingComputers"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCts-8ZqS339n-9nxy3DN8Cg "Youtube" "~YOUTUBE: Joe Robinet"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ "Youtube" "~YOUTUBE: LGR"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCz9uUFDhsPYii-ZihoKsbPg "Youtube" "~YOUTUBE: LGR Foods"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCl2mFZoRqjw_ELax4Yisf6w "Youtube" "~YOUTUBE: Louis Rossmann"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCU9SoQxJewrWb_3GxeteQPA "Youtube" "~YOUTUBE: Mr Carlson's Lab"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCFhXFikryT4aFcLkLw2LBLA "Youtube" "~YOUTUBE: Nile Red"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCAL3JXZSzSm8AlZyD3nQdBA "Youtube" "~YOUTUBE: Primitive Technology"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC6107grRI4m0o2-emgoDnAA "Youtube" "~YOUTUBE: SmarterEveryDay"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCOVxXJSvl3qXFUtf-UZ8qjw "Youtube" "~YOUTUBE: SorcererDave"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A "Youtube" "~YOUTUBE: Tom Scott"
-
-
-# Reddit
-https://www.reddit.com/r/AskNetsec.rss		"Reddit" "~r/AskNetsec"
-https://www.reddit.com/r/archlinux.rss		"Reddit" "~r/archlinux"
-https://www.reddit.com/r/bash.rss		"Reddit" "~r/bash"
-https://www.reddit.com/r/commandline.rss	"Reddit" "~r/commandline"
-https://www.reddit.com/r/CTFlearn.rss		"Reddit" "~r/CTFlearn"
-https://www.reddit.com/r/crypto.rss		"Reddit" "~r/crypto"
-https://www.reddit.com/r/cybersecurity.rss	"Reddit" "~r/cybersecurity"
-https://www.reddit.com/r/dank_meme.rss		"Reddit" "~r/dank_meme"
-https://www.reddit.com/r/geek.rss		"Reddit" "~r/geek"
-https://www.reddit.com/r/hacking.rss		"Reddit" "~r/hacking"
-https://www.reddit.com/r/hardware.rss		"Reddit" "~r/hardware"
-https://www.reddit.com/r/IdiotsInCars.rss	"Reddit" "~r/IdiotsInCars"
-https://www.reddit.com/r/linux4noobs.rss	"Reddit" "~r/linux4noobs"
-https://www.reddit.com/r/linux.rss		"Reddit" "~r/linux"
-https://www.reddit.com/r/linuxadmin.rss		"Reddit" "~r/linuxadmin"
-https://www.reddit.com/r/linuxaudio.rss		"Reddit" "~r/linuxaudio"
-https://www.reddit.com/r/linuxhardware.rss	"Reddit" "~r/linuxhardware"
-https://www.reddit.com/r/linuxmasterrace.rss	"Reddit" "~r/linuxmasterrace"
-https://www.reddit.com/r/linuxquestions.rss	"Reddit" "~r/linuxquestions"
-https://www.reddit.com/r/netsec.rss		"Reddit" "~r/netsec"
-https://www.reddit.com/r/news.rss		"Reddit" "~r/news"
-https://www.reddit.com/r/opensource.rss		"Reddit" "~r/opensource"
-https://www.reddit.com/r/Polska_wpz.rss		"Reddit" "~r/Polska_wpz"
-https://www.reddit.com/r/privacy.rss		"Reddit" "~r/privacy"
-https://www.reddit.com/r/PublicFreakout.rss	"Reddit" "~r/PublicFreakout"
-https://www.reddit.com/r/security.rss		"Reddit" "~r/security"
-https://www.reddit.com/r/technology.rss		"Reddit" "~r/Technology"
-https://www.reddit.com/r/unixporn.rss		"Reddit" "~r/UnixPorn"
-https://www.reddit.com/r/vim.rss		"Reddit" "~r/vim"
-https://www.reddit.com/r/worldnews.rss		"Reddit" "~r/World News"
+https://www.schneier.com/blog/atom.xml
+https://us3.campaign-archive.com/feed?u=a7aa32478521ca6f11b568195&id=95519f553c
+http://us1.campaign-archive1.com/feed?u=faa8eb4ef3a111cef92c4f3d4&id=e505c88a2e
+https://securitynewsletter.co/issues?format=rss
+https://serversforhackers.com/feed
+http://webopsweekly.com/rss/22ck275b
 
 # testbloogs
-https://hackaday.com/blog/feed/ "~BLOG: Hackaday Blog"
-https://sfconservancy.org/feeds/blog/ "~BLOG: Software Fredom Conservancy Blog"
-https://distrowatch.com/news/dw.xml "~NEWSFEED: Distrowatch.com News"
-https://tails.boum.org/news/index.en.rss "~NEWSFEED: Tails News"
-https://www.linuxjournal.com/node/feed "~NEWSFEED: The Linux Journal"
-https://itsfoss.com/feed/ "~NEWSFEED: It's FOSS"
-https://sfconservancy.org/feeds/news/ "~NEWSFEED: Software Freedom Conservancy News"
-https://opensource.org/news.xml "~NEWSFEED: Open Source Initiative News"
-https://static.fsf.org/fsforg/rss/news.xml "~NEWSFEED: Free Software Foundation News"
-https://www.forensicfocus.com/rss/news2.php "~NEWSFEED: Forensic Focus News"
-https://articles.forensicfocus.com/feed/ "~NEWSFEED: Forensic Focus Articles"
-https://distrowatch.com/news/dw.xml "~NEWSFEED: DistroWatch"
-http://lxer.com/module/newswire/headlines.rss "~NEWSFEED: LXer"
-https://www.linux.com/feeds/news/rss "~NEWSFEED: Linux.com"
-https://www.linuxjournal.com/news/feed "~NEWSFEED: Linux Journal"
-https://www.networkworld.com/category/linux/index.rss "~NEWSFEED: Network World (Linux)"
-https://www.computerworld.com/index.rss "~NEWSFEED: Computer World"
-http://feeds.feedburner.com/d0od "~NEWSFEED: OMG Ubuntu!"
-https://www.phoronix.com/rss.php "~NEWSFEED: Phoronix"
-https://www.zdnet.com/topic/linux/rss.xml "~NEWSFEED: ZDNet (Linux)"
-https://itsfoss.com/feed/ "~NEWSFEED: It's Foss"
-https://linux.softpedia.com/backend.xml "~NEWSFEED: Softpedia (Linux)"
-https://opensource.com/feed "~NEWSFEED: Opensource.com"
-https://betanews.com/feed/ "~NEWSFEED: Beta News"
-http://feeds.feedburner.com/fossbytes "~NEWSFEED: FossBytes"
-https://www.techrepublic.com/rssfeeds/topic/open-source/ "~NEWSFEED: Tech Republic (Open Source)"
-https://www.theinquirer.net/feeds/rss/tag/open-source "~NEWSFEED: The Inquirer (Open Source)"
-http://feeds.arstechnica.com/arstechnica/open-source "~NEWSFEED: ArsTechnica (Open Source)"
-https://www.linuxinsider.com/perl/syndication/rssfull.pl "~NEWSFEED: Linux Insider"
-https://hackaday.com/blog/feed/ "~NEWSFEED: Hackaday"
-https://www.gamingonlinux.com/article_rss.php "~NEWSFEED: Gaming On Linux"
-https://sourceforge.net/p/mx-linux/activity/feed "~SORUCEFORGE: MX Linux"
-https://sourceforge.net/p/antix-linux/activity/feed "~SOURCEFORGE: AntiX"
-https://sourceforge.net/mirror/tor-browser/activity/feed "~SOURCEFORGE: Tor Browser"
+https://hackaday.com/blog/feed/
+https://sfconservancy.org/feeds/blog/						"~NEWSFEED: Software Fredom Conservancy Blog"
+https://distrowatch.com/news/dw.xml						"~NEWSFEED: Distrowatch.com News"
+https://tails.boum.org/news/index.en.rss					"~NEWSFEED: Tails News"
+https://itsfoss.com/feed/							"~NEWSFEED: It's FOSS"
+https://sfconservancy.org/feeds/news/						"~NEWSFEED: Software Freedom Conservancy News"
+https://opensource.org/news.xml							"~NEWSFEED: Open Source Initiative News"
+https://static.fsf.org/fsforg/rss/news.xml					"~NEWSFEED: Free Software Foundation News"
+https://www.forensicfocus.com/rss/news2.php					"~NEWSFEED: Forensic Focus News"
+https://articles.forensicfocus.com/feed/					"~NEWSFEED: Forensic Focus Articles"
+https://distrowatch.com/news/dw.xml						"~NEWSFEED: DistroWatch"
+http://lxer.com/module/newswire/headlines.rss					"~NEWSFEED: LXer"
+https://www.linuxjournal.com/news/feed						"~NEWSFEED: Linux Journal"
+https://www.networkworld.com/category/linux/index.rss				"~NEWSFEED: Network World (Linux)"
+http://feeds.feedburner.com/d0od						"~NEWSFEED: OMG Ubuntu!"
+https://www.phoronix.com/rss.php						"~NEWSFEED: Phoronix"
+https://www.zdnet.com/topic/linux/rss.xml					"~NEWSFEED: ZDNet (Linux)"
+https://itsfoss.com/feed/							"~NEWSFEED: It's Foss"
+https://linux.softpedia.com/backend.xml						"~NEWSFEED: Softpedia (Linux)"
+https://opensource.com/feed							"~NEWSFEED: Opensource.com"
+https://betanews.com/feed/							"~NEWSFEED: Beta News"
+http://feeds.feedburner.com/fossbytes						"~NEWSFEED: FossBytes"
+https://www.techrepublic.com/rssfeeds/topic/open-source/			"~NEWSFEED: Tech Republic (Open Source)"
+https://www.gamingonlinux.com/article_rss.php					"~NEWSFEED: Gaming On Linux"
 
+# Youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkPjHTuNd_ycm__29dXM3Nw	"YouTube" "~YOUTUBE: GF Darwin"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsvn_Po0SmunchJYOWpOxMg	"YouTube" "~YOUTUBE: VideoGameDunkey"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCof4jJ9hM9RLsBII8laZI5A	"YouTube" "~YOUTUBE: Dem"
+https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w	"YouTube" "~YOUTUBE: LiveOverflow"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfxk5idSdKXTEqAOa8YXIgw	"YouTube" "~YOUTUBE: SekurakTV"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSK4CrCZ-nNY1UCCTut9uWw	"YouTube" "~YOUTUBE: GargamelVlog"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCjS2aGCvsnhExcWRAI8T4Pw	"YouTube" "~YOUTUBE: Gynvael Coldvind"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA	"YouTube" "~YOUTUBE: IppSec"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWA6pfcx4Ok4xsIA7Mkr39w	"YouTube" "~YOUTUBE: Adam Doupe"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCKoeXneqNktkY1ijItuKFBQ	"YouTube" "~YOUTUBE: Effortless Swimming"
+https://www.youtube.com/feeds/videos.xml?channel_id=UClPjdKBTfG8U_dejIchww2w	"YouTube" "~YOUTUBE: UNDARECORDS"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFFNiMm_oFkvP5L6LENYTcw	"YouTube" "~YOUTUBE: Polityczne LSD"	
+# testyt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCerEIdrEW-IqwvlH8lTQUJQ	"Youtube" "~YOUTUBE: AkBKukU"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg	"Youtube" "~YOUTUBE: DistroTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwY9B5_8QDGP8niZhBtTh8w	"Youtube" "~YOUTUBE: TWiT Netcast"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHugE6eRhqB9_AZQh4DDbIw	"Youtube" "~YOUTUBE: Jupiter Broadcasting"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA	"Youtube" "~YOUTUBE: Bryan Lunduke"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbHXJGd7c8Hy4z0-YX1Jf3Q	"Youtube" "~YOUTUBE: Matt Hartley"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWJUSpXVHTaHErtGWC5qPlQ	"Youtube" "~YOUTUBE: Destination Linux"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4w1YQAJMWOz4qtxinq55LQ	"Youtube" "~YOUTUBE: Level1Techs"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOWcZ6Wicl-1N34H0zZe38w	"Youtube" "~YOUTUBE: Level1Linux"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRBHiacaQb5S70pljtJYB2g	"Youtube" "~YOUTUBE: EposVox"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw	"Youtube" "~YOUTUBE: Linus Tech Tips"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCu6mSoMNzHQiBIOCkHUa2Aw	"Youtube" "~YOUTUBE: Cody'sLab"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA	"Youtube" "~YOUTUBE: Computerphile"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbiGcwDWZjz05njNPrJU7jA	"Youtube" "~YOUTUBE: ExplainingComputers"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCts-8ZqS339n-9nxy3DN8Cg	"Youtube" "~YOUTUBE: Joe Robinet"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ	"Youtube" "~YOUTUBE: LGR"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCz9uUFDhsPYii-ZihoKsbPg	"Youtube" "~YOUTUBE: LGR Foods"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCl2mFZoRqjw_ELax4Yisf6w	"Youtube" "~YOUTUBE: Louis Rossmann"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCU9SoQxJewrWb_3GxeteQPA	"Youtube" "~YOUTUBE: Mr Carlson's Lab"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFhXFikryT4aFcLkLw2LBLA	"Youtube" "~YOUTUBE: Nile Red"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAL3JXZSzSm8AlZyD3nQdBA	"Youtube" "~YOUTUBE: Primitive Technology"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6107grRI4m0o2-emgoDnAA	"Youtube" "~YOUTUBE: SmarterEveryDay"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOVxXJSvl3qXFUtf-UZ8qjw	"Youtube" "~YOUTUBE: SorcererDave"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A	"Youtube" "~YOUTUBE: Tom Scott"
 
+# Reddit
+https://www.reddit.com/r/AskNetsec.rss						"Reddit" "~r/AskNetsec"
+https://www.reddit.com/r/archlinux.rss						"Reddit" "~r/archlinux"
+https://www.reddit.com/r/bash.rss						"Reddit" "~r/bash"
+https://www.reddit.com/r/commandline.rss					"Reddit" "~r/commandline"
+https://www.reddit.com/r/CTFlearn.rss						"Reddit" "~r/CTFlearn"
+https://www.reddit.com/r/crypto.rss						"Reddit" "~r/crypto"
+https://www.reddit.com/r/cybersecurity.rss					"Reddit" "~r/cybersecurity"
+https://www.reddit.com/r/dank_meme.rss						"Reddit" "~r/dank_meme"
+https://www.reddit.com/r/geek.rss						"Reddit" "~r/geek"
+https://www.reddit.com/r/hacking.rss						"Reddit" "~r/hacking"
+https://www.reddit.com/r/hardware.rss						"Reddit" "~r/hardware"
+https://www.reddit.com/r/IdiotsInCars.rss					"Reddit" "~r/IdiotsInCars"
+https://www.reddit.com/r/linux4noobs.rss					"Reddit" "~r/linux4noobs"
+https://www.reddit.com/r/linux.rss						"Reddit" "~r/linux"
+https://www.reddit.com/r/linuxadmin.rss						"Reddit" "~r/linuxadmin"
+https://www.reddit.com/r/linuxaudio.rss						"Reddit" "~r/linuxaudio"
+https://www.reddit.com/r/linuxhardware.rss					"Reddit" "~r/linuxhardware"
+https://www.reddit.com/r/linuxmasterrace.rss					"Reddit" "~r/linuxmasterrace"
+https://www.reddit.com/r/linuxquestions.rss					"Reddit" "~r/linuxquestions"
+https://www.reddit.com/r/netsec.rss						"Reddit" "~r/netsec"
+https://www.reddit.com/r/news.rss						"Reddit" "~r/news"
+https://www.reddit.com/r/opensource.rss						"Reddit" "~r/opensource"
+https://www.reddit.com/r/Polska_wpz.rss						"Reddit" "~r/Polska_wpz"
+https://www.reddit.com/r/privacy.rss						"Reddit" "~r/privacy"
+https://www.reddit.com/r/PublicFreakout.rss					"Reddit" "~r/PublicFreakout"
+https://www.reddit.com/r/security.rss						"Reddit" "~r/security"
+https://www.reddit.com/r/technology.rss						"Reddit" "~r/Technology"
+https://www.reddit.com/r/unixporn.rss						"Reddit" "~r/UnixPorn"
+https://www.reddit.com/r/vim.rss						"Reddit" "~r/vim"
+https://www.reddit.com/r/worldnews.rss						"Reddit" "~r/World News"
 
 # Podcasts
-https://latenightlinux.com/feed/mp3 "~PODCAST: Late Night Linux"
-https://tuxdigital.com/feed/thisweekinlinux-mp3 "~PODCAST: This Week in Linux"
-http://feed.jupiter.zone/allshows "~PODCAST: All Jupiter Broadcasting Podcasts"
-https://www.codingblocks.net/podcast-feed.xml "~PODCAST: Coding Blocks"
-https://feeds.megaphone.fm/darknetdiaries "~PODCAST: Darknet Diaries"
+https://feeds.megaphone.fm/darknetdiaries					"Podcast" "~PODCAST: Darknet Diaries"
 
-
-
+# testpodcast
+http://feed.jupiter.zone/allshows						"Podcast" "~PODCAST: All Jupiter Broadcasting Podcasts"
+https://www.codingblocks.net/podcast-feed.xml					"Podcast" "~PODCAST: Coding Blocks"
+https://latenightlinux.com/feed/mp3						"Podcast" "~PODCAST: Late Night Linux"
+https://tuxdigital.com/feed/thisweekinlinux-mp3					"Podcast" "~PODCAST: This Week in Linux"
+https://channel9.msdn.com/Shows/Azure-Friday/feed/mp3				
+https://feeds.pacific-content.com/commandlineheroes				
+http://feeds.twit.tv/floss.xml							
+https://feeds.feedburner.com/GcpPodcast						
+https://ironsysadmin.libsyn.com/rss						
+https://feeds.fireside.fm/linuxheadlines/rss					
+https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss				
+https://opensourcesecuritypodcast.libsyn.com/rss				
+http://podcast.securityweekly.com/rss						
+https://sysadministrivia.com/subscribe/podcast					
+https://ma.ttias.be/syscast/index.xml						
+https://isc.sans.edu/dailypodcast.xml						
+https://omny.fm/shows/unsupervised-learning/playlists/podcast.rss		
+http://brakeingsecurity.com/rss							
+https://risky.biz/feeds/risky-business						
+https://defensivesecurity.org/feed/podcast					

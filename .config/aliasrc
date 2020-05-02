@@ -46,7 +46,7 @@ alias gcom='git commit -m'
 alias gpush='git push'
 alias m='neomutt'
 alias n='ncmpcpp 2>/dev/null'
-alias nw='newsboat'
+alias nw='newsboat -q'
 alias o='xdg-open $@ 2>/dev/null'
 #function o(){ xdg-open $@ 2> /dev/null & }
 alias r='ranger'

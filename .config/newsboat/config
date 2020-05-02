@@ -1,7 +1,30 @@
-#goto-next-feed no
+# General configuration 
+notify-program "notify-send" 
+save-path "~/Downloads" 
+download-retries 3
+goto-next-feed no
+history-limit 0 
+keep-articles-days 365
+max-items 100
+reload-threads 5
+show-keymap-hint no
 
-external-url-viewer "urlscan -dc -r 'linkhandler {}'"
+# Formatting
+help-title-format		"            %N - Help"
+itemview-title-format		"            %T (%u unread, %t total)" 
+feedlist-format			"%4i | %3U) %t"
+feedlist-title-format		"     |      Feeds: (%u unread, %t total)"
+articlelist-format		"%4i | %D / %t" 
+articlelist-title-format	"     | %T (%u unread, %t total) | %U" 
+searchresult-title-format	"     | Search result:"
+selecttag-title-format		"      Select Tag:"
+urlview-title-format		"    URLs:"
+filebrowser-title-format	"    %f"
+notify-format			"%d new feeds!"
+dialogs-title-format		"    Dialogs:"
 
+# Bindings
+unbind-key C
 bind-key j down
 bind-key k up
 bind-key j next articlelist
@@ -10,24 +33,26 @@ bind-key J next-feed articlelist
 bind-key K prev-feed articlelist
 bind-key G end
 bind-key g home
-bind-key d pagedown
-bind-key u pageup
 bind-key l open
 bind-key h quit
 bind-key a toggle-article-read
-bind-key n next-unread
 bind-key N prev-unread
+bind-key T clear-tag
 bind-key D pb-download
-bind-key U show-urls
+bind-key u show-urls
+bind-key U edit-urls
 bind-key x pb-delete
 
+# Colors
 color listnormal blue default
-color listfocus magenta default bold
-color listfocus_unread black magenta standout bold
-color listnormal_unread cyan default bold
-color info yellow black bold
+color listfocus magenta default
+color listfocus_unread magenta default dim bold
+color listnormal_unread cyan default 
+color info yellow default dim 
 color article cyan default
+search-highlight-colors cyan default bold
 
+# Macros
 browser linkhandler
 macro , open-in-browser
 macro t set browser "tsp youtube-dl --add-metadata -ic"; open-in-browser ; set browser linkhandler
