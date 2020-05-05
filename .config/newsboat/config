@@ -55,9 +55,10 @@ search-highlight-colors cyan default bold
 # Macros
 browser linkhandler
 macro , open-in-browser
-macro t set browser "tsp youtube-dl --add-metadata -ic"; open-in-browser ; set browser linkhandler
-macro m set browser "tsp youtube-dl --add-metadata -xic -f bestaudio/best"; open-in-browser ; set browser linkhandler
-macro m set browser "setsid nohup mpv > /tmp/mpvnohup.out 2>&1"; open-in-browser ; set browser linkhandler
+macro x set browser "youtube-dl --no-warnings -icq -o /tmp/'%(title)s.%(ext)s' --exec 'xclip -selection c -t image/png <'"; open-in-browser ; set browser linkhandler
+macro a set browser "youtube-dl --no-warnings -xicq -f bestaudio/best -o ~/Downloads/'%(title)s.%(ext)s'"; open-in-browser ; set browser linkhandler
+macro m set browser "youtube-dl --no-warnings -icq -o ~/Downloads/'%(title)s.%(ext)s'"; open-in-browser ; set browser linkhandler
+macro v set browser "setsid nohup mpv > /tmp/mpvnohup.out 2>&1"; open-in-browser ; set browser linkhandler
 macro w set browser "lynx"; open-in-browser ; set browser linkhandler
 macro d set browser "dmenuhandler"; open-in-browser ; set browser linkhandler
 macro c set browser "xsel -b <<<" ; open-in-browser ; set browser linkhandler

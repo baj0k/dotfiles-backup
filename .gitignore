@@ -54,6 +54,7 @@
 
 # other
 !.config/autorandr/
+!.config/dunst/
 !.config/fontconfig/
 !.config/i3/
 !.config/mpv/
