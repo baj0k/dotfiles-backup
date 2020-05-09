@@ -1,18 +1,18 @@
-!! Transparency (0-1):
+!! st
 st.alpha: 0.8
-
-!! Set a default font and font size as below:
 st.font: DejaVu Sans Mono-10:antialias=true:autohint=true;
-dmenu.font: DejaVu Sans Mono-14:antialias=true:autohint=true;
-dmenu.background: #000000
-dmenu.foreground: #729FCF
-dmenu.selbackground: #483C31
-dmenu.selforeground: #00CCCC
-
 st.termname: st-256color
 st.borderpx: 0
 
-!! Set the background, foreground and cursor colors as below:
+!! dmenu
+dmenu.font: DejaVu Sans Mono-16:antialias=true:autohint=true;
+dmenu.background: #020202
+dmenu.foreground: #00FFFF
+dmenu.selbackground: #000000
+dmenu.selforeground:#C4A000
+
+
+!! fallback
 *.background: #000000
 *.foreground: #DFDFDF
 *.cursorColor: #C0C0C0
