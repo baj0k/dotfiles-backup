@@ -7,7 +7,7 @@ alias off='sudo shutdown -h now'
 alias reboot='sudo shutdown -r now'
 alias ssys='sudo systemctl'
 alias paux='ps -aux | grep'
-alias p='ping 8.8.8.8'
+alias p='ping 1.1.1.1'
 alias ...='cd ../..'
 alias ....='cd ../../../'
 

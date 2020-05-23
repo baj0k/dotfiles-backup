@@ -4,16 +4,15 @@ save-path "~/Downloads"
 download-retries 3
 goto-next-feed no
 history-limit 0 
-keep-articles-days 365
-max-items 100
+max-items 99
 reload-threads 5
 show-keymap-hint no
 
 # Formatting
 help-title-format		"            %N - Help"
 itemview-title-format		"            %T (%u unread, %t total)" 
-feedlist-format			"%4i | %3U) %t"
-feedlist-title-format		"     |      Feeds: (%u unread, %t total)"
+feedlist-format			"%3i | %3U) %t"
+feedlist-title-format		"    |      Feeds: (%u unread, %t total)"
 articlelist-format		"%4i | %D / %t" 
 articlelist-title-format	"     | %T (%u unread, %t total) | %U" 
 searchresult-title-format	"     | Search result:"

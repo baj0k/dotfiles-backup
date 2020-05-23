@@ -14,6 +14,15 @@ https://www.networkworld.com/category/linux/index.rss				"Newsfeed" "~NEWSFEED: 
 https://itsfoss.com/feed/							"Newsfeed" "~NEWSFEED: It's Foss"
 https://opensource.com/feed							"Newsfeed" "~NEWSFEED: Opensource.com"
 https://betanews.com/feed/							"Newsfeed" "~NEWSFEED: Beta News"
+https://infosec-handbook.eu/blog/index.xml					"Newsfeed" "~NEWSFEED: Infosec Handbook"
+https://zaufanatrzeciastrona.pl/feed						"Newsfeed" "~NEWSFEED: Zaufana Trzecia Strona"
+http://feeds.feedburner.com/niebezpiecznik					"Newsfeed" "~NEWSFEED: Niebezpiecznik"
+https://feeds.feedburner.com/sekurak						"Newsfeed" "~NEWSFEED: Sekurak"
+https://panoptykon.org/rss.xml							"Newsfeed" "~NEWSFEED: Fundacja Panoptykon"
+https://www.secjuice.com/rss/							"Newsfeed" "~NEWSFEED: Secjuice"
+https://blog.malwarebytes.com/feed/						"Newsfeed" "~NEWSFEED: Malwarebytes"
+https://arturro43.github.io/feed.xml						"Newsfeed" "~NEWSFEED: Arturro43"
+https://spreadprivacy.com/rss/							"Newsfeed" "~NEWSFEED: Spreadprivacy.com"
 
 # YouTube
 https://lukesmith.xyz/youtube.xml						"YouTube" "~YOUTUBE: Luke Smith"
@@ -30,6 +39,8 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCKoeXneqNktkY1ijItuKFBQ	"Yo
 https://www.youtube.com/feeds/videos.xml?channel_id=UClPjdKBTfG8U_dejIchww2w	"YouTube" "~YOUTUBE: UNDARECORDS"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCFFNiMm_oFkvP5L6LENYTcw	"YouTube" "~YOUTUBE: Polityczne LSD"	
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg	"YouTube" "~YOUTUBE: DistroTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw	"YouTube" "~YOUTUBE: Linus Tech Tips"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCP16m86ciUUlU8UZvlpw0TQ	"YouTube" "~YOUTUBE: Kacper Szurek"
 testyt
 https://www.youtube.com/feeds/videos.xml?channel_id=UCwY9B5_8QDGP8niZhBtTh8w	"YouTube" "~YOUTUBE: TWiT Netcast"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHugE6eRhqB9_AZQh4DDbIw	"YouTube" "~YOUTUBE: Jupiter Broadcasting"
@@ -38,7 +49,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCWJUSpXVHTaHErtGWC5qPlQ	"Yo
 https://www.youtube.com/feeds/videos.xml?channel_id=UC4w1YQAJMWOz4qtxinq55LQ	"YouTube" "~YOUTUBE: Level1Techs"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCOWcZ6Wicl-1N34H0zZe38w	"YouTube" "~YOUTUBE: Level1Linux"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRBHiacaQb5S70pljtJYB2g	"YouTube" "~YOUTUBE: EposVox"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw	"YouTube" "~YOUTUBE: Linus Tech Tips"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCu6mSoMNzHQiBIOCkHUa2Aw	"YouTube" "~YOUTUBE: Cody'sLab"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA	"YouTube" "~YOUTUBE: Computerphile"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbiGcwDWZjz05njNPrJU7jA	"YouTube" "~YOUTUBE: ExplainingComputers"
