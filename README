@@ -18,6 +18,8 @@ My dotfiles RICE, feel free to grab a piece.
 Full integration requires patching and building some of the https://suckless.org software such as st, dmenu and slock.
 Checkout https://github.com/hybryd0ng/SB for the out-of-the-box solution.
 
+To use custom firefox css the ~/.config/ffox/chrome directory needs to be linked to your firefox profile dir
+
 # Replication
 git clone --separate-git-dir=$HOME/.local/dotfiles https://github.com/hybryd0ng/dotfiles.git $HOME/dotfiles
 rsync --recursive --verbose --exclude '.git' $HOME/dotfiles/ $HOME/
