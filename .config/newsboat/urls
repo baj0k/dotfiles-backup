@@ -23,6 +23,7 @@ https://www.secjuice.com/rss/							"Newsfeed" "~NEWSFEED: Secjuice"
 https://blog.malwarebytes.com/feed/						"Newsfeed" "~NEWSFEED: Malwarebytes"
 https://arturro43.github.io/feed.xml						"Newsfeed" "~NEWSFEED: Arturro43"
 https://spreadprivacy.com/rss/							"Newsfeed" "~NEWSFEED: Spreadprivacy.com"
+https://blog.redteam.pl//feeds/posts/default					"Newsfeed" "~NEWSFEED: Blog REDTeam.PL"
 
 # YouTube
 https://lukesmith.xyz/youtube.xml						"YouTube" "~YOUTUBE: Luke Smith"
@@ -31,6 +32,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCsvn_Po0SmunchJYOWpOxMg	"Yo
 https://www.youtube.com/feeds/videos.xml?channel_id=UCof4jJ9hM9RLsBII8laZI5A	"YouTube" "~YOUTUBE: Dem"
 https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w	"YouTube" "~YOUTUBE: LiveOverflow"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCfxk5idSdKXTEqAOa8YXIgw	"YouTube" "~YOUTUBE: SekurakTV"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbg9wWB5EizEg_U4UpXr1yw	"YouTube" "~YOUTUBE: Zaufana Trzecia Strona"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCSK4CrCZ-nNY1UCCTut9uWw	"YouTube" "~YOUTUBE: GargamelVlog"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCjS2aGCvsnhExcWRAI8T4Pw	"YouTube" "~YOUTUBE: Gynvael Coldvind"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA	"YouTube" "~YOUTUBE: IppSec"
@@ -91,19 +93,19 @@ http://feed.jupiter.zone/allshows						"Podcast" "~PODCAST: All Jupiter Broadcas
 https://www.codingblocks.net/podcast-feed.xml					"Podcast" "~PODCAST: Coding Blocks"
 https://latenightlinux.com/feed/mp3						"Podcast" "~PODCAST: Late Night Linux"
 https://tuxdigital.com/feed/thisweekinlinux-mp3					"Podcast" "~PODCAST: This Week in Linux"
-https://channel9.msdn.com/Shows/Azure-Friday/feed/mp3				
-https://feeds.pacific-content.com/commandlineheroes				
-http://feeds.twit.tv/floss.xml							
-https://feeds.feedburner.com/GcpPodcast						
-https://ironsysadmin.libsyn.com/rss						
-https://feeds.fireside.fm/linuxheadlines/rss					
-https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss				
-https://opensourcesecuritypodcast.libsyn.com/rss				
-http://podcast.securityweekly.com/rss						
-https://sysadministrivia.com/subscribe/podcast					
-https://ma.ttias.be/syscast/index.xml						
-https://isc.sans.edu/dailypodcast.xml						
-https://omny.fm/shows/unsupervised-learning/playlists/podcast.rss		
-http://brakeingsecurity.com/rss							
-https://risky.biz/feeds/risky-business						
-https://defensivesecurity.org/feed/podcast					
+https://channel9.msdn.com/Shows/Azure-Friday/feed/mp3				"Podcast" "~PODCAST: Azure-Friday"
+https://feeds.pacific-content.com/commandlineheroes				"Podcast" "~PODCAST: Commandline Heroes"
+http://feeds.twit.tv/floss.xml							"Podcast" "~PODCAST: Twit.tv"
+https://feeds.feedburner.com/GcpPodcast						"Podcast" "~PODCAST: GcpPodcast"
+https://ironsysadmin.libsyn.com/rss						"Podcast" "~PODCAST: Iron sysadmin"
+https://feeds.fireside.fm/linuxheadlines/rss					"Podcast" "~PODCAST: linuxheadlines"
+https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss				"Podcast" "~PODCAST: aws-podcast"
+https://opensourcesecuritypodcast.libsyn.com/rss				"Podcast" "~PODCAST: opensource security podcast"
+http://podcast.securityweekly.com/rss						"Podcast" "~PODCAST: security weekly"
+https://sysadministrivia.com/subscribe/podcast					"Podcast" "~PODCAST: sysadmin trivia"
+https://ma.ttias.be/syscast/index.xml						"Podcast" "~PODCAST: ma.ttias.be"
+https://isc.sans.edu/dailypodcast.xml						"Podcast" "~PODCAST: sans.edu Dailypodcast"
+https://omny.fm/shows/unsupervised-learning/playlists/podcast.rss		"Podcast" "~PODCAST: unsupervised-learning"
+http://brakeingsecurity.com/rss							"Podcast" "~PODCAST: breakingsecurity"
+https://risky.biz/feeds/risky-business						"Podcast" "~PODCAST: risky-business"
+https://defensivesecurity.org/feed/podcast					"Podcast" "~PODCAST: defensivesecurity"

@@ -22,8 +22,9 @@ alias Ss='sudo pacman -Ss'
 
 # Default parameters 
 alias c='clear'
-alias l='ls -hNF' 
+alias l='ls -lhNF' 
 alias la='ls -ANF'
+alias ls='ls -hNF'
 alias ll='ls -AlF'
 alias cd..='cd ..'
 alias cp='cp -iv'
