@@ -41,5 +41,10 @@ export GEM_SPEC_CACHE="$XDG_CACHE_HOME/gem"
 # Run mpd via Unix socket
 export MPD_HOST="$XDG_CONFIG_HOME/mpd/socket"
 
+# Pass configuration
+export PASSWORD_STORE_CLIP_TIME=15
+export PASSWORD_STORE_GENERATED_LENGTH=20
+
+
 # Add directories to $PATH
 export PATH="${PATH}:$XDG_BIN_HOME"

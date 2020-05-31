@@ -2,7 +2,7 @@
 notify-program "notify-send" 
 save-path "~/Downloads" 
 download-retries 3
-goto-next-feed no
+goto-next-feed yes
 history-limit 0 
 max-items 99
 reload-threads 5

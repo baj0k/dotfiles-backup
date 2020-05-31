@@ -1,0 +1,4 @@
+#!/bin/sh
+
+password=$(find $XDG_DATA_HOME/pass/password-store/ -type f -name '*.gpg' -not -path '*/otp*' | sed 's/.*\/password-store\///' |  sed 's/.gpg$//' | dmenu -i -p "Pass:")
+[ -n "$password" ] && pass show --clip "$password"
