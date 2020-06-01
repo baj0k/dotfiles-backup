@@ -1,4 +1,4 @@
 #!/bin/sh
 
-password=$(find $XDG_DATA_HOME/pass/password-store/otp/ -type f -name '*.gpg' | sed 's/.*\/otp\///' |  sed 's/.gpg$//' | dmenu -i -p "Pass:")
+password=$(find $PASSWORD_STORE_DIR/otp/ -type f -name '*.gpg' | sed 's/.*\/otp\///' |  sed 's/.gpg$//' | dmenu -i -p "Select OTP:")
 [ -n "$password" ] && pass otp --clip otp/$password

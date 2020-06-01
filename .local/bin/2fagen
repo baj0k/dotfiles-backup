@@ -1,3 +1,3 @@
 #!/bin/sh
-
-scrot -s /tmp/screenshot-$(date +%F_%T).png -e 'zbarimg -q --raw $f' | pass otp insert otp//$1
+name=$(echo '                        ' | dmenu -l 1 -p "Entry name:")
+scrot -s /tmp/screenshot-$(date +%F_%T).png -e 'zbarimg -q --raw $f' | pass otp insert otp//$name
