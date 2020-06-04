@@ -25,7 +25,7 @@ alias c='clear'
 alias l='ls -lhNF' 
 alias la='ls -ANF'
 alias ls='ls -hNF'
-alias ll='ls -AlF'
+alias ll='ls -AlhF'
 alias cd..='cd ..'
 alias cp='cp -iv'
 alias mv='mv -iv'
@@ -33,10 +33,12 @@ alias rm='rm -v'
 alias mkdir='mkdir -pv'
 
 # XDG_CONFIG workarounds
+alias abook='abook --config "$XDG_CONFIG_HOME/abook/abookrc" --datafile "$XDG_DATA_HOME/abook/addressbook"'
 alias wget='sudo wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"'
 alias gpg2='gpg2 --homedir "$XDG_DATA_HOME/gnupg"'
 alias tmux='tmux -f "$XDG_CONFIG_HOME/tmux/tmux.conf"'
 alias mbsync='mbsync -c "$XDG_CONFIG_HOME/isync/mbsyncrc"'
+alias tor-browser='setsid nohup tor-browser-en --dir=$XDG_CONFIG_HOME/tor > /tmp/tor-browsernohup.out 2>&1'
 alias weechat='weechat -d "$XDG_CONFIG_HOME/weechat"'
 
 # Program shortcuts

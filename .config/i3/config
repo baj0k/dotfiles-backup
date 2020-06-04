@@ -5,8 +5,8 @@ set $mod Mod4
 bindsym $mod+x exec --no-startup-id sleep 0.1 && slock &"slock"
 
 # Display
-bindcode 232 exec --no-startup-id xbacklight -5%
-bindcode 233 exec --no-startup-id xbacklight +5%
+#bindcode 232 exec --no-startup-id xbacklight -5%
+#bindcode 233 exec --no-startup-id xbacklight +5%
 
 # Screenshot utility
 bindsym Print exec --no-startup-id "scrot /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"

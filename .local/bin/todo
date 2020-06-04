@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TODO=$XDG_CACHE_HOME/.T0D0
+TODO=$XDG_DATA_HOME/.T0D0
 TEMP=/tmp/todo.tmp
 
 [ $# -eq 0 ] && {
