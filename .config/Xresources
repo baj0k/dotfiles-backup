@@ -1,11 +1,18 @@
 !! st
-st.alpha: 0.8
-st.font: DejaVu Sans Mono-13:antialias=true:autohint=true;
-st.termname: st-256color
+st.alpha: 0.82
+st.font: Liberation Mono-15:autohint=true;
+st.fontalt: DejaVu Sans Mono-14:antialias=true:autohint=true;
+st.background: #010101
+st.foreground: #DBD3C4
+st.cursorColor: #34E2E2
+st.rcursorColor: #AD7FA8
+st.cursorShape: 4
 st.borderpx: 0
+st.selbg: #262626
+st.selfg: #AD7FA8
 
 !! dmenu
-dmenu.font: DejaVu Sans Mono-16:antialias=true:autohint=true;
+dmenu.font: DejaVu Sans Mono-18:antialias=true:autohint=true;
 dmenu.background: #020202
 dmenu.foreground: #00FFFF
 dmenu.selbackground: #000000
@@ -15,8 +22,6 @@ dmenu.selforeground:#C4A000
 !! fallback
 *.background: #000000
 *.foreground: #DFDFDF
-*.cursorColor: #C0C0C0
-!*.cursorshape: 4
 
 *.color0:  #2E3436
 *.color1:  #CC0000

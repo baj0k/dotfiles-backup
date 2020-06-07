@@ -43,10 +43,10 @@ alias weechat='weechat -d "$XDG_CONFIG_HOME/weechat"'
 
 # Program shortcuts
 alias a='alsamixer'
-alias gadd='git add .'
-alias gstat='git status'
-alias gcom='git commit -m'
-alias gpush='git push'
+alias ga='git add .'
+alias gs='git status'
+alias gc='git commit -m'
+alias gp='git push'
 alias m='neomutt'
 alias n='ncmpcpp 2>/dev/null'
 alias nw='newsboat -q'
@@ -54,6 +54,7 @@ alias o='xdg-open $@ 2>/dev/null'
 #function o(){ xdg-open $@ 2> /dev/null & }
 alias r='ranger'
 alias v='$EDITOR'
+alias stream='ffmpeg -f x11grab -video_size 1920x1080 -framerate 25 -i $DISPLAY -f alsa -i default -c:v libx264 -preset ultrafast -c:a aac screen.mp4'
 alias sv='sudo $EDITOR'
 alias z='setsid nohup zathura > /tmp/zathuranohup.out 2>&1'
 alias wifi='sudo wifi-menu'
@@ -85,12 +86,8 @@ man() {
 }
 
 # Youtube
-alias yt='youtube-dl -o "~/Video/%(title)s.%(ext)s" --restrict-filenames -ic --hls-prefer-ffmpeg --add-metadata'
+alias ytv='youtube-dl -o "~/Video/%(title)s.%(ext)s" --restrict-filenames -ic --hls-prefer-ffmpeg --add-metadata'
 alias yta='youtube-dl -o "~/Music/%(artist)s -%(album)s - %(title)s.%(ext)s" --restrict-filenames -xic --audio-format "mp3" --hls-prefer-ffmpeg --add-metadata'
-
-function ytb() {
-    (mpv --ytdl-format="bestvideo[height<=?1080][vcodec!=vp9]+bestaudio/best" ytdl://ytsearch:"$*" < /dev/null &>/dev/null &);
-}
 
 # Printer
 cupsadm() { /bin/firefox "http://localhost:631"; }

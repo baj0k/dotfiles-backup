@@ -7,9 +7,10 @@ remap &
 dunst &
 xcompmgr &
 autorandr --change &
-displayselect &
 firefox &
+blueman-applet &
 crond -f "$XDG_CONFIG_HOME/crontab" &
 mpd &
+displayselect &
 
 exec i3

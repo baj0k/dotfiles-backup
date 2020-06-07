@@ -20,7 +20,7 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "0x0-20+20"
+    geometry = "0x0-18+35"
 
     # Show how many messages are currently hidden
     indicate_hidden = yes
@@ -69,7 +69,7 @@
     idle_threshold = 120
 
     # Text
-    font = DejaVu Sans Mono 10 
+    font = DejaVu Sans Mono 16 
 
     # The spacing between lines
     line_height = 0
@@ -224,7 +224,7 @@
 [urgency_low]
     background = "#000000"
     foreground = "#00BBBB"
-    frame_color = "#BB00BB"
+    frame_color = "#00997A"
     timeout = 1
     #icon = /path/to/icon
 
