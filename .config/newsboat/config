@@ -23,6 +23,8 @@ notify-format			"%d new feeds!"
 dialogs-title-format		"    Dialogs:"
 
 # Bindings
+unbind-key o
+unbind-key O
 unbind-key C
 bind-key j down
 bind-key k up
@@ -41,6 +43,7 @@ bind-key D pb-download
 bind-key u show-urls
 bind-key U edit-urls
 bind-key x pb-delete
+bind-key o open-in-browser-and-mark-read
 
 # Colors
 color listnormal blue default

@@ -11,9 +11,6 @@ command -v notify-send >/dev/null
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus
 export DISPLAY=:0.0
 
-# For individual configurations:
-[ -d "$XDG_DATA_HOME/password-store" ] && export PASSWORD_STORE_DIR="$XDG_DATA_HOME/password-store"
-
 # Check account for new mail. Notify if there is new content.
 syncandnotify() {
     acc="$(echo "$account" | sed "s/.*\///")"
