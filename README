@@ -16,8 +16,8 @@ My dotfiles RICE, feel free to grab a piece.
 - X11
 - zathura
 
-Full integration requires patching and building some of the https://suckless.org software such as st, dmenu and slock.
-Checkout my SB (Suckless build) repository  for the out-of-the-box solution.
+Full integration requires patching and building some of the suckless software such as st, dmenu and slock.
+Checkout my SB (Suckless builds) repository  for the out-of-the-box solution.
 https://github.com/baj0k/SB
 
 To use custom firefox css the ~/.config/ffox/chrome directory needs to be linked inside your firefox profile dir
