@@ -1,10 +1,13 @@
 # General configuration 
 notify-program "notify-send" 
 save-path "~/Downloads" 
+display-article-progress no
+delete-read-articles-on-quit yes
+confirm-exit yes
 download-retries 3
 goto-next-feed yes
 history-limit 0 
-max-items 99
+max-items 420
 reload-threads 5
 show-keymap-hint no
 

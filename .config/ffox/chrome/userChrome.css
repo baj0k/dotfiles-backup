@@ -9,7 +9,6 @@
   {
      background: #111111 !important;
   }
-
 }
 
 /* Remove the forward and back buttons */
@@ -47,54 +46,6 @@ opacity: 1 !important;
 
 .findbar-entire-word {
   visibility: collapse !important;
-}
-
-/* Makes the address bar and search bar borderless */
-#urlbar, .searchbar-textbox {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-/* Remove padding on urlbar results */
-.urlbarView-row {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-}
-
-/* Remove padding on urlbar (icons on the right break without this) */
-#urlbar-input-container {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-}
-
-/* Reduce "breakout" navbar height */
-#urlbar[breakout][breakout-extend] > #urlbar-input-container {
-  height: calc(var(--urlbar-toolbar-height) - 4px) !important;
-}
-
-/* Fix breakout positioning being too high after we decreased the height */
-#urlbar[breakout][breakout-extend] {
-  top: 2px !important;
-}
-
-/* Remove padding on search one offs div */
-.search-one-offs {
-  padding-block: 0px !important;
-}
-
-/* Fix padding left of the search one-off icons */
-.search-panel-one-offs {
-  padding-left: 7px !important;
-}
-
-/* Remove margins around the search one-off icons */
-.searchbar-engine-one-off-item {
-  margin: 0px !important;
-}
-
-/* Makes the Not Secure text of HTTP pages appear in red text */
-#urlbar > #identity-box.notSecureText > #identity-icon-labels > #identity-icon-label {
-  color: rgba(255, 0, 0, 0.867) !important;
 }
 
 /* Hides the zoom indicator */
@@ -224,7 +175,6 @@ toolbarbutton.bookmark-item[type="menu"] .toolbarbutton-icon[label]:not([label="
 /* Makes the favicon grayscale to fit better in flat design */
 tab .tab-icon, .tab-icon-image {
   filter: grayscale(0.7) brightness(0.9) contrast(1.2);
-  /*filter: grayscale(2) brightness(0.7) contrast(1) invert(1);*/
 }
 
 /* don't show the blue border around the url bar when focused */
@@ -250,15 +200,6 @@ browser[type="content"] {
 	background: #111111 !important; 
 	background-color: #111111 !important; 
 	color: #111111 !important;
-}
-
-/* Changes various in-UI scrollabars to be slim and more subtle */
-.panel-subview-body,
-#permList,
-scrollbar{
- color: inherit;
- scrollbar-color: currentColor transparent;
- scrollbar-width: thin 
 }
 
 /* Hidden newtab button */

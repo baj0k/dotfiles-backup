@@ -10,6 +10,9 @@ alias paux='ps -aux | grep'
 alias p='ping 1.1.1.1'
 alias ...='cd ../..'
 alias ....='cd ../../../'
+alias docked='autorandr docked'
+alias mobile='autorandr mobile'
+alias emu='autorandr emu'
 
 #Package maintenance
 alias aur='pikaur'
@@ -43,10 +46,6 @@ alias weechat='weechat -d "$XDG_CONFIG_HOME/weechat"'
 
 # Program shortcuts
 alias a='alsamixer'
-alias ga='git add .'
-alias gs='git status'
-alias gc='git commit -m'
-alias gp='git push'
 alias m='neomutt'
 alias n='ncmpcpp 2>/dev/null'
 alias nw='newsboat -q'
@@ -54,13 +53,12 @@ alias o='xdg-open $@ 2>/dev/null'
 #function o(){ xdg-open $@ 2> /dev/null & }
 alias r='ranger'
 alias v='$EDITOR'
+alias pwgen='pass generate --clip'
 alias stream='ffmpeg -f x11grab -video_size 1920x1080 -framerate 25 -i $DISPLAY -f alsa -i default -c:v libx264 -preset ultrafast -c:a aac screen.mp4'
 alias sv='sudo $EDITOR'
 alias z='setsid nohup zathura > /tmp/zathuranohup.out 2>&1'
+alias fetch='neofetch'
 alias wifi='sudo wifi-menu'
-alias docked='autorandr docked'
-alias mobile='autorandr mobile'
-alias emu='autorandr emu'
 
 # Colors
 alias ls='ls --color=auto --group-directories-first'
@@ -86,8 +84,8 @@ man() {
 }
 
 # Youtube
-alias ytv='youtube-dl -o "~/Video/%(title)s.%(ext)s" --restrict-filenames -ic --hls-prefer-ffmpeg --add-metadata'
-alias yta='youtube-dl -o "~/Music/%(artist)s -%(album)s - %(title)s.%(ext)s" --restrict-filenames -xic --audio-format "mp3" --hls-prefer-ffmpeg --add-metadata'
+alias ytv='youtube-dl -o "~/Video/%(title)s.%(ext)s" --restrict-filenames -ic -f best --hls-prefer-ffmpeg --add-metadata'
+alias yta='youtube-dl -o "~/Music/%(artist)s-%(title)s.%(ext)s" --restrict-filenames -xic -f bestaudio/best --hls-prefer-ffmpeg --add-metadata'
 
 # Printer
 cupsadm() { /bin/firefox "http://localhost:631"; }
