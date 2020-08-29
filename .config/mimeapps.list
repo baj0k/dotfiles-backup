@@ -11,3 +11,4 @@ x-scheme-handler/msteams=teams.desktop
 
 [Added Associations]
 application/x-php=firefox.desktop;
+application/atom+xml=libreoffice-writer.desktop;

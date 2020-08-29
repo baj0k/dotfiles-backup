@@ -7,7 +7,6 @@ confirm-exit yes
 download-retries 3
 goto-next-feed yes
 history-limit 0 
-max-items 420
 reload-threads 5
 show-keymap-hint no
 

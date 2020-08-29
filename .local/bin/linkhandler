@@ -5,7 +5,7 @@
 
 case "$1" in
 	# mpv
-	*mkv|*webm|*mp4|*gifv|*youtube.com/watch*|*invidio.us*|*youtube.com/playlist*|*youtu.be*|*hooktube.com*|*bitchute.com*|*streamable.com*|*v.redd.it*|*libsyn.com*|*gfycat*)
+	*mkv|*webm|*mp4|*gifv|*youtube.com/watch*|*invidious.13ad.de*|*://videos.*|*youtube.com/playlist*|*youtu.be*|*hooktube.com*|*bitchute.com*|*streamable.com*|*v.redd.it*|*libsyn.com*|*gfycat*)
 		setsid mpv -quiet "$1" >/dev/null 2>&1 & ;;
 	# sxiv
 	*png|*jpg|*jpe|*jpeg|*gif|*png?*)
