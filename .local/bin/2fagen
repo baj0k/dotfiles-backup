@@ -1,3 +1,3 @@
 #!/bin/sh
-name=$(echo '                        ' | dmenu -l 1 -p "Entry name:")
-scrot -s /tmp/screenshot-$(date +%F_%T).png -e 'zbarimg -q --raw $f' | pass otp insert otp//$name
+password=$(find $PASSWORD_STORE_DIR -type f -name '*.gpg' | sed 's/.*\/password-store\///' |  sed 's/.gpg$//' | dmenu -i -p "Add to:")
+[ -n $password ] && scrot -s /tmp/screenshot-$(date +%F_%T).png -e 'zbarimg -q --raw $f' | pass otp append $password

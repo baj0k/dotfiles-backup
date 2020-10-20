@@ -9,6 +9,14 @@
 	set viminfo="NONE"
 	syntax on
 
+" Spaces & Tabs {{{
+set tabstop=4      
+set softtabstop=4 
+set shiftwidth=4 
+set expandtab   
+set autoindent
+set copyindent 
+
 " Autocompletion
 	set wildmode=longest,list,full
 

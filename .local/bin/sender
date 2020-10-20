@@ -1,4 +1,5 @@
 #!/bin/sh
+
 #currently broken
 
 mydate=$(date +%F_%T)

@@ -9,8 +9,6 @@
 !.xinitrc
 
 # ~/.local/bin
-!.local/
-.local/*
 !.local/bin/
 
 # ~/.local/share/applications
@@ -41,19 +39,21 @@
 !.config/ncmpcpp/config
 !.config/ncmpcpp/bindings
 
+# neomutt
+!.config/mutt/
+.config/mutt/*
+!.config/mutt/bindings.muttrc
+!.config/mutt/muttrc
+
 # neovim
 !.config/nvim/
 .config/nvim/*
 !.config/nvim/init.vim
 
-# wal
-!.config/wal/
-.config/wal/*
-!.config/wal/postrun
-
 # other
 !.config/autorandr/
 !.config/dunst/
+!.config/ffox/
 !.config/fontconfig/
 !.config/i3/
 !.config/mpv/
@@ -62,6 +62,7 @@
 !.config/python/
 !.config/ranger/
 !.config/tmux/
+!.config/urlscan/config.json
+!.config/wal/postrun
 !.config/X11/
 !.config/zathura/
-!.config/ffox/

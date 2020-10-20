@@ -12,5 +12,6 @@ blueman-applet &
 crond -f "$XDG_CONFIG_HOME/crontab" &
 mpd &
 displayselect &
+redshift -P -O 2700 &
 
 exec i3

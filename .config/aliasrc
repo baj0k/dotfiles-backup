@@ -10,8 +10,8 @@ alias paux='ps -aux | grep'
 alias p='ping 1.1.1.1'
 alias ...='cd ../..'
 alias ....='cd ../../../'
-alias docked='autorandr docked'
-alias mobile='autorandr mobile'
+#alias docked='autorandr docked'
+#alias mobile='autorandr mobile'
 alias emu='autorandr emu'
 
 #Package maintenance
@@ -34,6 +34,7 @@ alias cp='cp -iv'
 alias mv='mv -iv'
 alias rm='rm -v'
 alias mkdir='mkdir -pv'
+alias urlscan='urlscan -csH'
 
 # XDG_CONFIG workarounds
 alias abook='abook --config "$XDG_CONFIG_HOME/abook/abookrc" --datafile "$XDG_DATA_HOME/abook/addressbook"'
@@ -49,8 +50,7 @@ alias a='alsamixer'
 alias m='neomutt'
 alias n='ncmpcpp 2>/dev/null'
 alias nw='newsboat -q'
-alias o='xdg-open $@ 2>/dev/null'
-#function o(){ xdg-open $@ 2> /dev/null & }
+alias o='rifle'
 alias r='ranger'
 alias v='$EDITOR'
 alias pwgen='pass generate --clip'
@@ -69,7 +69,7 @@ alias fgrep='fgrep --color=auto'
 alias ip='ip -c'
 alias diff='diff --color'
 
-cdls () { builtin cd "$@" && ls; }
+cdls () { builtin cd "$@" && l; }
 alias cd='cdls'
 alias ..='cd ..'
 
@@ -84,8 +84,8 @@ man() {
 }
 
 # Youtube
-alias ytv='youtube-dl -o "~/Video/%(title)s.%(ext)s" --restrict-filenames -ic -f best --hls-prefer-ffmpeg --add-metadata'
-alias yta='youtube-dl -o "~/Music/%(artist)s-%(title)s.%(ext)s" --restrict-filenames -xic -f bestaudio/best --hls-prefer-ffmpeg --add-metadata'
+alias ytv='youtube-dl -o "~/video/%(title)s.%(ext)s" --restrict-filenames -ic -f best --hls-prefer-ffmpeg --add-metadata'
+alias yta='youtube-dl -o "~/music/%(artist)s-%(title)s.%(ext)s" --restrict-filenames -xic -f bestaudio/best --hls-prefer-ffmpeg --add-metadata'
 
 # Printer
 cupsadm() { /bin/firefox "http://localhost:631"; }
