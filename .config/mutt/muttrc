@@ -6,5 +6,6 @@ source $XDG_CONFIG_HOME/mutt/accounts/1.muttrc
 macro index,pager i1 '<enter-command>source $XDG_CONFIG_HOME/mutt/accounts/1.muttrc<enter><change-folder>!<enter>' "switch to inbox 1"
 macro index,pager i2 '<enter-command>source $XDG_CONFIG_HOME/mutt/accounts/2.muttrc<enter><change-folder>!<enter>' "switch to inbox 2"
 
+set delete=yes
 set crypt_use_gpgme=yes
 set mail_check_stats=yes
