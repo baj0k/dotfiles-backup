@@ -51,6 +51,7 @@
 !.config/nvim/init.vim
 
 # other
+!.config/abook
 !.config/autorandr/
 !.config/dunst/
 !.config/ffox/

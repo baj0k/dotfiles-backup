@@ -21,4 +21,5 @@ macro index,pager Mj ";<save-message>=Junk<enter>" "move mail to junk"
 
 macro index,pager u |"urlscan -csH"\n
 macro index <f1> "<shell-escape>mbsync -ca "$XDG_CONFIG_HOME/isync/mbsyncrc" <enter>" "run mbsync to sync all inboxes"
-macro index,pager o "<view-attachments><search>html<enter><view-mailcap><exit>"
+macro index,pager o "<view-attachments><search>html<enter><view-mailcap><exit>" "Open in $BROWSER"
+macro index,pager  a "<pipe-message>abook --config $XDG_CONFIG_HOME/abook/abookrc --datafile $XDG_DATA_HOME/abook/addressbook --add-email<return>" "Add this sender to Abook"
