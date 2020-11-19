@@ -20,8 +20,6 @@
 !.config/
 .config/*
 !.config/aliasrc
-!.config/envrc
-!.config/inputrc
 !.config/locale.conf
 !.config/mimeapps.list
 !.config/pikaur.conf
@@ -53,6 +51,7 @@
 # other
 !.config/abook
 !.config/autorandr/
+!.config/environment.d/
 !.config/dunst/
 !.config/ffox/
 !.config/fontconfig/
@@ -62,8 +61,10 @@
 !.config/newsboat/
 !.config/python/
 !.config/ranger/
+!.config/readline/
 !.config/tmux/
 !.config/urlscan/config.json
 !.config/wal/postrun
-!.config/X11/
+!.config/xorg/
 !.config/zathura/
+!.config/readline/inputrc
