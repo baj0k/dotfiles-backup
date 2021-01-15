@@ -75,6 +75,9 @@ handle_extension() {
             # Preview as text conversion
             odt2txt "${FILE_PATH}" && exit 5
             exit 1;;
+        
+        # Docx
+        docx) /usr/bin/docx2txt < "${FILE_PATH}" && exit 5 exit 1;;
 
         # HTML
         htm|html|xhtml)

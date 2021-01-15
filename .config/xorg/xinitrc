@@ -12,6 +12,6 @@ firefox &
 blueman-applet &
 crond -f "$XDG_CONFIG_HOME/crontab" &
 mpd &
-redshift -P -O 2700 &
+#redshift -P -O 2700 &
 
 exec i3 

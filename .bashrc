@@ -6,7 +6,6 @@
 # Include
 [ -f "$XDG_CONFIG_HOME/aliasrc" ] && source "$XDG_CONFIG_HOME/aliasrc"
 [ -f "$XDG_BIN_HOME/pkg-not-found" ] && source "$XDG_BIN_HOME/pkg-not-found"
-[ -f "$XDG_BIN_HOME/ssh-agent-autostart" ] && source "$XDG_BIN_HOME/ssh-agent-autostart"
 
 # Change prompt color for remote sessions
 if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
@@ -16,3 +15,8 @@ else
 fi
 export PS1='\['${prompt_color}'\]--$PWD->\[$(tput sgr0)\]'
 unset prompt_color
+
+export GPG_TTY=$(tty)
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpg-connect-agent reloadagent /bye>/dev/null
+gpg-connect-agent updatestartuptty /bye > /dev/null
