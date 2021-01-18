@@ -4,6 +4,7 @@
 [[ $- != *i* ]] && return
 
 # Include
+[ -f "$HOME/.config/envrc" ] && source "$HOME/.config/envrc"
 [ -f "$XDG_CONFIG_HOME/aliasrc" ] && source "$XDG_CONFIG_HOME/aliasrc"
 [ -f "$XDG_BIN_HOME/pkg-not-found" ] && source "$XDG_BIN_HOME/pkg-not-found"
 
@@ -15,8 +16,3 @@ else
 fi
 export PS1='\['${prompt_color}'\]--$PWD->\[$(tput sgr0)\]'
 unset prompt_color
-
-export GPG_TTY=$(tty)
-export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-gpg-connect-agent reloadagent /bye>/dev/null
-gpg-connect-agent updatestartuptty /bye > /dev/null

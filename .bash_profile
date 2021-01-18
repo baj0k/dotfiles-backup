@@ -1,21 +1,8 @@
 # Source .bashrc
 [ -f "$HOME/.bashrc" ] && . "$HOME/.bashrc"
 
-# Source environment variables
-for f in $HOME/.config/environment.d/*; do
-    source "$f"
-    export $(cut -d= -f1 "$f")
-    cut -d= -f1 "$f" | xargs -i systemctl --user import-environment {}
-done
-
 # Start X after login
-[ "$(tty)" = "/dev/tty1" ] && ! ps -e | grep -qw Xorg && startx $XINITRC
+[ "$(tty)" = "/dev/tty1" ] && ! ps -e | grep -qw Xorg && exec startx $XINITRC
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
-
-
-#cleaup
-export GPG_TTY=$(tty)
-export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-gpgconf --launch gpg-agent

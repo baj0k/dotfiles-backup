@@ -1,0 +1,10 @@
+#!/bin/sh
+tagfile="$XDG_CONFIG_HOME/newsboat/tags"
+urlfile="$XDG_CONFIG_HOME/newsboat/urls"
+
+url=$(curl -s $(xclip -o) | grep -o 'rssUrl\":\"[^"]*' | cut -d \" -f 3)
+tag=$(cat $tagfile | dmenu -i -p "Tag:")
+title=$(echo '' | dmenu -i -p "Name: ~$tag: ")
+
+echo $url \"$tag\" \"\~$tag\: $title\" >> $urlfile
+sort -f -k 3 -k 2 < $urlfile > $urlfile.tmp && mv $urlfile.tmp $urlfile

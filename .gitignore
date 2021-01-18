@@ -1,30 +1,47 @@
-#ignore everything except for:
+# ignore everything except for:
 /*
 
 # $HOME
-!.bash_logout
 !.bash_profile
 !.bashrc
 !.gitignore
-!.xinitrc
 
-# ~/.local/bin
-!.local/bin/
-
-# ~/.local/share/applications
+# ~/.local
+!.local/
+.local/*
 !.local/share/
 .local/share/*
 !.local/share/applications/
+!.local/bin/
 
 # ~/.config
 !.config/
 .config/*
+
+!.config/abook
 !.config/aliasrc
+!.config/autorandr/
+!.config/dunst/
+!.config/environment.d/
+!.config/ffox/
+!.config/fontconfig/
+!.config/i3/
 !.config/locale.conf
 !.config/mimeapps.list
+!.config/mpv/
+!.config/neofetch/
+!.config/newsboat/
 !.config/pikaur.conf
+!.config/python/
+!.config/ranger/
+!.config/readline/
+!.config/readline/inputrc
+!.config/tmux/
+!.config/urlscan/config.json
 !.config/user-dirs.dirs
-!.config/Xresources
+!.config/wal/postrun
+!.config/xorg/
+!.config/zathura/
 
 # mpd
 !.config/mpd/
@@ -47,24 +64,3 @@
 !.config/nvim/
 .config/nvim/*
 !.config/nvim/init.vim
-
-# other
-!.config/abook
-!.config/autorandr/
-!.config/environment.d/
-!.config/dunst/
-!.config/ffox/
-!.config/fontconfig/
-!.config/i3/
-!.config/mpv/
-!.config/neofetch/
-!.config/newsboat/
-!.config/python/
-!.config/ranger/
-!.config/readline/
-!.config/tmux/
-!.config/urlscan/config.json
-!.config/wal/postrun
-!.config/xorg/
-!.config/zathura/
-!.config/readline/inputrc
