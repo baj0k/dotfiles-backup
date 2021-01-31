@@ -1,16 +1,19 @@
 # i3 config file
 set $mod Mod4
 
+# reload config
+bindsym $mod+Shift+r exec "i3-msg restart"
+
 # Screenshot utility
 bindsym Print exec --no-startup-id "scrot /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
 bindsym Shift+Print --release exec --no-startup-id "scrot -s /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
 
 # Pulseaudio volume bindings
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && pkill -RTMIN+12 i3blocks
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && pkill -RTMIN+12 i3blocks
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && pkill -RTMIN+12 i3blocks
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && pkill -RTMIN+11 i3blocks
 bindcode 172 exec --no-startup-id mpc toggle
 bindsym $mod+XF86AudioMute exec --no-startup-id mpc toggle
 
@@ -18,6 +21,8 @@ bindsym $mod+XF86AudioMute exec --no-startup-id mpc toggle
 for_window [class="Blueman-manager"] floating enable
 for_window [class="Pavucontrol"] floating enable
 for_window [class="mpv"] floating enable
+for_window [class="Caprine"] floating enable
+for_window [class="Signal"] floating enable
 
 # Program launcher
 bindsym $mod+d exec --no-startup-id dmenu_run -x
@@ -133,11 +138,11 @@ bindsym $mod+r mode "resize"
 #Start i3bar to display a workspace bar
 bar {
     output primary
+    status_command i3blocks -c $XDG_CONFIG_HOME/i3/i3blocks/config
     tray_output primary
-    status_command i3status -c ~/.config/i3/i3status.conf
     mode dock
     position top
     strip_workspace_numbers no
-    font monospace 10
-    separator_symbol ")("
+    font pango:monospace 11
+    separator_symbol " "
 }

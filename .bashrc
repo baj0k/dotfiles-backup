@@ -3,6 +3,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# History settings
+HISTCONTROL=ignoreboth
+HISTSIZE=2000
+
 # Include
 [ -f "$HOME/.config/envrc" ] && source "$HOME/.config/envrc"
 [ -f "$XDG_CONFIG_HOME/aliasrc" ] && source "$XDG_CONFIG_HOME/aliasrc"
