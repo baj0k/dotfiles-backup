@@ -23,6 +23,7 @@ for_window [class="Pavucontrol"] floating enable
 for_window [class="mpv"] floating enable
 for_window [class="Caprine"] floating enable
 for_window [class="Signal"] floating enable
+for_window [class="Spotify"] floating enable
 
 # Program launcher
 bindsym $mod+d exec --no-startup-id dmenu_run -x

@@ -20,6 +20,7 @@ ignore_leading_the = yes
 progressbar_look = ->:
 external_editor = vim
 use_console_editor = yes
+allow_for_physical_item_deletion = yes
 
 statusbar_color = magenta
 statusbar_time_color = magenta:b
