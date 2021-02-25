@@ -40,8 +40,6 @@ if [[ "$NATURAL_MAPPING" != "0" ]] ; then
     AMIXER_PARAMS="-M"
 fi
 
-#------------------------------------------------------------------------
-
 capability() { # Return "Capture" if the device is a capture device
   amixer $AMIXER_PARAMS -D $MIXER get $SCONTROL |
     sed -n "s/  Capabilities:.*cvolume.*/Capture/p"
@@ -62,11 +60,9 @@ format() {
   echo "$LABEL$output"
 }
 
-#------------------------------------------------------------------------
-
 case $BLOCK_BUTTON in
   # left click, mute/unmute
-  1) amixer $AMIXER_PARAMS -q -D $MIXER sset $SCONTROL $(capability) toggle ;;
+  1) pactl set-sink-mute 0 toggle ;;
   # scroll up, increase
   4) amixer $AMIXER_PARAMS -q -D $MIXER sset $SCONTROL $(capability) ${STEP}+ unmute ;;
   # scroll down, decrease

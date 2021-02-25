@@ -5,17 +5,17 @@ if [[ "${BLOCK_BUTTON}" -eq 4 ]]; then
   amixer -q sset Capture 5%+
 # left click, mute/unmute
 elif [[ "${BLOCK_BUTTON}" -eq 1 ]]; then
-  amixer -q sset Capture toggle
+  pactl set-source-mute 1 toggle
 # scroll down, decrease
 elif [[ "${BLOCK_BUTTON}" -eq 5 ]]; then
   amixer -q sset Capture 5%-
 fi
 
 statusLine=$(amixer get Capture | tail -n 1)
-status=$(echo "${statusLine}" | grep -wo "on")
+status=$(pactl list sources | grep "Mute: yes" && [[ $? -eq 0 ]] && state="off")
 volume=$(echo "${statusLine}" | awk -F ' ' '{print $5}' | tr -d '[]%')
 
-if [[ "${status}" == "on" ]]; then
+if [[ -z "${status}" ]]; then
   echo "${volume}%"
 else
   echo "MUTE"
