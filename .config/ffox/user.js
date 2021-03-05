@@ -75,8 +75,8 @@ user_pref("browser.urlbar.speculativeConnect.enabled", false);
 // Reduce tracking based on clipboard usage
 user_pref("dom.event.clipboardevents.enabled", false);
 
-// Disable playback of DRM-controlled html5 content
-user_pref("media.eme.enabled", false);
+// Disable playback of DRM-controlled html5 content (Breaks Netflix)
+// user_pref("media.eme.enabled", false);
 
 // Disable widevine
 user_pref("media.gmp-widevinecdm.enabled", false);

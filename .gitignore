@@ -21,9 +21,9 @@
 
 !.config/abook
 !.config/aliasrc
+!.config/envrc
 !.config/autorandr/
 !.config/dunst/
-!.config/environment.d/
 !.config/ffox/
 !.config/fontconfig/
 !.config/i3/

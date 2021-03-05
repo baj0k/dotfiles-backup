@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# scroll up, increase
+if [[ "${BLOCK_BUTTON}" -eq 4 ]]; then
+  xbacklight +5
+# scroll down, decrease
+elif [[ "${BLOCK_BUTTON}" -eq 5 ]]; then
+    if [[ $(xbacklight -get) -lt 6  ]]; then
+    xbacklight 1
+    else
+    xbacklight -5
+    fi
+fi
+
+echo $(xbacklight -get)

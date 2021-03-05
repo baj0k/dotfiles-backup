@@ -47,6 +47,12 @@ command=$I3BLOCKS_DIR/microphone
 signal=11
 interval=5
 
+[brightness]
+label= 
+command=$I3BLOCKS_DIR/brightness
+signal=13
+interval=5
+
 [BATTERY]
 command=$I3BLOCKS_DIR/battery
 markup=pango

@@ -30,6 +30,7 @@ https://webgefrickel.de/blog/feed "feed" "~feed: webgefrickel"
 https://whitehatlab.eu/pl/index.xml "feed" "~feed: whitehatlab"
 https://zaufanatrzeciastrona.pl/feed "feed" "~feed: Zaufana Trzecia Strona"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA "video" "~IppSec: IppSec"
+
 #http://feed.jupiter.zone/allshows "audio" "~Podcast: All Jupiter Broadcasting Podcasts"
 #https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss "audio" "~Podcast: aws-podcast"
 #https://channel9.msdn.com/Shows/Azure-Friday/feed/mp3 "audio" "~Podcast: Azure-Friday"
@@ -50,6 +51,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA "vi
 #https://tuxdigital.com/feed/thisweekinlinux-mp3 "audio" "~Podcast: This Week in Linux"
 #http://feeds.twit.tv/floss.xml "audio" "~Podcast: Twit.tv"
 #https://omny.fm/shows/unsupervised-learning/playlists/podcast.rss "audio" "~Podcast: unsupervised-learning"
+
 https://www.reddit.com/r/bash.rss "reddit" "~r/bash"
 https://www.reddit.com/r/commandline.rss "reddit" "~r/commandline"
 https://www.reddit.com/r/cybersecurity.rss "reddit" "~r/cybersecurity"
