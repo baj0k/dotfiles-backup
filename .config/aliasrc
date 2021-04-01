@@ -49,6 +49,7 @@ alias weechat='weechat -d "$XDG_CONFIG_HOME/weechat"'
 
 # Program shortcuts
 alias a='alsamixer'
+alias cat='bat -pp'
 alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push'
@@ -66,7 +67,7 @@ alias pwgen='pass generate --clip'
 alias stream='ffmpeg -f x11grab -video_size 1920x1080 -framerate 25 -i $DISPLAY -f alsa -i default -c:v libx264 -preset ultrafast -c:a aac screen.mp4'
 alias z='setsid nohup zathura > /tmp/zathuranohup.out 2>&1'
 alias fetch='neofetch'
-alias wifi='sudo wifi-menu'
+#alias wifi='sudo wifi-menu -o'
 
 # Colors
 alias ls='ls --color=auto --group-directories-first'

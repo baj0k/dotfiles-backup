@@ -38,6 +38,9 @@ for_window [class="Signal"] resize set 1250 800
 for_window [class="Spotify"] floating enable
 for_window [class="Spotify"] move position center
 for_window [class="Spotify"] resize set 1250 800
+for_window [class="discord"] floating enable
+for_window [class="discord"] move position center
+for_window [class="discord"] resize set 1250 800
 
 # Program launcher
 bindsym $mod+d exec --no-startup-id dmenu_run -x

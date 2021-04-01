@@ -27,6 +27,7 @@ sub mpd {
     my $data = qx(mpc current);
     if (not $data eq '') {
         buttons("mpd");
+        print("🎵 ");
         print($data);
         exit 0;
     }

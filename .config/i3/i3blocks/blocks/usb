@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-#
-# Copyright (C) 2015 James Murphy                                                  
-# Licensed under the terms of the GNU GPL v2 only.                                 
-#                                                                                  
-# i3blocks blocklet script to output connected usb storage device info. 
 
 import os
 

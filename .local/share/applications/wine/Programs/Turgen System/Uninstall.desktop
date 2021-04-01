@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Uninstall
+Exec=env WINEPREFIX="/home/bscibura/.local/share/wine" wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/bscibura/.local/share/wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/Turgen\\ System/Uninstall.lnk
+Type=Application
+StartupNotify=true
+Path=/home/bscibura/.local/share/wine/dosdevices/c:/Program Files/turgen
+Icon=926B_unins000.0
+StartupWMClass=unins000.exe

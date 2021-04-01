@@ -1,57 +1,61 @@
 
-[WEATHER]
-command=$I3BLOCKS_DIR/weather
+#[WEATHER]
+#command=$I3BLOCKS_DIR/weather
 
-[usb]
-command=$I3BLOCKS_DIR/usb
-markup=pango
-signal=1
-interval=10
-IGNORE_LIST=[]
-IGNORE_LIST=["sdd1", "mapper/sda1_crypt"]
-INFO_TEXT_COLOR=white
-MOUNTED_COLOR=green
-PLUGGED_COLOR=gray
-LOCKED_COLOR=gray
-UNLOCKED_NOT_MOUNTED_COLOR=yellow
-PARTITIONLESS_COLOR=red
-PARTITIONLESS_TEXT=no partitions
-SEPARATOR=<span color='gray'> | </span>
-LOCKED_INDICATOR= 
-UNLOCKED_INDICATOR= 
-READONLY_INDICATOR=ro
-TRUNCATE_FS_LABELS=[not set by default, accepts +/- integers]
+#[USB]
+#command=$I3BLOCKS_DIR/usb
+#markup=pango
+#signal=9
+#interval=10
+#IGNORE_LIST=["sdd1", "sde1"]
+#INFO_TEXT_COLOR=white
+#MOUNTED_COLOR=green
+#PLUGGED_COLOR=gray
+#LOCKED_COLOR=gray
+#UNLOCKED_NOT_MOUNTED_COLOR=yellow
+#PARTITIONLESS_COLOR=red
+#PARTITIONLESS_TEXT=no partitions
+#SEPARATOR=<span color='gray'> | </span>
+#LOCKED_INDICATOR= 
+#UNLOCKED_INDICATOR= 
+#READONLY_INDICATOR=ro
+#TRUNCATE_FS_LABELS=[not set by default, accepts +/- integers]
 
 [MPD]
-label=🎵 
+#label=🎵 
 command=$I3BLOCKS_DIR/mediaplayer
-instance=mpd
 interval=3
 signal=10
 
-[memory]
+[WIFI]
+label=📡 
+command=$I3BLOCKS_DIR/wifi
+interval=20
+
+[MEMORY]
 label=💻 
 command=$I3BLOCKS_DIR/memory
 interval=30
 
-[volume]
-LABEL=🔉 
-command=$I3BLOCKS_DIR/volume
-interval=once
-signal=12
-STEP=5%
-
-[microphone]
+[MICROPHONE]
 label=🎤 
-command=$I3BLOCKS_DIR/microphone
+command=$I3BLOCKS_DIR/audio
 signal=11
-interval=5
+interval=once
+DEVICE=Capture
 
-[brightness]
+[VOLUME]
+label=🔉 
+command=$I3BLOCKS_DIR/audio
+signal=12
+interval=once
+DEVICE=Master
+
+[BRIGHTNESS]
 label= 
 command=$I3BLOCKS_DIR/brightness
 signal=13
-interval=5
+interval=once
 
 [BATTERY]
 command=$I3BLOCKS_DIR/battery

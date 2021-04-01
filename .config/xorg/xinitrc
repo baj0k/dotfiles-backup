@@ -10,9 +10,11 @@ xcompmgr &
 autorandr --change &
 firefox &
 blueman-applet &
+ssh proxy -N &
 signal-desktop --start-in-tray &
 caprine &
 spotify-tray --minimized &
+discord --start-minimized &
 crond -f "$XDG_CONFIG_HOME/crontab" &
 mpd &
 redshift -P -O 2700 &

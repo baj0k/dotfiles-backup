@@ -1,3 +1,4 @@
+http://localhost:1313/index.xml "feed" "~feed: bajok"
 https://0xpatrik.com/rss/ "feed" "~feed: 0xpatrik"
 https://dabase.com/index.xml "feed" "~feed: dabase"
 https://demu.red/feeds/all.atom.xml "feed" "~feed: demu.red"
