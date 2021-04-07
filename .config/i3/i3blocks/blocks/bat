@@ -1,0 +1,11 @@
+#!/bin/sh
+
+case "${BLOCK_BUTTON}" in
+    1)  ;; # left click, toggle
+    4)  ;; # scroll up, increase
+    5)  ;; # scroll down, decrease
+esac
+
+status=$(acpi)
+
+[ "${toggle}" = "on" ] && echo "${volume}" || echo "MUTE"

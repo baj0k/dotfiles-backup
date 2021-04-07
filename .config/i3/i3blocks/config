@@ -22,9 +22,9 @@
 #TRUNCATE_FS_LABELS=[not set by default, accepts +/- integers]
 
 [MPD]
-#label=🎵 
-command=$I3BLOCKS_DIR/mediaplayer
-interval=3
+label=🎵 
+command=$I3BLOCKS_DIR/media
+interval=10
 signal=10
 
 [WIFI]
