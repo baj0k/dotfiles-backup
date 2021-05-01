@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Turgen System Help
-Exec=env WINEPREFIX="/home/bscibura/.local/share/wine" wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/bscibura/.local/share/wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/Turgen\\ System/Turgen\\ System\\ Help.lnk
-Type=Application
-StartupNotify=true
-Path=/home/bscibura/.local/share/wine/dosdevices/c:/Program Files/turgen/doc
-Icon=1D2F_turgen_system_doc.0

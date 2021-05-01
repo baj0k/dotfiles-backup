@@ -19,6 +19,7 @@ macro index,pager Mt ";<save-message>=Trash<enter>" "move mail to trash"
 macro index,pager gj "<change-folder>=Junk<enter>" "go to junk"
 macro index,pager Mj ";<save-message>=Junk<enter>" "move mail to junk"
 
+macro attach s <save-entry><bol>$HOME/downloads/<eol>
 macro index,pager u |"urlscan -csH"\n
 macro index <f1> "<shell-escape>mbsync -ca "$XDG_CONFIG_HOME/isync/mbsyncrc" <enter>" "run mbsync to sync all inboxes"
 macro index,pager o "<view-attachments><search>html<enter><view-mailcap><exit>" "Open in $BROWSER"

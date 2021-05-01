@@ -1,6 +1,9 @@
 
-#[WEATHER]
-#command=$I3BLOCKS_DIR/weather
+[WEATHER]
+command=$I3BLOCKS_DIR/weather
+interval=once
+align=left
+min_width=800
 
 #[USB]
 #command=$I3BLOCKS_DIR/usb

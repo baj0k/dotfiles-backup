@@ -13,6 +13,8 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
     Plug 'jiangmiao/auto-pairs'
     Plug 'alec-gibson/nvim-tetris'
     Plug 'ThePrimeagen/vim-be-good'
+    Plug 'tpope/vim-surround'
+    Plug 'tpope/vim-repeat'
     "
     Plug 'godlygeek/tabular'
     Plug 'elzr/vim-json'

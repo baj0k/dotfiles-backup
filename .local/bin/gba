@@ -1,4 +1,4 @@
 #!/bin/sh
 
-game=$(ls $HOME/games/gba/ | grep .gba | sed 's/.gba$//' | dmenu -l 8 -p "Select ROM:" "$@")
-[ -f "$HOME/games/gba/$game" ] && setsid nohup visualboyadvance-m -f $HOME/games/gba/$game > /tmp/vbamnohup.out 2>&1;
+game=$(find "${HOME}/games/gba/" -name "*.gba" | sed 's/.gba$//' | dmenu -l 8 -p "Select ROM:" "$@")
+[ -f "${HOME}/games/gba/${game}" ] && setsid nohup visualboyadvance-m -f "${HOME}/games/gba/${game}" > /tmp/vbamnohup.out 2>&1;

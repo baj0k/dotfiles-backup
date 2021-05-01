@@ -1,11 +1,12 @@
 #!/bin/sh
 
-case "${BLOCK_BUTTON}" in
-    1)  ;; # left click, toggle
-    4)  ;; # scroll up, increase
-    5)  ;; # scroll down, decrease
+[ -n "${BLOCK_BUTTON}" ] && case "${BLOCK_BUTTON}" in
+    1)  ;; # left click, 
+    4)  ;; # scroll up, 
+    5)  ;; # scroll down, 
+    *)  ;;
 esac
 
 status=$(acpi)
 
-[ "${toggle}" = "on" ] && echo "${volume}" || echo "MUTE"
+true && echo "${status}" || echo "MUTE"

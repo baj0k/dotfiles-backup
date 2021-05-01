@@ -1,8 +1,8 @@
 #!/bin/sh
 
-[ ! -d /sys/class/net/wlan0/wireless ] || [ "$(cat /sys/class/net/wlan0/operstate)" -eq 'down' ] && exit
+[ ! -d /sys/class/net/wlan0/wireless ] || [ "$(cat /sys/class/net/wlan0/operstate)" = 'down' ] && exit
 
 ESSID=$(wpa_cli -i wlan0 list_network | grep CURRENT | cut -f 2)
 QUALITY=$(grep wlan0 /proc/net/wireless | awk '{ print int($3) }')
 
-echo $ESSID \($QUALITY%\)
+echo "${ESSID} (${QUALITY}%)"

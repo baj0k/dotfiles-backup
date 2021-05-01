@@ -1,23 +1,23 @@
-https://bajok.kretes.xyz/index.xml "feed" "~feed: bajok"
 https://0xpatrik.com/rss/ "feed" "~feed: 0xpatrik"
-https://dabase.com/index.xml "feed" "~feed: dabase"
-https://demu.red/feeds/all.atom.xml "feed" "~feed: demu.red"
-https://www.cyberciti.biz/atom/atom.xml "feed" "~feed: nixcraft" # check
-https://blog.jessfraz.com/index.xml "feed" "~feed: jessfraz" # check
 https://www.archlinux.org/feeds/news/ "feed" "~feed: Arch Linux updates"
 https://arturro43.github.io/feed.xml "feed" "~feed: Arturro43"
+https://bajok.kretes.xyz/index.xml "feed" "~feed: bajok"
 https://blog.redteam.pl//feeds/posts/default "feed" "~feed: Blog REDTeam.PL"
 https://d3vnull.com/feed/ "feed" "~feed: d3vnull"
+https://dabase.com/index.xml "feed" "~feed: dabase"
+https://demu.red/feeds/all.atom.xml "feed" "~feed: demu.red"
 https://static.fsf.org/fsforg/rss/news.xml "feed" "~feed: Free Software Foundation News"
 https://panoptykon.org/rss.xml "feed" "~feed: Fundacja Panoptykon"
 https://hiphish.github.io/blog/rss.xml "feed" "~feed: Hiphish"
 https://infosec-handbook.eu/blog/index.xml "feed" "~feed: Infosec Handbook"
 https://itsfoss.com/feed/ "feed" "~feed: It's Foss"
+https://blog.jessfraz.com/index.xml "feed" "~feed: jessfraz" # check
 https://ma.ttias.be/blog/index.xml "feed" "~feed: ma.ttias.be"
 https://www.medo64.com/rss "feed" "~feed: medo64" # check
 https://research.nccgroup.com/feed/ "feed" "~feed: nccgroup"
 https://www.networkworld.com/category/linux/index.rss "feed" "~feed: Network World (Linux)"
 http://feeds.feedburner.com/niebezpiecznik "feed" "~feed: Niebezpiecznik"
+https://www.cyberciti.biz/atom/atom.xml "feed" "~feed: nixcraft" # check
 https://opensource.com/feed "feed" "~feed: Opensource.com" # check
 https://blog.rogs.me/index.xml "feed" "~feed: rogs"
 https://www.sandflysecurity.com/feed/ "feed" "~feed: sandflysecurity"
@@ -27,11 +27,11 @@ https://suckless.org/atom.xml "feed" "~feed: Suckless.org news"
 https://t3chnocat.com/rss/ "feed" "~feed: t3chnocat.com"
 http://feeds.feedburner.com/TheHackersNews?format=xml "feed" "~feed: The Hackers News"
 https://lukesmith.xyz/rss.xml "feed" "~feed: The Latest from Luke"
+https://blog.tryhackme.com/rss/ "feed" "~feed: tryhackme"
 https://webgefrickel.de/blog/feed "feed" "~feed: webgefrickel"
 https://whitehatlab.eu/pl/index.xml "feed" "~feed: whitehatlab"
 https://zaufanatrzeciastrona.pl/feed "feed" "~feed: Zaufana Trzecia Strona"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA "video" "~IppSec: IppSec"
-
 #http://feed.jupiter.zone/allshows "audio" "~Podcast: All Jupiter Broadcasting Podcasts"
 #https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss "audio" "~Podcast: aws-podcast"
 #https://channel9.msdn.com/Shows/Azure-Friday/feed/mp3 "audio" "~Podcast: Azure-Friday"
@@ -52,7 +52,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA "vi
 #https://tuxdigital.com/feed/thisweekinlinux-mp3 "audio" "~Podcast: This Week in Linux"
 #http://feeds.twit.tv/floss.xml "audio" "~Podcast: Twit.tv"
 #https://omny.fm/shows/unsupervised-learning/playlists/podcast.rss "audio" "~Podcast: unsupervised-learning"
-
 https://www.reddit.com/r/bash.rss "reddit" "~r/bash"
 https://www.reddit.com/r/commandline.rss "reddit" "~r/commandline"
 https://www.reddit.com/r/cybersecurity.rss "reddit" "~r/cybersecurity"
@@ -94,4 +93,3 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCQN2DsjnYH60SFBIA6IkNwg "vi
 https://www.youtube.com/feeds/videos.xml?channel_id=UC0ArlFuFYMpEewyRBzdLHiw "video" "~video: The Cyber Mentor"
 https://www.youtube.com/feeds/videos.xml?channel_id=UClPjdKBTfG8U_dejIchww2w "video" "~video: UNDARECORDS"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCsvn_Po0SmunchJYOWpOxMg "video" "~video: videogamedunkey"
-# SECURITY IN 5 ZNALEZC I SPRAWDZIC

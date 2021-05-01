@@ -1,32 +1,19 @@
 #!/bin/sh
 
-TODO=$XDG_DATA_HOME/.T0D0
+TODO="${XDG_DATA_HOME:?}/personal/todo"
 TEMP=/tmp/todo.tmp
 
-[ $# -eq 0 ] && {
-		nl -n ln <$TODO
-		exit 0
-		}
-
-usage() {
-	printf '\033[0musage: %s <add|rm> [text|n]\n' `basename $0`
-}
-
-in_place() {
-	:>$TEMP || exit 1
-	sed "$@" <$TODO >$TEMP && mv $TEMP $TODO || rm $TEMP
-}
+[ $# -eq 0 ] && nl -n ln < "${TODO}" && exit 0
 
 case "$1" in
 add)
 	shift
-	echo "$@" >>$TODO
-	;;
+	echo "$@" >> "${TODO}"
+	nl -n ln < "${TODO}" ;;
 rm)
 	shift
-	in_place "$@d" && todo
-	;;
+	sed "$1d" < "${TODO}" > "${TEMP}" && mv "${TEMP}" "${TODO}"
+	nl -n ln < "${TODO}" ;;
 *)
-	usage
-	;;
+	printf "\033[0mUsage: %s add [text] | rm [n]\n" "$(basename "$0")" ;;
 esac

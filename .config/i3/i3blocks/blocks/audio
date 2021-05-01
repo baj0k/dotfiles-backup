@@ -1,13 +1,14 @@
 #!/bin/sh
 
-case "${BLOCK_BUTTON}" in
-    1) amixer -D pulse set ${DEVICE} 1+ toggle > /dev/null 2>&1 ;; # left click, toggle
-    4) amixer -q sset ${DEVICE} 5%+ ;; # scroll up, increase
-    5) amixer -q sset ${DEVICE} 5%- ;; # scroll down, decrease
+[ -n "${BLOCK_BUTTON}" ] && case "${BLOCK_BUTTON}" in
+    1) amixer -D pulse set "${DEVICE:?}" 1+ toggle > /dev/null 2>&1 ;; # left click, toggle
+    4) amixer -q sset "${DEVICE}" 5%+ ;; # scroll up, increase
+    5) amixer -q sset "${DEVICE}" 5%- ;; # scroll down, decrease
+    *) ;;
 esac
 
-status=$(amixer get ${DEVICE} | tail -n 1)
-toggle=$(echo $status | awk -F ' ' '{print $6}' | tr -d '[]')
-volume=$(echo $status | awk -F ' ' '{print $5}' | tr -d '[]')
+status=$(amixer get "${DEVICE}" | tail -n 1)
+toggle=$(echo "${status}" | awk -F ' ' '{print $6}' | tr -d '[]')
+volume=$(echo "${status}" | awk -F ' ' '{print $5}' | tr -d '[]')
 
 [ "${toggle}" = "on" ] && echo "${volume}" || echo "MUTE"
