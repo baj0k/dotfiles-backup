@@ -13,7 +13,7 @@ blueman-applet &
 ssh proxy -N &
 signal-desktop --start-in-tray &
 caprine &
-spotify-tray --minimized &
+spotifyd --config-path .config/spotifyd/spotifyd.conf &
 discord --start-minimized &
 crond -f "$XDG_CONFIG_HOME/crontab" &
 mpd &

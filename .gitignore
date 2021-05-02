@@ -37,6 +37,7 @@
 !.config/ranger/
 !.config/readline/
 !.config/readline/inputrc
+!.config/spotifyd/
 !.config/tmux/
 !.config/urlscan/config.json
 !.config/user-dirs.dirs
