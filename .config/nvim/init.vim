@@ -1,5 +1,7 @@
 " Neovim conf file
 
+let mapleader = " "
+
 " Install missing plugins on startup
 autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
   \| PlugInstall --sync | source $MYVIMRC
@@ -45,6 +47,14 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 	map <C-k> <C-w>k
 	map <C-l> <C-w>l
 
+" Shellckeck
+    function AskForInput(x)
+        redraw
+        execute ":!clear && shellcheck -a --enable=all -x -s "a:x "-C'never' %"
+    endfunction
+
+    noremap <leader>s :call AskForInput(input(""))<cr>
+
 " Snippets plugin keybindings
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-l>"
@@ -66,4 +76,4 @@ let g:vim_markdown_toml_frontmatter = 1  " for TOML format
 let g:vim_markdown_json_frontmatter = 1  " for JSON format
 
 " Run xrdb after .Xresources are updated
-	autocmd BufWritePost *Xresources !xrdb %
+autocmd BufWritePost *Xresources !xrdb %

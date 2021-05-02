@@ -41,8 +41,8 @@ alias urlscan='urlscan -csH'
 alias hugoserv='hugo server -D --minify --disableFastRender'
 
 # XDG_CONFIG workarounds
-alias abook='abook --config "$XDG_CONFIG_HOME/abook/abookrc" --datafile "$XDG_DATA_HOME/abook/addressbook"'
-alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"'
+alias abook='abook --config "${XDG_CONFIG_HOME}/abook/abookrc" --datafile "${XDG_DATA_HOME}/abook/addressbook"'
+alias wget='wget --hsts-file="${XDG_CACHE_HOME}/wget-hsts"'
 alias gpg2='gpg2 --homedir "$XDG_DATA_HOME/gnupg"'
 alias tmux='tmux -f "$XDG_CONFIG_HOME/tmux/tmux.conf"'
 alias mbsync='mbsync -c "$XDG_CONFIG_HOME/isync/mbsyncrc"'
