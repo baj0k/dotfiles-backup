@@ -8,4 +8,4 @@
 #    *)  ;;
 #esac
 
-curl wttr.in/?format="%c/%Z:+%f💧%h\n" | sed 's/\/.*\// /'
+curl wttr.in/?format="%c/%Z:+%f💧%h\n" | sed 's/\/.*\///'

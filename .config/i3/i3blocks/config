@@ -1,9 +1,7 @@
 
 [WEATHER]
 command=$I3BLOCKS_DIR/weather
-interval=once
-align=left
-min_width=800
+interval=1800
 
 #[USB]
 #command=$I3BLOCKS_DIR/usb
@@ -61,8 +59,8 @@ signal=13
 interval=once
 
 [BATTERY]
-command=$I3BLOCKS_DIR/battery
-markup=pango
+label=🔋
+command=$I3BLOCKS_DIR/bat
 interval=30
 
 [CALENDAR]
