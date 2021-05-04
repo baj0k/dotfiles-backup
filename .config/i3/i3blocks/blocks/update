@@ -8,4 +8,8 @@
 #    *)  ;;
 #esac
 
-curl wttr.in/?format="%c+/%Z:+%f+💧%h\n" | sed 's/\/.*\///'
+    if [ "$(checkupdates | wc -l)" -le 0 ]; then
+        upd=""
+    else
+        upd="${red} ${normal}${upd} "
+    fi

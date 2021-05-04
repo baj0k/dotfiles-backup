@@ -50,7 +50,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 " Shellcheck
     function AskForInput(x)
         redraw
-        execute ":!clear && shellcheck -a --enable=all -x -s "a:x "-C'never' %"
+        execute ":!clear && shellcheck -a --enable=all -s "a:x "-C'never' %"
     endfunction
 
     noremap <leader>s :call AskForInput(input(""))<cr>

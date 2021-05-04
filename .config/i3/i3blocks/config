@@ -1,9 +1,15 @@
+#[GLOBAL]
+command=$I3BLOCKS_DIR/$BLOCK_NAME
+separator_block_width=10
+color=#00cccc
 
-[WEATHER]
-command=$I3BLOCKS_DIR/weather
+#[OPENVPN]
+#interval=60
+
+[weather]
 interval=1800
 
-#[USB]
+#[usb]
 #command=$I3BLOCKS_DIR/usb
 #markup=pango
 #signal=9
@@ -22,48 +28,41 @@ interval=1800
 #READONLY_INDICATOR=ro
 #TRUNCATE_FS_LABELS=[not set by default, accepts +/- integers]
 
-[MPD]
+[media]
 label=🎵 
-command=$I3BLOCKS_DIR/media
-interval=10
 signal=10
+interval=10
 
-[WIFI]
+[wifi]
 label=📡 
-command=$I3BLOCKS_DIR/wifi
 interval=20
 
-[MEMORY]
+[memory]
 label=💻 
-command=$I3BLOCKS_DIR/memory
 interval=30
 
-[MICROPHONE]
+[audio]
+DEVICE=Capture
 label=🎤 
-command=$I3BLOCKS_DIR/audio
 signal=11
 interval=once
-DEVICE=Capture
 
-[VOLUME]
+[audio]
+DEVICE=Master
 label=🔉 
-command=$I3BLOCKS_DIR/audio
 signal=12
 interval=once
-DEVICE=Master
 
-[BRIGHTNESS]
+[brightness]
 label= 
-command=$I3BLOCKS_DIR/brightness
 signal=13
 interval=once
+separator_block_width=5
 
-[BATTERY]
+[battery]
 label=🔋
-command=$I3BLOCKS_DIR/bat
 interval=30
 
-[CALENDAR]
-label= 
-command=$I3BLOCKS_DIR/calendar
+[calendar]
+label=
 interval=1

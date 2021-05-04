@@ -58,8 +58,8 @@ export PASSWORD_STORE_CLIP_TIME=20
 export PASSWORD_STORE_GENERATED_LENGTH=20
 
 # gpg-agent
-#GPG_TTY="$(tty)"
-#export GPG_TTY
+GPG_TTY="$(tty)"
+export GPG_TTY
 export SSH_AUTH_SOCK="/run/user/1000/gnupg/S.gpg-agent.ssh"
 
 # PATH
