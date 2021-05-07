@@ -1,32 +1,29 @@
 #[GLOBAL]
 command=$I3BLOCKS_DIR/$BLOCK_NAME
 separator_block_width=10
-color=#00cccc
+color=#55dddd
+markup=pango
 
-#[OPENVPN]
-#interval=60
-
-[weather]
-interval=1800
-
-#[usb]
-#command=$I3BLOCKS_DIR/usb
-#markup=pango
-#signal=9
-#interval=10
-#IGNORE_LIST=["sdd1", "sde1"]
-#INFO_TEXT_COLOR=white
-#MOUNTED_COLOR=green
+[usb]
+signal=19
+interval=10
+IGNORE_LIST=["nvme0n1p1"]
+#IGNORE_LIST=["sdd1", "mapper/sda1_crypt"]
+INFO_TEXT_COLOR=cyan
+MOUNTED_COLOR=magenta
 #PLUGGED_COLOR=gray
 #LOCKED_COLOR=gray
 #UNLOCKED_NOT_MOUNTED_COLOR=yellow
 #PARTITIONLESS_COLOR=red
 #PARTITIONLESS_TEXT=no partitions
-#SEPARATOR=<span color='gray'> | </span>
+SEPARATOR=<span color='black'> | </span>
 #LOCKED_INDICATOR= 
 #UNLOCKED_INDICATOR= 
 #READONLY_INDICATOR=ro
 #TRUNCATE_FS_LABELS=[not set by default, accepts +/- integers]
+
+[weather]
+interval=1800
 
 [media]
 label=🎵 
@@ -55,7 +52,12 @@ interval=once
 
 [brightness]
 label= 
+color=#dddddd
 signal=13
+interval=once
+
+[openvpn]
+label=🌏 
 interval=once
 separator_block_width=5
 
@@ -65,4 +67,5 @@ interval=30
 
 [calendar]
 label=
+color=#dddddd
 interval=1
