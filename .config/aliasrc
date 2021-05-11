@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # System maintenance
-alias kop='sudo $(history -p !!)'
+alias kop='sudo $(fc -ln -1)'
 alias mdot='git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
 alias off='sudo shutdown -h now'
 alias reboot='sudo shutdown -r now'

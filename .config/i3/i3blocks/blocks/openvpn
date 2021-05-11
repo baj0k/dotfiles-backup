@@ -11,9 +11,9 @@ connection=$(pgrep openvpn -a | cut -d' ' -f 6- | sed 's/\.conf//')
        sudo systemctl restart openvpn-client@"${connection}" && notify-send "Connection restarted" ;;
     
     3) # right click, stop current connection
-       sudo systemctl stop openvpn-client@"${connection}" && connection="local" ;;
+       sudo systemctl stop openvpn-client@"${connection}" && connection="off" ;;
     *) ;;
 esac
 
-[ -z "${connection}" ] && connection="local"
+[ -z "${connection}" ] && connection="off"
 echo "${connection}"

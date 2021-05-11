@@ -1,15 +1,9 @@
 #!/bin/sh
 
-#todo add possibility to change location and switch formats with clicks
-#[ -n "${BLOCK_BUTTON}" ] && case "${BLOCK_BUTTON}" in
-#    1)  ;; # left click, 
-#    4)  ;; # scroll up, 
-#    5)  ;; # scroll down, 
-#    *)  ;;
-#esac
+[ -n "${BLOCK_BUTTON}" ] && case "${BLOCK_BUTTON}" in
+    1) [ "$(checkupdates | wc -l)" -gt 0 ] && notify-send "Installing updates..." && pikaur -Syu --noconfirm > /dev/null 2>&1 && notify-send "Updates installed" ;; # left click, 
+    *)  ;;
+esac
 
-    if [ "$(checkupdates | wc -l)" -le 0 ]; then
-        upd=""
-    else
-        upd="${red} ${normal}${upd} "
-    fi
+status=$(checkupdates | wc -l)
+[ "${status}" != 0 ] && echo "${status}"

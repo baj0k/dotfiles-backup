@@ -2,25 +2,7 @@
 command=$I3BLOCKS_DIR/$BLOCK_NAME
 separator_block_width=10
 color=#55dddd
-markup=pango
-
-[usb]
-signal=19
-interval=10
-IGNORE_LIST=["nvme0n1p1"]
-#IGNORE_LIST=["sdd1", "mapper/sda1_crypt"]
-INFO_TEXT_COLOR=cyan
-MOUNTED_COLOR=magenta
-#PLUGGED_COLOR=gray
-#LOCKED_COLOR=gray
-#UNLOCKED_NOT_MOUNTED_COLOR=yellow
-#PARTITIONLESS_COLOR=red
-#PARTITIONLESS_TEXT=no partitions
-SEPARATOR=<span color='black'> | </span>
-#LOCKED_INDICATOR= 
-#UNLOCKED_INDICATOR= 
-#READONLY_INDICATOR=ro
-#TRUNCATE_FS_LABELS=[not set by default, accepts +/- integers]
+#markup=pango
 
 [weather]
 interval=1800
@@ -36,7 +18,12 @@ interval=20
 
 [memory]
 label=💻 
-interval=30
+interval=10
+
+[disk]
+label=🖴 
+color=#dddddd
+interval=3600
 
 [audio]
 DEVICE=Capture
@@ -69,3 +56,7 @@ interval=30
 label=
 color=#dddddd
 interval=1
+
+[update]
+label=🤔 
+interval=1800

@@ -1,9 +1,13 @@
 #!/bin/sh
 
+[ -n "${BLOCK_BUTTON}" ] && case "${BLOCK_BUTTON}" in
+    1) # left click, show time remaining to charge/discharge
+       time=$(acpi -b | sed 1q | cut -d" " -f5 | tr -d '\n') && notify-send "${time}" ;;
+    *) ;;
+esac
+
 state=$(acpi -b | sed 1q | cut -d" " -f3 | tr -d ',')
 status=$(acpi -b | sed 1q | cut -d" " -f4 | tr -d ',')
-time=$(acpi -b | sed 1q | cut -d" " -f5 | tr -d '\n')
-[ -n "${time}" ] && status="${status} (${time})"
 
 if [ "${state}" = "Discharging" ]; then prefix="-"
 elif [ "${state}" = "Charging" ]; then prefix="+"

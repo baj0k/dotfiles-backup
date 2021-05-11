@@ -1,11 +1,3 @@
 #!/bin/sh
 
-#todo add possibility to change location and switch formats with clicks
-#[ -n "${BLOCK_BUTTON}" ] && case "${BLOCK_BUTTON}" in
-#    1)  ;; # left click, 
-#    4)  ;; # scroll up, 
-#    5)  ;; # scroll down, 
-#    *)  ;;
-#esac
-
 curl wttr.in/?format="%c+/%Z:+%f+💧%h\n" | sed 's/\/.*\///'
