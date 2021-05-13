@@ -66,3 +66,8 @@
 !.config/nvim/
 .config/nvim/*
 !.config/nvim/init.vim
+
+# mpd
+!.config/zsh/
+.config/mpd/*
+!.config/mpd/.zprofile
