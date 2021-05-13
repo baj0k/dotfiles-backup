@@ -1,8 +1,6 @@
-#[GLOBAL]
 command=$I3BLOCKS_DIR/$BLOCK_NAME
 separator_block_width=10
 color=#55dddd
-#markup=pango
 
 [weather]
 interval=1800
@@ -16,6 +14,10 @@ interval=10
 label=📡 
 interval=20
 
+[openvpn]
+label=🌏 
+interval=once
+
 [memory]
 label=💻 
 interval=10
@@ -25,26 +27,15 @@ label=🖴
 color=#dddddd
 interval=3600
 
-[audio]
-DEVICE=Capture
-label=🎤 
-signal=11
-interval=once
-
-[audio]
-DEVICE=Master
-label=🔉 
-signal=12
-interval=once
-
 [brightness]
 label= 
 color=#dddddd
 signal=13
 interval=once
 
-[openvpn]
-label=🌏 
+[audio]
+label=🔉 
+signal=12
 interval=once
 separator_block_width=5
 
