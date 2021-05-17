@@ -15,6 +15,7 @@ alias du='du -sh ./*/'
 #alias docked='autorandr docked'
 #alias mobile='autorandr mobile'
 alias emu='autorandr emu'
+alias build='sudo make clean install && sudo make clean'
 
 #Package maintenance
 alias aur='pikaur'

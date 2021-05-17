@@ -4,7 +4,7 @@
 [[ $- != *i* ]] && return
 
 # History settings
-HISTFILE="${XDG_CONFIG_HOME}/zsh/history"
+HISTFILE="${XDG_DATA_HOME}/zsh/history"
 HISTSIZE=2000
 SAVEHIST=2000
 

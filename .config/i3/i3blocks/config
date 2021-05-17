@@ -7,7 +7,7 @@ interval=1800
 
 [media]
 label=🎵 
-signal=10
+signal=11
 interval=10
 
 [wifi]
@@ -38,10 +38,6 @@ label=🔉
 signal=12
 interval=once
 separator_block_width=5
-
-[battery]
-label=🔋
-interval=30
 
 [calendar]
 label=
