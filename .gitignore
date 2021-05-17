@@ -1,0 +1,71 @@
+# ignore everything except for:
+/*
+
+# $HOME
+!.gitignore
+
+# ~/.local
+!.local/
+.local/*
+!.local/bin/
+
+!.local/share/
+.local/share/*
+!.local/share/applications/
+
+# ~/.config
+!.config/
+.config/*
+
+!.config/abook
+!.config/aliasrc
+!.config/envrc
+!.config/autorandr/
+!.config/dunst/
+!.config/ffox/
+!.config/fontconfig/
+!.config/i3/
+!.config/locale.conf
+!.config/mimeapps.list
+!.config/mpv/
+!.config/neofetch/
+!.config/newsboat/
+!.config/pikaur.conf
+!.config/python/
+!.config/ranger/
+!.config/readline/
+!.config/readline/inputrc
+!.config/spotifyd/
+!.config/tmux/
+!.config/urlscan/config.json
+!.config/user-dirs.dirs
+!.config/wal/postrun
+!.config/xorg/
+!.config/zathura/
+
+# mpd
+!.config/mpd/
+.config/mpd/*
+!.config/mpd/mpd.conf
+
+# ncmpcpp
+!.config/ncmpcpp/
+.config/ncmpcpp/*
+!.config/ncmpcpp/config
+!.config/ncmpcpp/bindings
+
+# neomutt
+!.config/mutt/
+.config/mutt/*
+!.config/mutt/bindings.muttrc
+!.config/mutt/muttrc
+
+# neovim
+!.config/nvim/
+.config/nvim/*
+!.config/nvim/init.vim
+
+# mpd
+!.config/zsh/
+.config/mpd/*
+!.config/mpd/.zprofile
