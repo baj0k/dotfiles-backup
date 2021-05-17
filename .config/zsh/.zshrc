@@ -9,7 +9,6 @@ HISTSIZE=2000
 SAVEHIST=2000
 
 # Include
-[ -f "${HOME}/.config/envrc" ] && source "${HOME}/.config/envrc"
 [ -f "${HOME}/.config/aliasrc" ] && source "${HOME}/.config/aliasrc"
 [ -f "${HOME}/.local/bin/pkg-not-found" ] && source "${HOME}/.local/bin/pkg-not-found"
 

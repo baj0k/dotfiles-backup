@@ -1,5 +1,3 @@
-#!/bin/zsh
-
 # Default programs
 export VISUAL="nvim"
 export EDITOR="nvim"
@@ -34,6 +32,7 @@ export AWS_CONFIG_FILE="${XDG_CONFIG_HOME}/aws/config"
 export AWS_SHARED_CREDENTIALS_FILE="${XDG_CONFIG_HOME}/aws/credentials"
 export BUNDLE_USER_CONFIG="${XDG_CONFIG_HOME}/bundle"
 export I3BLOCKS_DIR="${XDG_CONFIG_HOME}/i3/i3blocks/blocks"
+export GTK2_RC_FILES="${XDG_CONFIG_HOME}/gtk-2.0/gtkrc"
 
 # Data
 #export GNUPGHOME="${XDG_DATA_HOME}/gnupg"
@@ -63,4 +62,4 @@ export GPG_TTY
 export SSH_AUTH_SOCK="/run/user/1000/gnupg/S.gpg-agent.ssh"
 
 # PATH
-export PATH="${PATH}:${XDG_BIN_HOME}:${XDG_DATA_HOME}/gem/bin"
+export PATH="${PATH}:${XDG_BIN_HOME}"
