@@ -1,7 +1,6 @@
 My dotfiles RICE, feel free to grab a piece.
 
 # Software configs include:
-- bash
 - dunst
 - i3-gaps
 - mpd
@@ -15,6 +14,7 @@ My dotfiles RICE, feel free to grab a piece.
 - wal
 - X11
 - zathura
+- zsh
 
 Full integration requires patching and building some of the suckless software such as st, dmenu and slock.
 Checkout my SB (Suckless builds) repository  for the out-of-the-box solution.
@@ -31,4 +31,6 @@ rm --recursive $HOME/dotfiles
 alias mdot='git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
 mdot config status.showUntrackedFiles no
 mdot remote set-url origin git@github.com:baj0k/dotfiles.git
-mdot update-index --assume-unchanged "README"
+cat .gitignore >> $HOME/.local/dotfiles/info/exclude
+mdot update-index --assume-unchanged "README" ".gitignore"
+rm README .gitignore
