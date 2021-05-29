@@ -5,6 +5,7 @@
 !.bash_profile
 !.bashrc
 !.gitignore
+!.gitignore
 
 # ~/.local
 !.local/
