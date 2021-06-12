@@ -79,7 +79,7 @@ user_pref("dom.event.clipboardevents.enabled", false);
 // user_pref("media.eme.enabled", false);
 
 // Disable widevine
-user_pref("media.gmp-widevinecdm.enabled", false);
+// user_pref("media.gmp-widevinecdm.enabled", false);
 
 // Disable tracking of microfon and camera status
 user_pref("media.navigator.enabled", false);
