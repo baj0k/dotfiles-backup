@@ -1,4 +1,4 @@
-#files: 781	version: 5.8
+#files: 786	version: 5.8
 
 _comps=(
 '-' '_precommand'
@@ -145,6 +145,7 @@ _comps=(
 'attr' '_attr'
 'augtool' '_augeas'
 'autoload' '_typeset'
+'autorandr' '_autorandr'
 'avahi-browse' '_avahi'
 'avahi-browse-domains' '_avahi'
 'avahi-resolve' '_avahi'
@@ -165,6 +166,7 @@ _comps=(
 'bibtex' '_bibtex'
 'bindkey' '_bindkey'
 'bison' '_bison'
+'bluetoothctl' '_bluetoothctl'
 'bmake' '_make'
 'bogofilter' '_bogofilter'
 'bogotune' '_bogofilter'
@@ -848,6 +850,8 @@ _comps=(
 'mrd' '_mtools'
 'mread' '_mtools'
 'mren' '_mtools'
+'msfconsole' '_msfconsole'
+'msfvenom' '_msfvenom'
 'msgchk' '_mh'
 'mt' '_mt'
 'mtn' '_monotone'
@@ -925,6 +929,7 @@ _comps=(
 'pack' '_pack'
 'packf' '_mh'
 'pacman' '_pacman'
+'pacman-conf' '_pacman'
 'pacman-key' '_pacman'
 'pacman.static' '_pacman'
 'pacmd' '_pulseaudio'
@@ -1462,6 +1467,7 @@ _comps=(
 'ypxfr' '_yp'
 'ytalk' '_other_accounts'
 'zargs' '_zargs'
+'zathura' '_zathura'
 'zcalc' '_zcalc'
 'zcat' '_zcat'
 'zcompile' '_zcompile'
@@ -1618,14 +1624,15 @@ bindkey '^[,' _history-complete-newer
 bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
-autoload -Uz _bat _bootctl _busctl _coredumpctl _curl \
-            _email-notmuch _hostnamectl _journalctl _kernel-install _libinput \
-            _localectl _loginctl _machinectl _mkinitcpio _mpv \
-            _networkctl _notmuch _pacman _pass _pikaur \
-            _pkgfile _pulseaudio _resolvectl _sd_hosts_or_user_at_host _sd_machines \
-            _sd_outputmodes _sd_unit_files _systemctl _systemd _systemd-analyze \
-            _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run \
-            _systemd-tmpfiles _timedatectl _udevadm _xwallpaper _youtube-dl \
+autoload -Uz _autorandr _bat _bluetoothctl _bootctl _busctl \
+            _coredumpctl _curl _email-notmuch _hostnamectl _journalctl \
+            _kernel-install _libinput _localectl _loginctl _machinectl \
+            _mkinitcpio _mpv _msfconsole _msfvenom _networkctl \
+            _notmuch _pacman _pass _pikaur _pkgfile \
+            _pulseaudio _resolvectl _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes \
+            _sd_unit_files _systemctl _systemd _systemd-analyze _systemd-delta \
+            _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run _systemd-tmpfiles \
+            _timedatectl _udevadm _xwallpaper _youtube-dl _zathura \
             _cdr _all_labels _all_matches _alternative _approximate \
             _arg_compile _arguments _bash_completions _cache_invalid _call_function \
             _combination _comp_locale _complete _complete_debug _complete_help \

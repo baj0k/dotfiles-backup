@@ -1,5 +1,3 @@
-#/usr/bin/zsh
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -9,10 +7,12 @@ HISTSIZE=2000
 SAVEHIST=2000
 
 # Include
-[ -f "${HOME}/.config/aliasrc" ] && source "${HOME}/.config/aliasrc"
-[ -f "${HOME}/.local/bin/pkg-not-found" ] && source "${HOME}/.local/bin/pkg-not-found"
+[ -f "${XDG_CONFIG_HOME}/aliasrc" ] && source "${XDG_CONFIG_HOME}/aliasrc"
+[ -f "${XDG_BIN_HOME}/pkg-not-found" ] && source "${XDG_BIN_HOME}/pkg-not-found"
+[ -f "${ZDOTDIR}/.zkbd" ] && source "${ZDOTDIR}/.zkbd"
 
 # Shell Options
+bindkey -e
 set -o SHARE_HISTORY
 set -o APPEND_HISTORY
 set -o INC_APPEND_HISTORY
@@ -25,6 +25,7 @@ set -o PROMPT_SUBST
 # Load functions
 autoload -Uz compinit && compinit # Completion system
 autoload -Uz vcs_info # Version control integration
+autoload zkbd # inputrc equivalent for zsh
 
 # Version control integration
 precmd_vcs_info() { vcs_info }
@@ -38,6 +39,16 @@ zstyle ':vcs_info:*' unstagedstr "%{%F{red}%B%}●%{%b%f%}"
 
 # Case insensitive path-completion 
 zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*'
+
+# Use zkbd bindings
+[ -n ${key[Delete]} ] && bindkey "${key[Delete]}" delete-char
+[ -n ${key[Insert]} ] && bindkey "${key[Insert]}" overwrite-mode # not working
+[ -n ${key[Home]} ] && bindkey "${key[Home]}" beginning-of-line
+[ -n ${key[End]} ] && bindkey "${key[End]}" end-of-line
+[ -n ${key[PageUp]} ] && bindkey "${key[PageUp]}" up-line-or-history
+[ -n ${key[PageDown]} ] && bindkey "${key[PageDown]}" down-line-or-history
+bindkey '^[[1;5D' backward-word
+bindkey '^[[1;5C' forward-word
 
 # Change prompt color for remote sessions
 #if [ -n "${SSH_CLIENT}" ] || [ -n "${SSH_TTY}" ]; then

@@ -17,6 +17,6 @@ spotifyd --config-path .config/spotifyd/spotifyd.conf &
 discord --start-minimized &
 crond -f "$XDG_CONFIG_HOME/crontab" &
 mpd &
-redshift -P -O 2700 &
+redshift -P -O 4200 &
 
 exec i3 

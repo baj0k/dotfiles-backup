@@ -5,11 +5,13 @@ set $mod Mod4
 bindsym $mod+Shift+r exec "i3-msg restart"
 
 # Set wallpaper after startup
-exec_always --no-startup-id "$XDG_BIN_HOME/setbg"
+exec_always --no-startup-id "${XDG_BIN_HOME}/setbg"
 
-# Screenshot utility
-bindsym Print exec --no-startup-id "scrot /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
+# Screenshot utility, fallback to different keysym on specific keyboards
+bindsym Print exec --no-startup-id "${XDG_BIN_HOME}/prtsc"
+bindsym Menu exec --no-startup-id "${XDG_BIN_HOME}/prtsc"
 bindsym Shift+Print --release exec --no-startup-id "scrot -s /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
+bindsym Shift+Menu --release exec --no-startup-id "scrot -s /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
 
 # brightness
 bindsym XF86MonBrightnessUp exec pkill -RTMIN+13 i3blocks

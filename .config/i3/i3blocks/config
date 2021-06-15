@@ -10,9 +10,10 @@ label=🎵
 signal=11
 interval=10
 
-[wifi]
+[ip]
 label=📡 
-interval=20
+signal=10
+interval=once
 
 [openvpn]
 label=🌏 

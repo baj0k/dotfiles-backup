@@ -12,12 +12,9 @@ alias ...='cd ../..'
 alias ....='cd ../../../'
 alias rmf='rm -rf'
 alias du='du -sh ./*/'
-#alias docked='autorandr docked'
-#alias mobile='autorandr mobile'
-alias emu='autorandr emu'
 alias build='sudo make clean install && sudo make clean'
 
-#Package maintenance
+# Package maintenance
 alias aur='pikaur'
 alias syu='pikaur -Syyuu'
 alias sp='sudo pacman'
@@ -44,7 +41,6 @@ alias hugoserv='hugo server -D --minify --disableFastRender'
 # XDG_CONFIG workarounds
 alias abook='abook --config "${XDG_CONFIG_HOME}/abook/abookrc" --datafile "${XDG_DATA_HOME}/abook/addressbook"'
 alias wget='wget --hsts-file="${XDG_CACHE_HOME}/wget-hsts"'
-alias gpg2='gpg2 --homedir "$XDG_DATA_HOME/gnupg"'
 alias tmux='tmux -f "$XDG_CONFIG_HOME/tmux/tmux.conf"'
 alias mbsync='mbsync -c "$XDG_CONFIG_HOME/isync/mbsyncrc"'
 alias tor-browser='setsid nohup tor-browser-en --dir=$XDG_CONFIG_HOME/tor > /tmp/tor-browsernohup.out 2>&1'
@@ -69,8 +65,6 @@ alias svp='sudo $EDITOR $_'
 alias pwgen='pass generate --clip'
 alias stream='ffmpeg -f x11grab -video_size 1920x1080 -framerate 25 -i $DISPLAY -f alsa -i default -c:v libx264 -preset ultrafast -c:a aac screen.mp4'
 alias z='setsid nohup zathura > /tmp/zathuranohup.out 2>&1'
-alias fetch='neofetch'
-#alias wifi='sudo wifi-menu -o'
 
 # Colors
 alias ls='ls --color=auto --group-directories-first'
@@ -100,4 +94,4 @@ alias ytv='youtube-dl -o "~/video/%(title)s.%(ext)s" --restrict-filenames -ic -f
 alias yta='youtube-dl -o "~/music/%(artist)s-%(title)s.%(ext)s" --restrict-filenames -xic -f bestaudio/best --hls-prefer-ffmpeg --add-metadata'
 
 # Printer
-cupsadm() { /bin/firefox "http://localhost:631"; }
+cupsadm() { "${BROWSER}" "http://localhost:631"; }
