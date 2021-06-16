@@ -37,11 +37,13 @@ install: configure
 	@echo "Deploying dotfiles"
 	@git clone --separate-git-dir=$(DOTDIR) https://github.com/baj0k/dotfiles.git $(HOME)/dotfiles
 	@git --git-dir=$(DOTDIR) --work-tree=$(HOME) checkout $(BRANCH)
-	@rsync --recursive --exclude '.git' $(HOME)/dotfiles/ $(HOME)
+	@rsync --recursive --exclude '.git' --exclude 'README' --exclude 'Makefile' $(HOME)/dotfiles/ $(HOME)
 	@rm --recursive $(HOME)/dotfiles
-	@echo "Dotfiles post-configuration"
+	@echo "Git repository post-configuration"
 	@git --git-dir=$(DOTDIR) --work-tree=$(HOME) remote set-url origin git@github.com:baj0k/dotfiles.git
 	@git --git-dir=$(DOTDIR) --work-tree=$(HOME) config status.showUntrackedFiles no
-	@cat $(HOME)/.gitignore >> $(DOTDIR)/info/exclude
-	@git --git-dir=$(DOTDIR) --work-tree=$(HOME) update-index --assume-unchanged "README" ".gitignore"
-	@rm README .gitignore
+	@git --git-dir=$(DOTDIR) --work-tree=$(HOME) update-index --assume-unchanged "README" ".gitignore" "Makefile"
+	@mv $(HOME)/.gitignore $(DOTDIR)/info/exclude
+	@echo "\033[92m---Manual action required!---\033[0m"
+	@echo "Link firefox configuration files to your firefox profile:"
+	@echo "ln -s $(XDG_CONFIG_HOME)/ffox/chrome $(HOME)/.mozilla/firefox/\033[91m[profile]\033[0m"
