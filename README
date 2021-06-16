@@ -1,6 +1,6 @@
 My dotfiles RICE, feel free to grab a piece.
 
-# Software configs include:
+# Software configured by this repository:
 - dunst
 - i3-gaps
 - mpd
@@ -11,26 +11,18 @@ My dotfiles RICE, feel free to grab a piece.
 - ncmpcpp
 - ranger
 - tmux
-- wal
 - X11
 - zathura
 - zsh
 
-Full integration requires patching and building some of the suckless software such as st, dmenu and slock.
+Full integration requires patching and building some of the suckless software such as st, dmenu, slock and tabbed.
 Checkout my SB (Suckless builds) repository  for the out-of-the-box solution.
 https://github.com/baj0k/SB
 
 To use custom firefox css the ~/.config/ffox/chrome directory needs to be linked inside your firefox profile dir
 
-# Replication
-git clone --separate-git-dir=$HOME/.local/dotfiles https://github.com/baj0k/dotfiles.git $HOME/dotfiles
-rsync --recursive --verbose --exclude '.git' $HOME/dotfiles/ $HOME/
-rm --recursive $HOME/dotfiles
-
-# Post-configuration
-alias mdot='git --git-dir=$HOME/.local/dotfiles/ --work-tree=$HOME'
-mdot config status.showUntrackedFiles no
-mdot remote set-url origin git@github.com:baj0k/dotfiles.git
-cat .gitignore >> $HOME/.local/dotfiles/info/exclude
-mdot update-index --assume-unchanged "README" ".gitignore"
-rm README .gitignore
+# Usage
+GNU make can be used for painless deployment of the whole environment (work in progress).
+Download the Makefile and change it according to your needs.
+$ make install
+NOTE: you may need to elevate privileges in order to install dependencies
