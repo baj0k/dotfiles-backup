@@ -3,6 +3,7 @@ XDG_CACHE_HOME=$(HOME)/.cache
 XDG_DATA_HOME=$(HOME)/.local/share
 XDG_BIN_HOME=$(HOME)/.local/bin
 DOTDIR=$(HOME)/.local/dotfiles
+SBDIR=$(HOME)/repos/suckless-builds
 BRANCH=desktop
 
 update:
@@ -11,6 +12,7 @@ update:
 configure:
 	@echo "Installing dependencies"
 	@which rsync > /dev/null || pacman --noconfirm -S rsync
+	@which git > /dev/null || pacman --noconfirm -S git
 	@which dunst > /dev/null || pacman --noconfirm -S dunst
 	@which firefox > /dev/null || pacman --noconfirm -S firefox
 	@which i3 > /dev/null || pacman --noconfirm -S i3-gaps i3blocks
@@ -30,10 +32,28 @@ configure:
 	@mkdir -p $(XDG_CACHE_HOME)
 	@mkdir -p $(XDG_DATA_HOME)
 	@mkdir -p $(XDG_BIN_HOME)
+	@mkdir -p $(HOME)/ctf
+	@mkdir -p $(HOME)/downloads
+	@mkdir -p $(HOME)/fieldwork
+	@mkdir -p $(HOME)/music
+	@mkdir -p $(HOME)/pictures
+	@mkdir -p $(HOME)/repos
+	@mkdir -p $(HOME)/tmp
+	@mkdir -p $(HOME)/videos
 	@echo "Cloning repositories"
-# add suckless builds
 
-install: configure
+suckless:
+	@echo "Installing dependencies"
+#	@which rsync > /dev/null || pacman --noconfirm -S rsync
+	@echo "Deploying suckless builds"
+	@git clone https://github.com/baj0k/SB.git $(SBDIR)
+	@make install clean -C $(SBDIR)/dmenu
+	@make install clean -C $(SBDIR)/sent
+	@make install clean -C $(SBDIR)/slock
+	@make install clean -C $(SBDIR)/st
+	@make install clean -C $(SBDIR)/tabbed
+
+install: configure suckless
 	@echo "Deploying dotfiles"
 	@git clone --separate-git-dir=$(DOTDIR) https://github.com/baj0k/dotfiles.git $(HOME)/dotfiles
 	@git --git-dir=$(DOTDIR) --work-tree=$(HOME) checkout $(BRANCH)

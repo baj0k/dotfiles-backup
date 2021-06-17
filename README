@@ -21,8 +21,8 @@ https://github.com/baj0k/SB
 
 To use custom firefox css the ~/.config/ffox/chrome directory needs to be linked inside your firefox profile dir
 
-# Usage
+# Installation
 GNU make can be used for painless deployment of the whole environment (work in progress).
-Download the Makefile and change it according to your needs.
-$ make install
-NOTE: you may need to elevate privileges in order to install dependencies
+Download the Makefile, change it according to your needs and execute:
+$ sudo -E make install
+NOTE: elevated privileges are required in order to install dependencies and to build suckless-builds.
