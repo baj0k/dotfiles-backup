@@ -33,13 +33,9 @@
 !.config/pikaur.conf
 !.config/python/
 !.config/ranger/
-!.config/readline/
-!.config/readline/inputrc
-!.config/spotifyd/
 !.config/tmux/
 !.config/urlscan/config.json
 !.config/user-dirs.dirs
-!.config/wal/postrun
 !.config/xorg/
 !.config/zathura/
 
