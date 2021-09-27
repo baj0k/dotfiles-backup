@@ -9,10 +9,6 @@
 .local/*
 !.local/bin/
 
-!.local/share/
-.local/share/*
-!.local/share/applications/
-
 # ~/.config
 !.config/
 .config/*
@@ -20,7 +16,6 @@
 !.config/abook
 !.config/aliasrc
 !.config/envrc
-!.config/autorandr/
 !.config/dunst/
 !.config/ffox/
 !.config/fontconfig/

@@ -8,7 +8,12 @@ image/png=sxiv.desktop
 image/jpg=sxiv.desktop
 text/plain=nvim.desktop
 x-scheme-handler/msteams=teams.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-3P8C90.desktop
+message/rfc822=userapp-Thunderbird-3P8C90.desktop
+x-scheme-handler/mid=userapp-Thunderbird-3P8C90.desktop
 
 [Added Associations]
 application/x-php=firefox.desktop;
 application/atom+xml=libreoffice-writer.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-3P8C90.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-3P8C90.desktop;
